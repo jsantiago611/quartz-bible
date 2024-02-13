@@ -1,6 +1,7 @@
 ---
-title: Ephesians 1
+title: The Book of Ephesians
 ---
+## Ephesians 1
 1 From Paul, an apostle of Christ Jesus by the will of God, to the saints [in Ephesus], the faithful in Christ Jesus. 2 Grace and peace to you from God our Father and the Lord Jesus Christ!
 
 3 Blessed is the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly realms in Christ. 4 For he chose us in Christ before the foundation of the world that we should be holy and blameless before him in love. 5 He did this by predestining us to adoption as his legal heirs through Jesus Christ, according to the pleasure of his will— 6 to the praise of the glory of his grace that he has freely bestowed on us in his dearly loved Son. 7 In him we have redemption through his blood, the forgiveness of our offenses, according to the riches of his grace 8 that he lavished on us in all wisdom and insight. 9 He did this when he revealed to us the mystery of his will, according to his good pleasure that he set forth in Christ, 10 toward the administration of the fullness of the times, to head up all things in Christ—the things in heaven and the things on earth. 11 In Christ we too have been claimed as God’s own possession, since we were predestined according to the purpose of him who accomplishes all things according to the counsel of his will 12 so that we, who were the first to set our hope on Christ, would be to the praise of his glory. 13 And when you heard the word of truth (the gospel of your salvation)—when you believed in Christ—you were marked with the seal of the promised Holy Spirit, 14 who is the down payment of our inheritance, until the redemption of God’s own possession, to the praise of his glory.

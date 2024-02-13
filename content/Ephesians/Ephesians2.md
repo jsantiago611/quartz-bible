@@ -1,3 +1,0 @@
----
-title: Ephesians 2
----
