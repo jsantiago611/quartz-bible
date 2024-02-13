@@ -1,7 +1,7 @@
 ---
-title: Welcome to my Gospel Garden
+title: Welcome to my Digital Study Bible
 ---
+Choose a Bible Book below and click/tap on anything that interests you. 
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
 
