@@ -1,6 +1,7 @@
 ---
 title: You have to put on the full armor of God
-tags: []
+tags: 
+draft: true
 ---
 …because evil is multi-dimensional. 
 - B.F. Skinner and the behaviorist psychologists say that **the world** and our environment makes us who we are and explains our problems. 

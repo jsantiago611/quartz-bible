@@ -2,7 +2,9 @@
 title: The Whole Armor of God
 tags:
   - Sermon_Note
+draft: true
 ---
+
 ## Summary
 
 > [!WARNING] Disclaimer
