@@ -10,13 +10,13 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "https://jsantiago611.github.io/quartz-bible",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Inter",
+        header: "Bradford",
         body: "Bradford",
         code: "IBM Plex Mono",
       },
