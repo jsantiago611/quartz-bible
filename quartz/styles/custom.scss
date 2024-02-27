@@ -3,15 +3,22 @@
 // put your custom CSS here!
 
 @font-face {
-    font-family: "Bradford";
-    src: url("/static/BradfordLLWebMedium.woff2") format("woff2");
+    font-family: "Martina";
+    src: url("/static/martina-plantijn-regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Bradford";
-    src: url("/static/BradfordLLWebItalic.woff2") format("woff2");
+    font-family: "Martina";
+    src: url("/static/martina-plantijn-italic.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Martina";
+    src: url("/static/martina-plantijn-light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
 }
