@@ -24,6 +24,13 @@
 }
 
 @font-face {
+    font-family: "Martina";
+    src: url("/static/soehne-kraftig.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Soehne";
     src: url("/static/soehne-buch.woff2") format("woff2");
     font-weight: 400;
