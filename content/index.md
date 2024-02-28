@@ -1,8 +1,21 @@
 ---
-title: Welcome to my Digital Study Bible
+title: A Digital Study Bible with notes from Tim Keller's Sermons
 ---
-Choose a Bible Book below and click/tap on anything that interests you. 
+Welcome to the Gospel Garden. 
 
-[[Ephesians]]
+This is part digital garden, part study Bible, inspired by the sermons of the late Timothy Keller. This interactive Study Bible and note catalog offers a collection of notes, prayers, quotes from Keller's sermons, covering a variety of practical and spiritual topics. Every note aims to show how the gospel changes everything. 
 
-Or start looking through notes, starting with [[Discovery]].
+# Navigation
+There will be several ways to navigate this site. 
+1. Click/tap on a Bible book to start exploring notes like you would a physical study Bible. 
+2. Browse the [[#Map of Content]] below to begin exploring individual notes that interest you. Follow links and backlinks to discover new connections.
+3. Use the search bar at the top of this page to search for a topic, scripture reference, sermon title, quoted author, etc. 
+4. Click/tap on tags/hashtags to explore more notes on the same topic.
+
+# Map of Content
+### Discover
+| Category | Topics |
+| ---- | ---- |
+| *Can I believe?* |  |
+| *What is the Gospel?* |  |
+| *Who is God?* | [[Notes/The_Trinity\|The_Trinity]] |
