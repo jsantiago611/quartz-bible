@@ -8,7 +8,7 @@ This is part digital garden, part study Bible, inspired by the sermons of the la
 # Navigation
 There will be several ways to navigate this site. 
 1. Click/tap on a Bible book to start exploring notes like you would a physical study Bible. 
-2. Browse the [[#Map of Content]] below to begin exploring individual notes that interest you. Follow links and backlinks to discover new connections.
+2. [[#Browse by Topic]] below to begin exploring individual notes that interest you. Follow links and backlinks to discover new connections.
 3. Use the search bar at the top of this page to search for a topic, scripture reference, sermon title, quoted author, etc. 
 4. Click/tap on tags/hashtags to explore more notes on the same topic.
 
