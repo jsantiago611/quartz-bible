@@ -18,4 +18,4 @@ There will be several ways to navigate this site.
 | ---- | ---- |
 | *Can I believe?* |  |
 | *What is the Gospel?* |  |
-| *Who is God?* | [[Notes/The_Trinity\|The_Trinity]] |
+| *Who is God?* | [[Notes/The_Trinity\|The_Trinity]],  |
