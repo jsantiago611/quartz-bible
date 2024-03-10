@@ -12,10 +12,17 @@ There will be several ways to navigate this site.
 3. Use the search bar at the top of this page to search for a topic, scripture reference, sermon title, quoted author, etc. 
 4. Click/tap on tags/hashtags to explore more notes on the same topic.
 
-# Map of Content
+# Browse by Topic
 ### Discover
+
 | Category              | Topics                                                 |
 | --------------------- | ------------------------------------------------------ |
 | *Can I believe?*      |                                                        |
 | *What is the Gospel?* |                                                        |
 | *Who is God?*         | [[Notes/The_Trinity\|The_Trinity]], [[God Our Father]] |
+# Browse by Scripture
+
+| Old Testament | New Testament |
+| ------------- | ------------- |
+|               | [[Matthew]]   |
+|               | [[Ephesians]] |
