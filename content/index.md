@@ -14,8 +14,8 @@ There will be several ways to navigate this site.
 
 # Map of Content
 ### Discover
-| Category | Topics |
-| ---- | ---- |
-| *Can I believe?* |  |
-| *What is the Gospel?* |  |
-| *Who is God?* | [[Notes/The_Trinity\|The_Trinity]],  |
+| Category              | Topics                                                 |
+| --------------------- | ------------------------------------------------------ |
+| *Can I believe?*      |                                                        |
+| *What is the Gospel?* |                                                        |
+| *Who is God?*         | [[Notes/The_Trinity\|The_Trinity]], [[God Our Father]] |
