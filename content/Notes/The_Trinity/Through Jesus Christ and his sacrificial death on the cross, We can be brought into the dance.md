@@ -32,3 +32,4 @@ We cannot survive if we are not part of this dance.
 1. **Wait for Him in Community**. You're never going to come to grips with a God like this unless you are part of a community. you can only know a God that is a community unless you are in a community. 
 2. **Praise Him thoroughly**. Don't let petitions squeeze out praise in your prayer life. If God is a community of beings who have so much joy in mutually self-giving love, that basically we are all rejoiced into being. Praise and joy is what life is about. For what he's done, we'll find that we'll become an affirming person. "Praise is inner health made audible" - #CSLewis
 3. **Obey Him Unconditionally. Give your life to Jesus even if it brings problems.** Only in #Mark does it say that Jesus is with the wild beasts. At the time of this gospel, they were being thrown to wild beasts. 
+

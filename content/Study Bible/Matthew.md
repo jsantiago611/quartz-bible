@@ -100,6 +100,7 @@ _The Call of the Disciples_
 _Jesu_s’ Healing Ministry
 
 4:23 Jesus went throughout all of Galilee, teaching in their synagogues, preaching the gospel of the kingdom, and healing all kinds of disease and sickness among the people. 4:24 So a report about him spread throughout Syria. People brought to him all who suffered with various illnesses and afflictions, those who had seizures, paralytics, and those possessed by demons, and he healed them. 4:25 And large crowds followed him from Galilee, the Decapolis, Jerusalem, Judea, and beyond the Jordan River.
+## Matthew 5
 
 _The Beatitudes_
 
@@ -155,6 +156,7 @@ _Love for Enemies_
 
 5:43 “You have heard that it was said, ‘**_Love your neighbor_**’ and ‘hate your enemy.’ 5:44 But I say to you, love your enemy and pray for those who persecute you, 5:45 so that you may be like your Father in heaven, since he causes the sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. 5:46 For if you love those who love you, what reward do you have? Even the tax collectors do the same, don’t they? 5:47 And if you only greet your brothers, what more do you do? Even the Gentiles do the same, don’t they? 5:48 So then, be perfect, as your heavenly Father is perfect.
 
+## Matthew 6
 _Pure-hearted Giving_
 
 6:1 “Be careful not to display your righteousness merely to be seen by people. Otherwise you have no reward with your Father in heaven. 6:2 Thus whenever you do charitable giving, do not blow a trumpet before you, as the hypocrites do in synagogues and on streets so that people will praise them. I tell you the truth, they have their reward. 6:3 But when you do your giving, do not let your left hand know what your right hand is doing, 6:4 so that your gift may be in secret. And your Father, who sees in secret, will reward you.
@@ -193,6 +195,7 @@ _Do Not Worry_
 
 6:25 “Therefore I tell you, do not worry about your life, what you will eat or drink, or about your body, what you will wear. Isn’t there more to life than food and more to the body than clothing? 6:26 Look at the birds in the sky: They do not sow, or reap, or gather into barns, yet your heavenly Father feeds them. Aren’t you more valuable than they are? 6:27 And which of you by worrying can add even one hour to his life? 6:28 Why do you worry about clothing? Think about how the flowers of the field grow; they do not work or spin. 6:29 Yet I tell you that not even Solomon in all his glory was clothed like one of these! 6:30 And if this is how God clothes the wild grass, which is here today and tomorrow is tossed into the fire to heat the oven, won’t he clothe you even more, you people of little faith? 6:31 So then, don’t worry saying, ‘What will we eat?’ or ‘What will we drink?’ or ‘What will we wear?’ 6:32 For the unconverted pursue these things, and your heavenly Father knows that you need them. 6:33 But above all pursue his kingdom and righteousness, and all these things will be given to you as well. 6:34 So then, do not worry about tomorrow, for tomorrow will worry about itself. Today has enough trouble of its own.
 
+## Matthew 7
 _Do Not Judge_
 
 7:1 “Do not judge so that you will not be judged. 7:2 For by the standard you judge you will be judged, and the measure you use will be the measure you receive. 7:3 Why do you see the speck in your brother’s eye, but fail to see the beam of wood in your own? 7:4 Or how can you say to your brother, ‘Let me remove the speck from your eye,’ while there is a beam in your own? 7:5 You hypocrite! First remove the beam from your own eye, and then you can see clearly to remove the speck from your brother’s eye. 7:6 Do not give what is holy to dogs or throw your pearls before pigs; otherwise they will trample them under their feet and turn around and tear you to pieces.
@@ -219,6 +222,7 @@ _Hearing and Doing_
 
 7:28 When Jesus finished saying these things, the crowds were amazed by his teaching, 7:29 because he taught them like one who had authority, not like their experts in the law.
 
+## Matthew 8
 _Cleansing a Leper_
 
 8:1 After he came down from the mountain, large crowds followed him. 8:2 And a leper approached, and bowed low before him, saying, “Lord, if you are willing, you can make me clean.” 8:3 He stretched out his hand and touched him saying, “I am willing. Be clean!” Immediately his leprosy was cleansed. 8:4 Then Jesus said to him, “See that you do not speak to anyone, but go, show yourself to a priest, and bring the offering that Moses commanded, as a testimony to them.”
@@ -245,6 +249,7 @@ _Healing the Gadarene Demoniacs_
 
 8:28 When he came to the other side, to the region of the Gadarenes, two demon-possessed men coming from the tombs met him. They were extremely violent, so that no one was able to pass by that way. 8:29 They cried out, “Son of God, leave us alone! Have you come here to torment us before the time?” 8:30 A large herd of pigs was feeding some distance from them. 8:31 Then the demons begged him, “If you drive us out, send us into the herd of pigs.” 8:32 And he said, “Go!” So they came out and went into the pigs, and the herd rushed down the steep slope into the lake and drowned in the water. 8:33 The herdsmen ran off, went into the town, and told everything that had happened to the demon-possessed men. 8:34 Then the entire town came out to meet Jesus. And when they saw him, they begged him to leave their region.
 
+## Matthew 9
 _Healing and Forgiving a Paralytic_
 
 9:1 After getting into a boat he crossed to the other side and came to his own town. 9:2 Just then some people brought to him a paralytic lying on a stretcher. When Jesus saw their faith, he said to the paralytic, “Have courage, son! Your sins are forgiven.” 9:3 Then some of the experts in the law said to themselves, “This man is blaspheming!” 9:4 When Jesus saw their reaction he said, “Why do you respond with evil in your hearts? 9:5 Which is easier, to say, ‘Your sins are forgiven’ or to say, ‘Stand up and walk’? 9:6 But so that you may know that the Son of Man has authority on earth to forgive sins” – then he said to the paralytic – “Stand up, take your stretcher, and go home.” 9:7 And he stood up and went home. 9:8 When the crowd saw this, they were afraid and honored God who had given such authority to men.
@@ -271,6 +276,7 @@ _Workers_ for the Harvest
 
 9:35 Then Jesus went throughout all the towns and villages, teaching in their synagogues, preaching the good news of the kingdom, and healing every kind of disease and sickness. 9:36 When he saw the crowds, he had compassion on them because they were bewildered and helpless, like sheep without a shepherd. 9:37 Then he said to his disciples, “The harvest is plentiful, but the workers are few. 9:38 Therefore ask the Lord of the harvest to send out workers into his harvest.”
 
+## Matthew 10
 _Sending Out the Twelve Apostles_
 
 10:1 Jesus called his twelve disciples and gave them authority over unclean spirits so they could cast them out and heal every kind of disease and sickness. 10:2 Now these are the names of the twelve apostles: first, Simon (called Peter), and Andrew his brother; James son of Zebedee and John his brother; 10:3 Philip and Bartholomew; Thomas and Matthew the tax collector; James the son of Alphaeus, and Thaddaeus; 10:4 Simon the Zealot and Judas Iscariot, who betrayed him.
@@ -301,6 +307,7 @@ _Reward_s
 
 10:40 “Whoever receives you receives me, and whoever receives me receives the one who sent me. 10:41 Whoever receives a prophet in the name of a prophet will receive a prophet’s reward. Whoever receives a righteous person in the name of a righteous person will receive a righteous person’s reward. 10:42 And whoever gives only a cup of cold water to one of these little ones in the name of a disciple, I tell you the truth, he will never lose his reward.”
 
+## Matthew 11
 11:1 When Jesus had finished instructing his twelve disciples, he went on from there to teach and preach in their towns.
 
 _Jesus and John the Baptist_
@@ -331,6 +338,7 @@ _Jesus_’ Invitation
 
 11:25 At that time Jesus said, “I praise you, Father, Lord of heaven and earth, because you have hidden these things from the wise and intelligent, and revealed them to little children. 11:26 Yes, Father, for this was your gracious will. 11:27 All things have been handed over to me by my Father. No one knows the Son except the Father, and no one knows the Father except the Son and anyone to whom the Son decides to reveal him. 11:28 Come to me, all you who are weary and burdened, and I will give you rest. 11:29 Take my yoke on you and learn from me, because I am gentle and humble in heart, and you will find rest for your souls. 11:30 For my yoke is easy to bear, and my load is not hard to carry.”
 
+## Matthew 12
 _Lord of the Sabbath_
 
 12:1 At that time Jesus went through the grain fields on a Sabbath. His disciples were hungry, and they began to pick heads of wheat and eat them. 12:2 But when the Pharisees saw this they said to him, “Look, your disciples are doing what is against the law to do on the Sabbath.” 12:3 He said to them, “Haven’t you read what David did when he and his companions were hungry – 12:4 how he entered the house of God and they ate the sacred bread, which was against the law for him or his companions to eat, but only for the priests? 12:5 Or have you not read in the law that the priests in the temple desecrate the Sabbath and yet are not guilty? 12:6 I tell you that something greater than the temple is here. 12:7 If you had known what this means: ‘**_I want mercy and not sacrifice_**,’ you would not have condemned the innocent. 12:8 For the Son of Man is lord of the Sabbath.”
@@ -377,6 +385,7 @@ _Jesus_’ True Family
 
 12:46 While Jesus was still speaking to the crowds, his mother and brothers came and stood outside, asking to speak to him. 12:47 Someone told him, “Look, your mother and your brothers are standing outside wanting to speak to you.” 12:48 To the one who had said this, Jesus replied, “Who is my mother and who are my brothers?” 12:49 And pointing toward his disciples he said, “Here are my mother and my brothers! 12:50 For whoever does the will of my Father in heaven is my brother and sister and mother.”
 
+## Matthew 13
 _The Parable of the Sower_
 
 13:1 On that day after Jesus went out of the house, he sat by the lake. 13:2 And such a large crowd gathered around him that he got into a boat to sit while the whole crowd stood on the shore. 13:3 He told them many things in parables, saying: “Listen! A sower went out to sow. 13:4 And as he sowed, some seeds fell along the path, and the birds came and devoured them. 13:5 Other seeds fell on rocky ground where they did not have much soil. They sprang up quickly because the soil was not deep. 13:6 But when the sun came up, they were scorched, and because they did not have sufficient root, they withered. 13:7 Other seeds fell among the thorns, and they grew up and choked them. 13:8 But other seeds fell on good soil and produced grain, some a hundred times as much, some sixty, and some thirty. 13:9 The one who has ears had better listen!”
@@ -443,6 +452,7 @@ _Rejection at Nazareth_
 
 13:53 Now when Jesus finished these parables, he moved on from there. 13:54 Then he came to his hometown and began to teach the people in their synagogue. They were astonished and said, “Where did this man get such wisdom and miraculous powers? 13:55 Isn’t this the carpenter’s son? Isn’t his mother named Mary? And aren’t his brothers James, Joseph, Simon, and Judas? 13:56 And aren’t all his sisters here with us? Where did he get all this?” 13:57 And so they took offense at him. But Jesus said to them, “A prophet is not without honor except in his hometown and in his own house.” 13:58 And he did not do many miracles there because of their unbelief.
 
+## Matthew 14
 _The Death of John the Baptist_
 
 14:1 At that time Herod the tetrarch heard reports about Jesus, 14:2 and he said to his servants, “This is John the Baptist. He has been raised from the dead! And because of this, miraculous powers are at work in him.” 14:3 For Herod had arrested John, bound him, and put him in prison on account of Herodias, his brother Philip’s wife, 14:4 because John had repeatedly told him, “It is not lawful for you to have her.” 14:5 Although Herod wanted to kill John, he feared the crowd because they accepted John as a prophet. 14:6 But on Herod’s birthday, the daughter of Herodias danced before them and pleased Herod, 14:7 so much that he promised with an oath to give her whatever she asked. 14:8 Instructed by her mother, she said, “Give me the head of John the Baptist here on a platter.” 14:9 Although it grieved the king, because of his oath and the dinner guests he commanded it to be given. 14:10 So he sent and had John beheaded in the prison. 14:11 His head was brought on a platter and given to the girl, and she brought it to her mother. 14:12 Then John’s disciples came and took the body and buried it and went and told Jesus.
@@ -457,6 +467,7 @@ _Walking on Water_
 
 14:34 After they had crossed over, they came to land at Gennesaret. 14:35 When the people there recognized him, they sent word into all the surrounding area, and they brought all their sick to him. 14:36 They begged him if they could only touch the edge of his cloak, and all who touched it were healed.
 
+## Matthew 15
 _Breaking Human Tradition_s
 
 15:1 Then Pharisees and experts in the law came from Jerusalem to Jesus and said, 15:2 “Why do your disciples disobey the tradition of the elders? For they don’t wash their hands when they eat.” 15:3 He answered them, “And why do you disobey the commandment of God because of your tradition? 15:4 For God said, ‘**_Honor your father and mother_**’ and ‘**_Whoever insults his father or mother must be put to death_**.’ 15:5 But you say, ‘If someone tells his father or mother, “Whatever help you would have received from me is given to God,” 15:6 he does not need to honor his father.’ You have nullified the word of God on account of your tradition. 15:7 Hypocrites! Isaiah prophesied correctly about you when he said,
@@ -485,6 +496,7 @@ _The Feeding of the Four Thousan_d
 
 15:32 Then Jesus called the disciples and said, “I have compassion on the crowd, because they have already been here with me three days and they have nothing to eat. I don’t want to send them away hungry since they may faint on the way.” 15:33 The disciples said to him, “Where can we get enough bread in this desolate place to satisfy so great a crowd?” 15:34 Jesus said to them, “How many loaves do you have?” They replied, “Seven – and a few small fish.” 15:35 After instructing the crowd to sit down on the ground, 15:36 he took the seven loaves and the fish, and after giving thanks, he broke them and began giving them to the disciples, who then gave them to the crowds. 15:37 They all ate and were satisfied, and they picked up the broken pieces left over, seven baskets full. 15:38 Not counting children and women, there were four thousand men who ate. 15:39 After sending away the crowd, he got into the boat and went to the region of Magadan.
 
+## Matthew 16
 _The Demand for a Sign_
 
 16:1 Now when the Pharisees and Sadducees came to test Jesus, they asked him to show them a sign from heaven. 16:2 He said, “When evening comes you say, ‘It will be fair weather, because the sky is red,’ 16:3 and in the morning, ‘It will be stormy today, because the sky is red and darkening.’ You know how to judge correctly the appearance of the sky, but you cannot evaluate the signs of the times. 16:4 A wicked and adulterous generation asks for a sign, but no sign will be given to it except the sign of Jonah.” Then he left them and went away.
@@ -501,6 +513,7 @@ _First Prediction of Jesus’ Death and Resurrection_
 
 16:21 From that time on Jesus began to show his disciples that he must go to Jerusalem and suffer many things at the hands of the elders, chief priests, and experts in the law, and be killed, and on the third day be raised. 16:22 So Peter took him aside and began to rebuke him: “God forbid, Lord! This must not happen to you!” 16:23 But he turned and said to Peter, “Get behind me, Satan! You are a stumbling block to me, because you are not setting your mind on God’s interests, but on man’s.” 16:24 Then Jesus said to his disciples, “If anyone wants to become my follower, he must deny himself, take up his cross, and follow me. 16:25 For whoever wants to save his life will lose it, but whoever loses his life for my sake will find it. 16:26 For what does it benefit a person if he gains the whole world but forfeits his life? Or what can a person give in exchange for his life? 16:27 For the Son of Man will come with his angels in the glory of his Father, and then _he will reward each person according to what he has done_. 16:28 I tell you the truth, there are some standing here who will not experience death before they see the Son of Man coming in his kingdom.”
 
+## Matthew 17
 _The Transfiguration_
 
 17:1 Six days later Jesus took with him Peter, James, and John the brother of James, and led them privately up a high mountain. 17:2 And he was transfigured before them. His face shone like the sun, and his clothes became white as light. 17:3 Then Moses and Elijah also appeared before them, talking with him. 17:4 So Peter said to Jesus, “Lord, it is good for us to be here. If you want, I will make three shelters – one for you, one for Moses, and one for Elijah.” 17:5 While he was still speaking, a bright cloud overshadowed them, and a voice from the cloud said, “This is my one dear Son, in whom I take great delight. Listen to him!” 17:6 When the disciples heard this, they were overwhelmed with fear and threw themselves down with their faces to the ground. 17:7 But Jesus came and touched them. “Get up,” he said. “Do not be afraid.” 17:8 When they looked up, all they saw was Jesus alone.
@@ -519,6 +532,7 @@ _The Temple Tax_
 
 17:24 After they arrived in Capernaum, the collectors of the temple tax came to Peter and said, “Your teacher pays the double drachma tax, doesn’t he?” 17:25 He said, “Yes.” When Peter came into the house, Jesus spoke to him first, “What do you think, Simon? From whom do earthly kings collect tolls or taxes – from their sons or from foreigners?” 17:26 After he said, “From foreigners,” Jesus said to him, “Then the sons are free. 17:27 But so that we don’t offend them, go to the lake and throw out a hook. Take the first fish that comes up, and when you open its mouth, you will find a four drachma coin. Take that and give it to them for me and you.”
 
+## Matthew 18
 _Questions About the Greatest_
 
 18:1 At that time the disciples came to Jesus saying, “Who is the greatest in the kingdom of heaven?” 18:2 He called a child, had him stand among them, 18:3 and said, “I tell you the truth, unless you turn around and become like little children, you will never enter the kingdom of heaven! 18:4 Whoever then humbles himself like this little child is the greatest in the kingdom of heaven. 18:5 And whoever welcomes a child like this in my name welcomes me.
@@ -541,6 +555,7 @@ _The Parable of the Unforgiving S_lave
 
 18:23 “For this reason, the kingdom of heaven is like a king who wanted to settle accounts with his slaves. 18:24 As he began settling his accounts, a man who owed ten thousand talents was brought to him. 18:25 Because he was not able to repay it, the lord ordered him to be sold, along with his wife, children, and whatever he possessed, and repayment to be made. 18:26 Then the slave threw himself to the ground before him, saying, ‘Be patient with me, and I will repay you everything.’ 18:27 The lord had compassion on that slave and released him, and forgave him the debt. 18:28 After he went out, that same slave found one of his fellow slaves who owed him one hundred silver coins. So he grabbed him by the throat and started to choke him, saying, ‘Pay back what you owe me!’ 18:29 Then his fellow slave threw himself down and begged him, ‘Be patient with me, and I will repay you.’ 18:30 But he refused. Instead, he went out and threw him in prison until he repaid the debt. 18:31 When his fellow slaves saw what had happened, they were very upset and went and told their lord everything that had taken place. 18:32 Then his lord called the first slave and said to him, ‘Evil slave! I forgave you all that debt because you begged me! 18:33 Should you not have shown mercy to your fellow slave, just as I showed it to you?’ 18:34 And in anger his lord turned him over to the prison guards to torture him until he repaid all he owed. 18:35 So also my heavenly Father will do to you, if each of you does not forgive your brother from your heart.”
 
+## Matthew 19
 _Questions About Divorce_
 
 19:1 Now when Jesus finished these sayings, he left Galilee and went to the region of Judea beyond the Jordan River. 19:2 Large crowds followed him, and he healed them there.
@@ -557,6 +572,7 @@ _The Rich Young Man_
 
 19:23 Then Jesus said to his disciples, “I tell you the truth, it will be hard for a rich person to enter the kingdom of heaven! 19:24 Again I say, it is easier for a camel to go through the eye of a needle than for a rich person to enter into the kingdom of God.” 19:25 The disciples were greatly astonished when they heard this and said, “Then who can be saved?” 19:26 Jesus looked at them and replied, “This is impossible for mere humans, but for God all things are possible.” 19:27 Then Peter said to him, “Look, we have left everything to follow you! What then will there be for us?” 19:28 Jesus said to them, “I tell you the truth: In the age when all things are renewed, when the Son of Man sits on his glorious throne, you who have followed me will also sit on twelve thrones, judging the twelve tribes of Israel. 19:29 And whoever has left houses or brothers or sisters or father or mother or children or fields for my sake will receive a hundred times as much and will inherit eternal life. 19:30 But many who are first will be last, and the last first.
 
+## Matthew 20
 _Workers in the Vineyard_
 
 20:1 “For the kingdom of heaven is like a landowner who went out early in the morning to hire workers for his vineyard. 20:2 And after agreeing with the workers for the standard wage, he sent them into his vineyard. 20:3 When it was about nine o’clock in the morning, he went out again and saw others standing around in the marketplace without work. 20:4 He said to them, ‘You go into the vineyard too, and I will give you whatever is right.’ 20:5 So they went. When he went out again about noon and three o’clock that afternoon, he did the same thing. 20:6 And about five o’clock that afternoon he went out and found others standing around, and said to them, ‘Why are you standing here all day without work?’ 20:7 They said to him, ‘Because no one hired us.’ He said to them, ‘You go and work in the vineyard too.’ 20:8 When it was evening the owner of the vineyard said to his manager, ‘Call the workers and give the pay starting with the last hired until the first.’ 20:9 When those hired about five o’clock came, each received a full day’s pay. 20:10 And when those hired first came, they thought they would receive more. But each one also received the standard wage. 20:11 When they received it, they began to complain against the landowner, 20:12 saying, ‘These last fellows worked one hour, and you have made them equal to us who bore the hardship and burning heat of the day.’ 20:13 And the landowner replied to one of them, ‘Friend, I am not treating you unfairly. Didn’t you agree with me to work for the standard wage? 20:14 Take what is yours and go. I want to give to this last man the same as I gave to you. 20:15 Am I not permitted to do what I want with what belongs to me? Or are you envious because I am generous?’ 20:16 So the last will be first, and the first last.”
@@ -575,6 +591,7 @@ _Two Blind Men Healed_
 
 20:29 As they were leaving Jericho, a large crowd followed them. 20:30 Two blind men were sitting by the road. When they heard that Jesus was passing by, they shouted, “Have mercy on us, Lord, Son of David!” 20:31 The crowd scolded them to get them to be quiet. But they shouted even more loudly, “Lord, have mercy on us, Son of David!” 20:32 Jesus stopped, called them, and said, “What do you want me to do for you?” 20:33 They said to him, “Lord, let our eyes be opened.” 20:34 Moved with compassion, Jesus touched their eyes. Immediately they received their sight and followed him.
 
+## Matthew 21
 _The Triumphal Entry_
 
 21:1 Now when they approached Jerusalem and came to Bethphage, at the Mount of Olives, Jesus sent two disciples, 21:2 telling them, “Go to the village ahead of you. Right away you will find a donkey tied there, and a colt with her. Untie them and bring them to me. 21:3 If anyone says anything to you, you are to say, ‘The Lord needs them,’ and he will send them at once.” 21:4 This took place to fulfill what was spoken by the prophet:
@@ -619,6 +636,7 @@ _The Parable of the Tenants_
 
 21:43 For this reason I tell you that the kingdom of God will be taken from you and given to a people who will produce its fruit. 21:44 The one who falls on this stone will be broken to pieces, and the one on whom it falls will be crushed.” 21:45 When the chief priests and the Pharisees heard his parables, they realized that he was speaking about them. 21:46 They wanted to arrest him, but they were afraid of the crowds, because the crowds regarded him as a prophet.
 
+## Matthew 22
 _The Parable of the Wedding Banquet_
 
 22:1 Jesus spoke to them again in parables, saying: 22:2 “The kingdom of heaven can be compared to a king who gave a wedding banquet for his son. 22:3 He sent his slaves to summon those who had been invited to the banquet, but they would not come. 22:4 Again he sent other slaves, saying, ‘Tell those who have been invited, “Look! The feast I have prepared for you is ready. My oxen and fattened cattle have been slaughtered, and everything is ready. Come to the wedding banquet.”’ 22:5 But they were indifferent and went away, one to his farm, another to his business. 22:6 The rest seized his slaves, insolently mistreated them, and killed them. 22:7 The king was furious! He sent his soldiers, and they put those murderers to death and set their city on fire. 22:8 Then he said to his slaves, ‘The wedding is ready, but the ones who had been invited were not worthy. 22:9 So go into the main streets and invite everyone you find to the wedding banquet.’ 22:10 And those slaves went out into the streets and gathered all they found, both bad and good, and the wedding hall was filled with guests. 22:11 But when the king came in to see the wedding guests, he saw a man there who was not wearing wedding clothes. 22:12 And he said to him, ‘Friend, how did you get in here without wedding clothes?’ But he had nothing to say. 22:13 Then the king said to his attendants, ‘Tie him up hand and foot and throw him into the outer darkness, where there will be weeping and gnashing of teeth!’ 22:14 For many are called, but few are chosen.”
@@ -649,6 +667,7 @@ _The Messiah: David_’s Son and Lord
 
 22:45 If David then calls him ‘Lord,’ how can he be his son?” 22:46 No one was able to answer him a word, and from that day on no one dared to question him any longer.
 
+## Matthew 23
 _Seven Woes_
 
 23:1 Then Jesus said to the crowds and to his disciples, 23:2 “The experts in the law and the Pharisees sit on Moses’ seat. 23:3 Therefore pay attention to what they tell you and do it. But do not do what they do, for they do not practice what they teach. 23:4 They tie up heavy loads, hard to carry, and put them on men’s shoulders, but they themselves are not willing even to lift a finger to move them. 23:5 They do all their deeds to be seen by people, for they make their phylacteries wide and their tassels long. 23:6 They love the place of honor at banquets and the best seats in the synagogues 23:7 and elaborate greetings in the marketplaces, and to have people call them ‘Rabbi.’ 23:8 But you are not to be called ‘Rabbi,’ for you have one Teacher and you are all brothers. 23:9 And call no one your ‘father’ on earth, for you have one Father, who is in heaven. 23:10 Nor are you to be called ‘teacher,’ for you have one teacher, the Christ. 23:11 The greatest among you will be your servant. 23:12 And whoever exalts himself will be humbled, and whoever humbles himself will be exalted.
@@ -673,6 +692,7 @@ _Judgment on Israel_
 
 23:37 “O Jerusalem, Jerusalem, you who kill the prophets and stone those who are sent to you! How often I have longed to gather your children together as a hen gathers her chicks under her wings, but you would have none of it! 23:38 Look, your house is left to you desolate! 23:39 For I tell you, you will not see me from now until you say, ‘**_Blessed is the one who comes in the name of the Lord!_**’”
 
+## Matthew 24
 _The Destruction of the Temple_
 
 24:1 Now as Jesus was going out of the temple courts and walking away, his disciples came to show him the temple buildings. 24:2 And he said to them, “Do you see all these things? I tell you the truth, not one stone will be left on another. All will be torn down!”
@@ -707,6 +727,7 @@ _The Faithful and Wise S_lave
 
 24:45 “Who then is the faithful and wise slave, whom the master has put in charge of his household, to give the other slaves their food at the proper time? 24:46 Blessed is that slave whom the master finds at work when he comes. 24:47 I tell you the truth, the master will put him in charge of all his possessions. 24:48 But if that evil slave should say to himself, ‘My master is staying away a long time,’ 24:49 and he begins to beat his fellow slaves and to eat and drink with drunkards, 24:50 then the master of that slave will come on a day when he does not expect him and at an hour he does not foresee, 24:51 and will cut him in two, and assign him a place with the hypocrites, where there will be weeping and gnashing of teeth.
 
+## Matthew 25
 _The Parable of the Ten Virgins_
 
 25:1 “At that time the kingdom of heaven will be like ten virgins who took their lamps and went out to meet the bridegroom. 25:2 Five of the virgins were foolish, and five were wise. 25:3 When the foolish ones took their lamps, they did not take extra olive oil with them. 25:4 But the wise ones took flasks of olive oil with their lamps. 25:5 When the bridegroom was delayed a long time, they all became drowsy and fell asleep. 25:6 But at midnight there was a shout, ‘Look, the bridegroom is here! Come out to meet him.’ 25:7 Then all the virgins woke up and trimmed their lamps. 25:8 The foolish ones said to the wise, ‘Give us some of your oil, because our lamps are going out.’ 25:9 ‘No,’ they replied. ‘There won’t be enough for you and for us. Go instead to those who sell oil and buy some for yourselves.’ 25:10 But while they had gone to buy it, the bridegroom arrived, and those who were ready went inside with him to the wedding banquet. Then the door was shut. 25:11 Later, the other virgins came too, saying, ‘Lord, lord! Let us in!’ 25:12 But he replied, ‘I tell you the truth, I do not know you!’ 25:13 Therefore stay alert, because you do not know the day or the hour.
@@ -721,6 +742,7 @@ _The Judgment_
 
 25:41 “Then he will say to those on his left, ‘Depart from me, you accursed, into the eternal fire that has been prepared for the devil and his angels! 25:42 For I was hungry and you gave me nothing to eat, I was thirsty and you gave me nothing to drink. 25:43 I was a stranger and you did not receive me as a guest, naked and you did not clothe me, sick and in prison and you did not visit me.’ 25:44 Then they too will answer, ‘Lord, when did we see you hungry or thirsty or a stranger or naked or sick or in prison, and did not give you whatever you needed?’ 25:45 Then he will answer them, ‘I tell you the truth, just as you did not do it for one of the least of these, you did not do it for me.’ 25:46 And these will depart into eternal punishment, but the righteous into eternal life.”
 
+## Matthew 26
 _The Plot Against Jesus_
 
 26:1 When Jesus had finished saying all these things, he told his disciples, 26:2 “You know that after two days the Passover is coming, and the Son of Man will be handed over to be crucified.” 26:3 Then the chief priests and the elders of the people met together in the palace of the high priest, who was named Caiaphas. 26:4 They planned to arrest Jesus by stealth and kill him. 26:5 But they said, “Not during the feast, so that there won’t be a riot among the people.”
@@ -767,6 +789,7 @@ _Peter_’s Denials
 
 26:69 Now Peter was sitting outside in the courtyard. A slave girl came to him and said, “You also were with Jesus the Galilean.” 26:70 But he denied it in front of them all: “I don’t know what you’re talking about!” 26:71 When he went out to the gateway, another slave girl saw him and said to the people there, “This man was with Jesus the Nazarene.” 26:72 He denied it again with an oath, “I do not know the man!” 26:73 After a little while, those standing there came up to Peter and said, “You really are one of them too – even your accent gives you away!” 26:74 At that he began to curse, and he swore with an oath, “I do not know the man!” At that moment a rooster crowed. 26:75 Then Peter remembered what Jesus had said: “Before the rooster crows, you will deny me three times.” And he went outside and wept bitterly.
 
+## Matthew 27
 _Jesus Brought Before Pilate_
 
 27:1 When it was early in the morning, all the chief priests and the elders of the people plotted against Jesus to execute him. 27:2 They tied him up, led him away, and handed him over to Pilate the governor.
@@ -775,6 +798,7 @@ _Judas_’ Suicide
 
 27:3 Now when Judas, who had betrayed him, saw that Jesus had been condemned, he regretted what he had done and returned the thirty silver coins to the chief priests and the elders, 27:4 saying, “I have sinned by betraying innocent blood!” But they said, “What is that to us? You take care of it yourself!” 27:5 So Judas threw the silver coins into the temple and left. Then he went out and hanged himself. 27:6 The chief priests took the silver and said, “It is not lawful to put this into the temple treasury, since it is blood money.” 27:7 After consulting together they bought the Potter’s Field with it, as a burial place for foreigners. 27:8 For this reason that field has been called the “Field of Blood” to this day. 27:9 Then what was spoken by Jeremiah the prophet was fulfilled: “_They took the thirty silver coins, the price of the one whose price had been set by the people of Israel_, 27:10 _and they gave them for the potter’s field, as the Lord commanded me_.”
 
+## Matthew 27
 _Jesus and Pilate_
 
 27:11 Then Jesus stood before the governor, and the governor asked him, “Are you the king of the Jews?” Jesus said, “You say so.” 27:12 But when he was accused by the chief priests and the elders, he did not respond. 27:13 Then Pilate said to him, “Don’t you hear how many charges they are bringing against you?” 27:14 But he did not answer even one accusation, so that the governor was quite amazed.
@@ -803,6 +827,7 @@ _The Guard at the Tomb_
 
 27:62 The next day (which is after the day of preparation) the chief priests and the Pharisees assembled before Pilate 27:63 and said, “Sir, we remember that while that deceiver was still alive he said, ‘After three days I will rise again.’ 27:64 So give orders to secure the tomb until the third day. Otherwise his disciples may come and steal his body and say to the people, ‘He has been raised from the dead,’ and the last deception will be worse than the first.” 27:65 Pilate said to them, “Take a guard of soldiers. Go and make it as secure as you can.” 27:66 So they went with the soldiers of the guard and made the tomb secure by sealing the stone.
 
+## Matthew 28
 _The Resurrection_
 
 28:1 Now after the Sabbath, at dawn on the first day of the week, Mary Magdalene and the other Mary went to look at the tomb. 28:2 Suddenly there was a severe earthquake, for an angel of the Lord descending from heaven came and rolled away the stone and sat on it. 28:3 His appearance was like lightning, and his clothes were white as snow. 28:4 The guards were shaken and became like dead men because they were so afraid of him. 28:5 But the angel said to the women, “Do not be afraid; I know that you are looking for Jesus, who was crucified. 28:6 He is not here, for he has been raised, just as he said. Come and see the place where he was lying. 28:7 Then go quickly and tell his disciples, ‘He has been raised from the dead. He is going ahead of you into Galilee. You will see him there.’ Listen, I have told you!” 28:8 So they left the tomb quickly, with fear and great joy, and ran to tell his disciples. 28:9 But Jesus met them, saying, “Greetings!” They came to him, held on to his feet and worshiped him. 28:10 Then Jesus said to them, “Do not be afraid. Go and tell my brothers to go to Galilee. They will see me there.”
