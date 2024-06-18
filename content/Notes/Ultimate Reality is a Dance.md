@@ -1,6 +1,5 @@
 ---
-tags:
-  - Sermon_Point
+tags: []
 ---
 > #Mark 1:10-11
 

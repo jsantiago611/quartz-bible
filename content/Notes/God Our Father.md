@@ -6,8 +6,10 @@
 	- stern judge
 	- wonderful loving friend
 	- unmoved mover
-3. But God is complex. He's a father *and* a friend *and* a judge, *and* all these things. When you become a Christian, He becomes all these things to you.
-4. It's knowing one of these aspects/images that will heal you in some way. This note details the view of God as Father. 
+3. But God is complex. He's a father *a
+4. 
+5. nd* a friend *and* a judge, *and* all these things. When you become a Christian, He becomes all these things to you.
+6. It's knowing one of these aspects/images that will heal you in some way. This note details the view of God as Father. 
 
 ### First, What does it mean that God is a father?
 
