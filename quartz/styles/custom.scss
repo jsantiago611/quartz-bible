@@ -67,3 +67,14 @@
 --size-step-5: clamp(2.9375rem,2.19rem + 3.75vw,5.375rem);
 --size-step-6: clamp(3.5rem,2.52rem + 4.90vw,6.6875rem);
 }
+
+.article-title {
+    margin: 2rem 0 0;
+    font-size: var(--size-step-4);
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.page article>h1 {
+    font-size: var(--size-step-3);
+}
