@@ -57,3 +57,11 @@
     font-weight: 400;
     font-style: normal;
 }
+
+--size-step-0: clamp(1.1875rem,1.01rem + 0.87vw,1.75rem);
+--size-step-1: clamp(1.4375rem,1.21rem + 1.15vw,2.1875rem);
+--size-step-2: clamp(1.6875rem,1.36rem + 1.63vw,2.75rem);
+--size-step-3: clamp(2.0625rem,1.64rem + 2.12vw,3.4375rem);
+--size-step-4: clamp(2.5rem,1.96rem + 2.69vw,4.25rem);
+--size-step-5: clamp(2.9375rem,2.19rem + 3.75vw,5.375rem);
+--size-step-6: clamp(3.5rem,2.52rem + 4.90vw,6.6875rem);

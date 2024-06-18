@@ -16,8 +16,9 @@ There will be several ways to navigate this site.
 
 ### Can I believe?
 
-| *Overcoming Objections* |     |
+| Category                |     |
 | ----------------------- | --- |
+| *Overcoming Objections* |     |
 | *The Source of Faith*   |     |
 
 
