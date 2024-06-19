@@ -85,12 +85,17 @@
 
 .article-title {
     margin: 2rem 0 0;
-    font-size: var(--size-step-4);
-    line-height: 1.2;
+    font-size: var(--size-step-5);
+    line-height: 1.1;
     letter-spacing: -0.035ch;
     font-weight: 700;
+    margin-top: var(--space-2xl);
 }
 
 .page article>h1 {
     font-size: var(--size-step-3);
+}
+
+.content-meta {
+    margin-bottom: var(--space-2xl);
 }
