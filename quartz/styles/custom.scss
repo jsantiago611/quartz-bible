@@ -112,3 +112,17 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 h1, h2, h3, h4, h5, h6, thead {
     font-weight: 400;
 }
+
+#toc-content ul>li>a {
+    color: var(--dark);
+    opacity: .35;
+    transition: opacity .5s, color .3s;
+    font-weight: 400;
+    font-family: var(--headerFont);
+}
+
+.content-meta {
+    color: var(--gray);
+    margin-top: 0;
+    font-family: var(--headerFont);
+}
