@@ -141,3 +141,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     display: flex;
     border: 1px solid var(--gray);
 }
+
+h1, h2, h3, h4, h5, h6, thead {
+    font-weight: 400;
+}
