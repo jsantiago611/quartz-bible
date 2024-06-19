@@ -101,3 +101,7 @@
     margin: 6rem auto 0;
     margin-bottom: var(--space-3xl);
 }
+
+p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
+    font-size: var(--size-step-0);
+}
