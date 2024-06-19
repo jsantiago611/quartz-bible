@@ -131,3 +131,14 @@
 p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     font-size: var(--size-step-0);
 }
+
+.search>#search-icon {
+    background-color: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 11px;
+    align-items: center;
+    height: 2rem;
+    display: flex;
+    border: 1px solid var(--gray);
+}
