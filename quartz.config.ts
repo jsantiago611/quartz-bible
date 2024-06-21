@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Keller Study Bible",
+    pageTitle: "Jon's Digital Study Bible",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
