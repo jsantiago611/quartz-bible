@@ -24,6 +24,26 @@
 }
 
 @font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Martina";
     src: url("/static/martina-plantijn-regular.woff2") format("woff2");
     font-weight: 400;
@@ -92,10 +112,6 @@
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-}
-
-p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
-    font-size: var(--size-step-0);
 }
 
 .search>#search-icon {
