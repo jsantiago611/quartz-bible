@@ -16,7 +16,7 @@ There will be several ways to navigate this site.
 
 | Old Testament | New Testament |
 | ------------- | ------------- |
-|               | [[Matthew]]   |
+|               | [[Matthew ]]  |
 |               | Mark          |
 |               | Luke          |
 |               | John          |
