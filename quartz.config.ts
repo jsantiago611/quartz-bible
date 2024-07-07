@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Gospel Garden",
+    pageTitle: "The Gospel Changes Everything",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Earth",
-        body: "Serif",
+        body: "Earth",
         code: "IBM Plex Mono",
       },
       colors: {
