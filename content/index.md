@@ -11,5 +11,5 @@ There will be several ways to navigate this site.
 
 ### Books of the New Testament
 
-> [!list] [[The Gospel of Matthew]]
+> [!scroll] [[The Gospel of Matthew]]
 
