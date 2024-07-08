@@ -102,6 +102,17 @@
 --space-2xl-3xl: clamp(5.9375rem,3.46rem + 12.40vw,14rem);
 }
 
+:root[saved-theme=dark] {
+    --light: #1c1c1c;
+    --lightgray: #80746b;
+    --gray: #939393;
+    --darkgray: #eeeeee;
+    --dark: write;
+    --secondary: #eebd57;
+    --tertiary: #84a59d;
+    --highlight: rgba(245, 243, 239, 0.1);
+}
+
 
 .article-title {
     margin: 2rem 0 0;
