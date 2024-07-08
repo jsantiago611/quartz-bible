@@ -159,4 +159,13 @@ h4, h5, h6 {
 
 blockquote {
   font-family: "Serif";
+  font-size: var(--size-step-0);
 }
+
+.callout {
+  &[data-callout="bible"] {
+    //--color: #customcolor;
+    //--border: #custombordercolor;
+    //--bg: #custombg;
+    --callout-icon: book-marked; //SVG icon code
+  }
