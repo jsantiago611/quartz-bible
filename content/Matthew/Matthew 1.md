@@ -2,6 +2,8 @@
 title: Matthew 1
 draft: false
 tags:
+  - Christmas
+  - Advent
 ---
 > _The Genealogy of Jesus Christ_
 > 
@@ -15,14 +17,20 @@ tags:
 > 
 > 1:17 So all the generations from Abraham to David are fourteen generations, and from David to the deportation to Babylon, fourteen generations, and from the deportation to Babylon to Christ, fourteen generations.
 > 
-> _The Birth of Jesus Christ_
-> 
+> _The Birth of Jesus Christ_ / *God with Us* / *The Fathers of Jesus*
+
+> [!abstract]- Sermon Notes: The Fathers of Jesus
+> 1. The Importance of the Christmas
+> 2. The Doctrine of the Christmas 
+> 3. The Authority of Jesus
+
 > 1:18 Now the birth of Jesus Christ happened this way. While his mother Mary was engaged to Joseph, but before they came together, she was found to be pregnant through the Holy Spirit. 1:19 Because Joseph, her husband to be, was a righteous man, and because he did not want to disgrace her, he intended to divorce her privately. 1:20 When he had contemplated this, an angel of the Lord appeared to him in a dream and said, “Joseph, son of David, do not be afraid to take Mary as your wife, because the child conceived in her is from the Holy Spirit. 1:21 She will give birth to a son and you will name him Jesus, because he will save his people from their sins.” 1:22 This all happened so that what was spoken by the Lord through the prophet would be fulfilled: 1:23 “**_Look! The virgin will conceive and bear a son, and they will call him Emmanuel_**,” which means “_God with us_.” 1:24 When Joseph awoke from sleep he did what the angel of the Lord told him. He took his wife, 1:25 but did not have marital relations with her until she gave birth to a son, whom he named Jesus.
 
 ---
-#### Notes
-1:1 
+> [!abstract]- Notes
+1:18 
+**1:20** *he will save his people*. Jesus is inserted in the place of God as if they are the same person.
+**1:23** *God with us*. For a Jew to say that a person was God, was stupendous. Every other religion has a founder that says "I'm God, come and find me." Christianity says "". It's all or nothing.
 
 
-> [!NOTE] 
-> Contents
+

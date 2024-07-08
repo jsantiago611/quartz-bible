@@ -5,7 +5,6 @@ This is part digital garden, part New Testament study Bible, inspired by the ser
 
 ### Navigation
 There will be several ways to navigate this site. 
-1. Start with [[Discovery]], an index of sermon notes (currently in progress)
 2. Click/tap on a Bible book to start exploring notes like you would a physical study Bible. 
 3. Use the search bar at the top of this page to search for a topic, scripture reference, sermon title, quoted author, etc. 
 4. Click/tap on tags/hashtags to explore more notes on the same topic.
@@ -13,3 +12,4 @@ There will be several ways to navigate this site.
 ### Books of the New Testament
 
 > [!list] [[The Gospel of Matthew]]
+
