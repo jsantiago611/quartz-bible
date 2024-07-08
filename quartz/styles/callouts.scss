@@ -43,6 +43,13 @@
     --callout-icon: var(--callout-icon-abstract);
   }
 
+  &[data-callout=scroll] {
+    --color: #00b0ff;
+    --border: #00b0ff44;
+    --bg: #00b0ff10;
+    --callout-icon: var(--callout-icon-scroll)
+}
+
   &[data-callout="info"],
   &[data-callout="todo"] {
     --color: #00b8d4;
