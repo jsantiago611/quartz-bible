@@ -24,14 +24,49 @@ tags:
 ---
 ### Notes
 
-> [!NOTE]- **1:21** *he will save his people from their sins*. 
->
-> Jesus is inserted in the place of God as if they are the same person. Matthew quotes Isaiah here to make a claim that Jesus is God. This bothers modern people. They wish that Christians would refer to Christianity as *a* good religion, instead of *the* true religion. Why can't we just treat religion like a buffet, where everyone chooses the one that enjoy best? Here's why.
+> [!NOTE]- **1:21** he will save *his people* from their sins. 
 > 
-> Every other religion has a founder that says 'I'll show you the way to God', but Christianity is the only religion whose founder says 'I'm God, come to find you'. This is the superior way. If he(Jesus) was delusional, Christianity would be inferior. Either Christianity is inferior or superior, but it cannot be both. Christianity is all or nothing.  There is no record in the Bible of just mild approval.  (from sermon: The Fathers of Jesus)
+> **The Person of Jesus** 
+> 
+> Matthew quotes Isaiah 40 here to make a claim that Jesus is God. Jesus is inserted in the place of God as if they are the same person. This bothers modern people. They wish that Christians would refer to Christianity as *a* good religion, instead of *the* true religion. Why can't we just treat religion like a buffet, where everyone chooses the one that enjoy best? Here's why.
+> 
+> Every other religion has a founder that says 'I'll show you the way to God', but Christianity is the only religion whose founder says 'I'm God, come to find you'. This is the superior way. If he(Jesus) was delusional, Christianity would be inferior. Either Christianity is inferior or superior, but it cannot be both. Christianity is all or nothing.  There is no record in the Bible of just mild approval.  (from sermon: The Fathers of Jesus, 1. The Person of Jesus)
 
-> [!NOTE] 1:21 he will save
+> [!NOTE]- 1:21 he will *save*
+> 
+> **The Importance of the Doctrine of Christmas**
+> 
 > Jesus doesn't come to instruct, like all the other world religious leaders do. He comes to save. But what do we need saving from? 
+> 
+>If Jesus was just a teacher and you decided to really do what he said, you would have a sort of bipolar spirituality. 
+>1. On the days when you are doing good, you'll feel superior to others. You'll feel good about yourself. 
+>2. But on the days when you are doing bad, you'll hate yourself.
+>3. Jesus offers another way: saving you so that you can know the joys of being accepted, will never feel superior. You'll be lifted up, yet humble, at the same time. 
+>
+>If Christmas is just a legend, you're on your own, and you'll fail. But if Christmas is true... you can be saved by grace. 
+
+> [!NOTE]- 1:21 you will name him Jesus
+> **The authority of Jesus**
+> Joseph loses the right to name his child. But why? 
+> 
+> Angel is, in a way, telling Joseph, "You won't name your child, that child will name you. You don't tell that child what to do, but ultimately, that child will tell you what to do." Of course, Jesus took practical instruction as he grew, but the implication here is that ultimate authority will fall on Jesus. He is the king. When he comes into our lives, he is the one that rules. 
+>
+>But how is it "good news of great joy" to have someone else comes into your life, defy your will and tell you what to do?
+>
+>To illustrate this, Keller tells of a story of a father who takes his father to 
+>
+>
+>
+>> [!quote]- C.S. Lewis on the sacrifice of Christ
+> For in self-giving, if anywhere, we touch a rhythm not only of all creation but of all being. For the Eternal Word also gives Himself in sacrifice; and that not only on Calvary. For when He was crucified He ‘did that in the wild weather of His outlying provinces which He had done at home in glory and gladness’.1 From before the foundation of the world He surrenders begotten Deity back to begetting Deity in obedience. And as the Son glorifies the Father, so also the Father glorifies the Son2. … From the highest to the lowest, self exists to be abdicated and, by that abdication, becomes the more truly self, to be thereupon yet the more abdicated, and so forever.
+> (The importance of the Doctrine of Christmas)
+
+> [!summary]- Gospel Exploder: The gospel in Matthew 1:21
+> 1. **What you must do**: We must give ourselves to God fearlessly and willingly and joyfully. We must the authority of Jesus over our lives. 
+> 2. **But you can't**: (1) We don't like the idea of Christianity being superior to other religions. (2) The idea of inviting someone into our lives and ruling over us is not compelling or enticing or joy-inducing. It produces fear- what if God fails us? What if he is keeping something from us?
+> 3. **But there was one who did**: 
+> 4. **Only now we can change**: 
+
 
 
 
