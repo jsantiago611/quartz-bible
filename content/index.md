@@ -14,7 +14,6 @@ There will be several ways to navigate this site.
 
 > [!scroll] [[The Gospel of Matthew]]
 
-
-| ## [[The Gospel of Matthew]] |
-| ---------------------------- |
-|                              |
+| [[The Gospel of Matthew]] |
+| ------------------------- |
+|                           |
