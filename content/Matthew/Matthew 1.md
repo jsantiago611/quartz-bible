@@ -62,11 +62,11 @@ tags:
 > For in self-giving, if anywhere, we touch a rhythm not only of all creation but of all being. For the Eternal Word also gives Himself in sacrifice; and that not only on Calvary. For when He was crucified He ‘did that in the wild weather of His outlying provinces which He had done at home in glory and gladness’.1 From before the foundation of the world He surrenders begotten Deity back to begetting Deity in obedience. And as the Son glorifies the Father, so also the Father glorifies the Son2. … From the highest to the lowest, self exists to be abdicated and, by that abdication, becomes the more truly self, to be thereupon yet the more abdicated, and so forever.
 > (The importance of the Doctrine of Christmas)
 
-> [!summary]- Gospel Exploder: The gospel in Matthew 1:21
+> [!trust]- How the Gospel helps us trust God (Matthew 1:21)
 > 1. **What you must do**: We must give ourselves to God fearlessly and willingly and joyfully. We must accept the authority of Jesus over our lives, like Joseph does in naming His son Jesus.  
 > 2. **But you can't**: (1) We don't like the idea of Christianity being superior to other religions. (2) The idea of inviting someone into our lives and ruling over us is not compelling or enticing or joy-inducing. It produces fear- what if God fails us? What if he is keeping something from us?
-> 3. **But there was one who did**: 
-> 4. **Only now we can change**: 
+> 3. **But there was one who did**: Jesus came to die for you. He gave up his omnipotence, his glory, his deity, and became killable to save you.  Jesus completely gave himself, as he had always done for all eternity within the Trinity.
+> 4. **Only now we can change**: We will only get over the deep fear of giving ourselves to God when we see God giving himself completely for us. Then we can be healed, trust, and find that which we were built to have. 
 
 
 
