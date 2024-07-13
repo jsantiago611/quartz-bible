@@ -2,6 +2,19 @@
 
 // put your custom CSS here!
 
+@font-face {
+    font-family: "Salter";
+    src: url("/static/Salter-Roman.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Salter";
+    src: url("/static/Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
 
 @font-face {
     font-family: "Earth";
