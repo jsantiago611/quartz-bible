@@ -145,6 +145,10 @@
     place-content: center;
 }
 
+.toc {
+      text-align: -webkit-center;
+}
+
 .page article>h1 {
     font-size: var(--size-step-3);
 }
