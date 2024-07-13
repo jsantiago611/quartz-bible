@@ -57,6 +57,13 @@
   --callout-icon: var(--callout-icon-awe)
 }
 
+&[data-callout=forgiveness] {
+  --color: #00b0ff;
+  --border: #00b0ff44;
+  --bg: #00b0ff10;
+  --callout-icon: var(--callout-icon-forgiveness)
+}
+
   &[data-callout="info"],
   &[data-callout="todo"] {
     --color: #00b8d4;
