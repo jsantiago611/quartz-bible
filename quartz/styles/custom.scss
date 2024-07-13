@@ -124,6 +124,25 @@
     line-height: 1.2;
     font-weight: 100;
     font-style: italic;
+    text-align: center;
+}
+
+.content-meta {
+    color: var(--gray);
+    font-family: var(--headerFont);
+    margin-top: 0;
+    text-align: center;
+}
+
+.tags {
+    flex-wrap: wrap;
+    justify-self: end;
+    gap: .4rem;
+    margin: 1rem 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    place-content: center;
 }
 
 .page article>h1 {
