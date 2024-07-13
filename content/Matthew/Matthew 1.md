@@ -62,7 +62,7 @@ tags:
 > (The importance of the Doctrine of Christmas)
 
 > [!summary]- Gospel Exploder: The gospel in Matthew 1:21
-> 1. **What you must do**: We must give ourselves to God fearlessly and willingly and joyfully. We must the authority of Jesus over our lives. 
+> 1. **What you must do**: We must give ourselves to God fearlessly and willingly and joyfully. We must accept the authority of Jesus over our lives, like Joseph does in naming His son Jesus.  
 > 2. **But you can't**: (1) We don't like the idea of Christianity being superior to other religions. (2) The idea of inviting someone into our lives and ruling over us is not compelling or enticing or joy-inducing. It produces fear- what if God fails us? What if he is keeping something from us?
 > 3. **But there was one who did**: 
 > 4. **Only now we can change**: 

@@ -55,3 +55,34 @@
 > [!quote] Quote
 >
 > Aliases: quote, cite
+
+> [!Awe]
+> Default title
+
+> [!Forgiveness]
+> Default title
+
+> [!Gratitude]
+> Default title
+
+> [!Honesty]
+> Default title
+
+> [!Hope]
+> Default title
+
+> [!Humility]
+> Default title
+
+> [!Joy]
+> Default title
+
+> [!Love]
+> Default title
+
+> [!Perseverance]
+> Default title
+
+> [!Trust]
+> Default title
+
