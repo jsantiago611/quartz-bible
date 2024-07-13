@@ -249,7 +249,8 @@ blockquote {
   }
 }
 
-.desktop-only {
+.desktop-only,
+& .toc {
     display: initial;
     text-align: left !important;
 }
