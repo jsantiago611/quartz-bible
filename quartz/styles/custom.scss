@@ -123,14 +123,14 @@
     font-family: salter;
     line-height: 1.1;
     font-weight: 100;
-    text-align: center;
+    
 }
 
 .content-meta {
     color: var(--gray);
     font-family: var(--headerFont);
     margin-top: 0;
-    text-align: center;
+  
 }
 
 .tags {
@@ -141,7 +141,6 @@
     padding-left: 0;
     list-style: none;
     display: flex;
-    place-content: center;
 }
 
 .toc {
@@ -249,6 +248,4 @@ blockquote {
   }
 }
 
-.desktop-only, .toc {
-    text-align: left !important;
-}
+
