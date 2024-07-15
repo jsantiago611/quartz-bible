@@ -174,7 +174,6 @@ h1, h2, h3, h4, h5, h6, thead {
 h2 {
     margin-top: 1.9rem;
     margin-bottom: 1rem;
-    font-size: var(--size-step-2);
     font-weight: 400;
     font-style: italic;
 }
@@ -182,7 +181,6 @@ h2 {
 h4, h5, h6 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    font-size: var(--size-step-1);
 }
 
 #toc-content ul>li>a {
@@ -206,7 +204,6 @@ blockquote {
 
 .page-title {
     margin: 0;
-    font-size: var(--size-step-0);
 }
 
 
