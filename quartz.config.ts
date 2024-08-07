@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Martina",
-        body: "Martina",
-        code: "IBM Plex Mono",
+        header: "Calibre",
+        body: "Calibre",
+        code: "Founders",
       },
       colors: {
         lightMode: {
