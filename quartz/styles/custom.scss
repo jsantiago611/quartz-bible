@@ -196,7 +196,18 @@
     src: url("/static/soehne-buch.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
+    text-rendering: optimizeSpeed;
 }
+@font-face {
+    font-family: "Soehne";
+    src: url("/static/soehne-kraftig.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    text-rendering: optimizeSpeed;
+}
+
 
 :root {
 --size-step-0: clamp(1rem,0.92rem + 0.39vw,1.25rem);
