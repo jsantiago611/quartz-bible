@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       typography: {
         header: "soehne",
         body: "untitledserif",
-        code: "soehnemono",
+        code: "SoehneMono",
       },
       colors: {
         lightMode: {
