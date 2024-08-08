@@ -349,3 +349,24 @@ button#explorer h1 {
     pointer-events: all;
     font-weight: 400;
 }
+
+.page>#quartz-body .sidebar {
+    box-sizing: border-box;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    width: 358px;
+    margin-top: 6rem;
+    padding: 0 4rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+.page .center, .page footer {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--highlight);
+    padding: 0 var(--space-s-m);
+}
