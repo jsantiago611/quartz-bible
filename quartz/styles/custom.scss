@@ -323,3 +323,20 @@ blockquote {
 .graph > .graph-outer {
     border-radius: 1ch;
 }
+
+.graph>h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-family: var(--codeFont);
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+button#explorer h1 {
+    margin: 0;
+    font-size: 1rem;
+    display: inline-block;
+    font-family: var(--codeFont);
+    font-weight: 100;
+    text-transform: uppercase;
+}
