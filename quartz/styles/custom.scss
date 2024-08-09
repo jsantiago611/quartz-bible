@@ -1,6 +1,78 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+@font-face {
+		font-family: 'HeldaneDisplay';
+		src: url('/static/HeldaneDisplayWeb-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'HeldaneDisplay';
+		src: url('/static/HeldaneDisplayWeb-RegularItalic.woff') format('woff');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'HeldaneText';
+		src: url('/static/HeldaneTextWeb-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'HeldaneText';
+		src: url('/static/HeldaneTextWeb-RegularItalic.woff') format('woff');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'FoundersCondensed';
+		src: url('/static/FoundersGroteskCondensedWeb-Bold.woff') format('woff');
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'FoundersMono';
+		src: url('/static/FoundersGroteskMonoWeb-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'FoundersMono';
+		src: url('/static/FoundersGroteskMonoWeb-Bold.woff') format('woff');
+		font-style: normal;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'FoundersText';
+		src: url('/static/FoundersGroteskTextWeb-Medium.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
 @font-face {
 		font-family: 'Calibre';
 		src: url('/static/CalibreWeb-Thin.woff') format('woff');
