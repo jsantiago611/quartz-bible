@@ -69,6 +69,16 @@
 		font-weight: 100;
 	  }
 
+@font-face {
+		font-family: 'SoehneMono';
+		src: url('/static/soehne-mono-buch.woff2') format('woff2');
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+		font-weight: 400;
+	  }
+
 	@font-face {
 		font-family: 'SoehneMono';
 		src: url('/static/soehne-mono-extrafett.woff2') format('woff2');
@@ -381,7 +391,7 @@ blockquote {
     font-size: 1rem;
     font-family: var(--codeFont);
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 button#explorer h1 {
@@ -389,7 +399,7 @@ button#explorer h1 {
     font-size: 1rem;
     display: inline-block;
     font-family: var(--codeFont);
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
