@@ -400,6 +400,7 @@ h2 {
     margin-bottom: 1rem;
     font-weight: 500;
     font-size: var(--size-step-2);
+    color: var(--darkgray);
 }
 
 h4, h5, h6 {
@@ -410,9 +411,10 @@ h4, h5, h6 {
 #toc-content ul>li>a {
     color: var(--dark);
     opacity: .35;
-    transition: opacity .5s, color .3s;
     font-weight: 400;
-    font-family: var(--headerFont);
+    font-family: var(--codeFont);
+    transition: opacity .5s, color .3s;
+    letter-spacing: -0.02ch;
 }
 
 
