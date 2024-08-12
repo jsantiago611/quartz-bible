@@ -292,15 +292,15 @@
 
 
 :root {
---step--2: clamp(0.8247rem, 0.7329rem + 0.4588vw, 1.12rem);
---step--1: clamp(0.9896rem, 0.8621rem + 0.6375vw, 1.4rem);
---step-0: clamp(1.1875rem, 1.0127rem + 0.8738vw, 1.75rem);
---step-1: clamp(1.425rem, 1.1881rem + 1.1845vw, 2.1875rem);
---step-2: clamp(1.71rem, 1.3917rem + 1.5913vw, 2.7344rem);
---step-3: clamp(2.052rem, 1.6276rem + 2.1219vw, 3.418rem);
---step-4: clamp(2.4624rem, 1.9001rem + 2.8117vw, 4.2725rem);
---step-5: clamp(2.9549rem, 2.2137rem + 3.7059vw, 5.3406rem);
---step-6: clamp(3.5459rem, 2.5735rem + 4.8619vw, 6.6757rem);
+--size-step--2: clamp(0.8247rem, 0.7329rem + 0.4588vw, 1.12rem);
+--size-step--1: clamp(0.9896rem, 0.8621rem + 0.6375vw, 1.4rem);
+--size-step-0: clamp(1.1875rem, 1.0127rem + 0.8738vw, 1.75rem);
+--size-step-1: clamp(1.425rem, 1.1881rem + 1.1845vw, 2.1875rem);
+--size-step-2: clamp(1.71rem, 1.3917rem + 1.5913vw, 2.7344rem);
+--size-step-3: clamp(2.052rem, 1.6276rem + 2.1219vw, 3.418rem);
+--size-step-4: clamp(2.4624rem, 1.9001rem + 2.8117vw, 4.2725rem);
+--size-step-5: clamp(2.9549rem, 2.2137rem + 3.7059vw, 5.3406rem);
+--size-step-6: clamp(3.5459rem, 2.5735rem + 4.8619vw, 6.6757rem);
 --space-xs: clamp(0.3125rem,0.27rem + 0.19vw,0.4375rem);
 --space-s: clamp(0.625rem,0.55rem + 0.38vw,0.875rem);
 --space-m: clamp(0.875rem,0.74rem + 0.67vw,1.3125rem);
