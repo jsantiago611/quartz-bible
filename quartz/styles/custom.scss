@@ -429,13 +429,6 @@ blockquote {
     font-weight: 700 !important;
 }
 
-.callout[data-callout] {
-    --color: #0058fe;
-    --border: #0058fe;
-    --bg: transparent;
-    --callout-icon: var(--callout-icon-note);
-}
-
 .callout {
   &[data-callout="scroll"] {
     --color: var(--secondary);
@@ -470,21 +463,6 @@ blockquote {
     --bg: var(--light);
     --callout-icon-trust: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-castle"><path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"/><path d="M18 11V4H6v7"/><path d="M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4"/><path d="M22 11V9"/><path d="M2 11V9"/><path d="M6 4V2"/><path d="M18 4V2"/><path d="M10 4V2"/><path d="M14 4V2"/></svg>');
   }
-}
-
-.callout {
-    border: 1px solid var(--border);
-    background-color: var(--bg);
-    box-sizing: border-box;
-    border-radius: 0px;
-    padding: 0 1rem;
-    transition: max-height .3s;
-    overflow-y: hidden;
-}
-
-.callout-title .callout-title-inner {
-    font-weight: 400;
-    font-size: var(--size-step-1);
 }
 
 .graph > .graph-outer {
