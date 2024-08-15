@@ -322,7 +322,7 @@
 	font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    letter-spacing: -.06ch;
+    letter-spacing: -.07ch;
     font-weight: 400;
     line-height: 1;
 }
@@ -340,6 +340,7 @@
     color: var(--gray);
     font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
+	font-size: var(--size-step--2);
 }
 
 button#toc h3 {
@@ -498,4 +499,30 @@ a {
  font-weight: 400;
     text-decoration: none;
     transition: color .2s;
+}
+
+a.internal.tag-link {
+    background-color: transparent;
+    border-radius: 1px;
+    margin: 0 .1rem;
+    padding: .2rem .4rem;
+    font-style: italic;
+    font-size: var(--size-step--2);
+}
+
+h2 {
+    font-weight: 500;
+    font-size: var(--size-step-2);
+    color: var(--darkgray);
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.07ch;
+}
+
+a.internal {
+    /* background-color: var(--highlight); */
+    border-radius: 5px;
+    padding: 0 .1rem;
+    line-height: 1.4rem;
+    text-decoration: none;
 }
