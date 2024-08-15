@@ -319,13 +319,12 @@
 
 
 .article-title {
-    font-size: var(--size-step-5);
+	font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    //font-family: heldanedisplay;
+    letter-spacing: -.06ch;
     font-weight: 400;
     line-height: 1;
-    letter-spacing: -.03ch;
 }
 
 .page-title {
@@ -340,7 +339,6 @@
 .content-meta {
     color: var(--gray);
     font-family: var(--codeFont);
-    text-transform: uppercase;
     margin-top: var(--space-xs-s);
 }
 
@@ -350,7 +348,7 @@ button#toc h3 {
     display: inline-block;
     font-family: var(--codeFont);
     font-weight: 100;
-    text-transform: uppercase;
+	    font-style: italic;
 }
 
 .tags {
