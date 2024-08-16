@@ -328,12 +328,12 @@
 }
 
 .page-title {
-    font-size: var(--size-step-0);
+    font-size: var(--size-step--1);
     margin: 0;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
     //font-family: 'HeldaneText';
-    font-style: italic;
-    font-feature-settings: 'ss10';
+    //font-style: italic;
+    //font-feature-settings: 'ss10';
 }
 
 .content-meta {
@@ -383,7 +383,7 @@ button#toc h3 {
     background-color: transparent;
     cursor: pointer;
     white-space: nowrap;
-    border-radius: 1ch;
+    border-radius: 0px;
     align-items: center;
     height: 2rem;
     display: flex;
@@ -469,7 +469,7 @@ blockquote {
 }
 
 .graph > .graph-outer {
-    border-radius: 1ch;
+    border-radius: 0px;
 }
 
 .graph>h3 {
