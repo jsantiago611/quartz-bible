@@ -433,13 +433,6 @@ blockquote {
     font-weight: 400;
 }
 
-.callout[data-callout] {
-    --color: #0058fe;
-    --border: #0058fe;
-    --bg: transparent;
-    --callout-icon: var(--callout-icon-note);
-}
-
 .callout {
   &[data-callout="scroll"] {
     --color: var(--secondary);
