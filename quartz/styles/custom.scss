@@ -340,7 +340,8 @@
     color: var(--gray);
     font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
-	font-size: var(--size-step--2);
+    font-size: var(--size-step--2);
+    margin-bottom: var(--space-xs);
 }
 
 button#toc h3 {
