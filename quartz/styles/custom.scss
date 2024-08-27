@@ -3,9 +3,19 @@
 // put your custom CSS here!
 
 @font-face {
-		font-family: 'HeldaneDisplay';
-		src: url('/static/HeldaneDisplayWeb-Regular.woff') format('woff');
+		font-family: 'Editorial';
+		src: url('/static/editorial-reg.woff') format('woff');
 		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'Editorial';
+		src: url('/static/editorial-italic.woff') format('woff');
+		font-style: italic;
 		font-weight: 400;
 		font-stretch: normal;
 		font-display: swap;
