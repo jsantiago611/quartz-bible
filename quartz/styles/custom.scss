@@ -3,6 +3,26 @@
 // put your custom CSS here!
 
 @font-face {
+		font-family: 'TheFuture';
+		src: url('/static/the-future-regular.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'TheFuture';
+		src: url('/static/the-future-medium.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
 		font-family: 'Editorial';
 		src: url('/static/editorial-reg.woff') format('woff');
 		font-style: normal;
