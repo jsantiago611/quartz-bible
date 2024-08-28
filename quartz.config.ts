@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The Gospel Changes Everything",
+    pageTitle: "CYOA Pilgrim's Progress",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
