@@ -349,12 +349,13 @@
 
 
 .article-title {
-	font-size: var(--size-step-5);
+    font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    letter-spacing: -.07ch;
+    letter-spacing: -.03ch;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.1;
+    font-family: salter;
 }
 
 .page-title {
