@@ -576,16 +576,18 @@ h2 {
 }
 
 a.internal {
-    border-radius: 0px;
+background-color: #0000;
+    border-radius: 0;
     padding: 0 .1rem;
     line-height: 1.2;
     text-decoration: none;
-    box-shadow: inset 0 -0.2em #e5ddd0;
-	background-color: transparent;
+    box-shadow: inset 0 -1px var(--highlight);
+    background-color: transparent;
 }
 
 a.internal:hover {
-    box-shadow: inset 0 -0.2em var(--highlight);
+    box-shadow: inset 0 -.35em var(--highlight);
+    color: var(--dark) !important;
 }
 
 
