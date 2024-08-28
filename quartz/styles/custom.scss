@@ -369,13 +369,14 @@
 
 
 .article-title {
-font-size: var(--size-step-6);
+    font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
     letter-spacing: -.03ch;
-    font-family: salter;
+    font-family: var(--headerFont);
     font-weight: 400;
-    line-height: 1.1;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 .page-title {
@@ -401,7 +402,6 @@ button#toc h3 {
     display: inline-block;
     font-family: var(--codeFont);
     font-weight: 100;
-	    font-style: italic;
 }
 
 .tags {
@@ -452,10 +452,9 @@ h2 {
     font-weight: 500;
     font-size: var(--size-step-2);
     color: var(--darkgray);
-    /* letter-spacing: -.07ch; */
+    letter-spacing: -.07ch;
     margin-top: 1.9rem;
     margin-bottom: 1rem;
-    font-family: salter;
     font-style: italic;
 }
 
