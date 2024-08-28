@@ -3,6 +3,26 @@
 // put your custom CSS here!
 
 @font-face {
+		font-family: 'SharpRoman';
+		src: url('/static/SharpRomanReg.woff2') format('woff2');
+		font-style: normal;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'SharpRoman';
+		src: url('/static/SharpRomanItalic.woff2') format('woff2');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
 		font-family: 'TheFuture';
 		src: url('/static/the-future-regular.woff2') format('woff2');
 		font-style: normal;
