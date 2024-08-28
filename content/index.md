@@ -1,17 +1,17 @@
 ---
-title: A Digital Study Bible with notes from Tim Keller's Sermons
+title: Welcome to your Pilgrim's Journey
 ---
 ## Welcome
-This is part digital garden, part New Testament study Bible, inspired by the sermons of the late Timothy Keller. This interactive Study Bible and note catalog offers a collection of notes, prayers, quotes from Keller's sermons, covering a variety of practical and spiritual topics. Every note aims to show how the gospel changes everything. 
+Welcome, fellow traveler! I’m Jonathan, your guide on this spiritual adventure inspired by The Pilgrim’s Progress. Embark on a transformative journey through the timeless allegory of The Pilgrim’s Progress, reimagined for today in this Choose-your-own-Adventure format. Together, we’ll explore ancient truths and modern reflections, finding parallels between Christian’s journey and our own life paths. (Read the original
 
 ## Navigation
 There will be several ways to navigate this site. 
-2. Click/tap on a Bible book to start exploring notes like you would a physical study Bible. 
-3. Use the search bar at the top of this page to search for a topic, scripture reference, sermon title, quoted author, etc. 
-4. Click/tap on tags/hashtags to explore more notes on the same topic.
+1. Choose a path below to begin your journey.
+2. Use the search bar at the top of this page to explore locations / topics.
+3. Click/tap on tags to explore more notes on the same topic
+4. Click/tap on the "Backlinks" to discover other pathways. 
 
-## Books of the New Testament
-
-| [[The Gospel of Matthew]] |
-| ------------------------- |
-|                           |
+## Choose your Path
+- [[City of Destruction]]: Feeling lost? Start here.
+- [[Wicket Gate]]: Ready for a change? Begin your transformation.
+- [[Hill of Difficulty]]: Facing challenges? Let’s climb together.
