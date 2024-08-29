@@ -6,8 +6,8 @@ Tim Keller, a renowned pastor and theologian, has spent decades delivering profo
 
 ## Navigation
 There will be several ways to navigate this site. 
-1. Choose a path below to begin your journey.
-2. Use the search bar at the top of this page to explore locations / topics.
+1. Choose a bible book below to begin your journey.
+2. Use the search bar at the top of this page to explore topics.
 3. Click/tap on tags to explore more notes on the same topic
 4. Click/tap on the "Backlinks" to discover other pathways. 
 
