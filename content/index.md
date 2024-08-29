@@ -1,8 +1,8 @@
 ---
-title: Welcome to your Pilgrim's Journey
+title: Welcome to the Keller Classic Commentary
 ---
 ## Welcome
-Welcome, fellow traveler! I’m Jonathan, your guide on this spiritual adventure inspired by The Pilgrim’s Progress. Embark on a transformative journey through the timeless allegory of The Pilgrim’s Progress, reimagined for today in this Choose-your-own-Adventure format. Together, we’ll explore ancient truths and modern reflections, finding parallels between Christian’s journey and our own life paths. (Read the original
+Tim Keller, a renowned pastor and theologian, has spent decades delivering profound insights into the teachings of the Bible. His sermons blend scholarly research with practical application, making complex biblical concepts relatable and relevant to everyday life.Here, you will find a curated collection of Keller’s sermons, organized by themes and books of the Bible. Each commentary provides a detailed analysis, drawing out key lessons and theological insights, while also offering practical guidance for personal growth and application.
 
 ## Navigation
 There will be several ways to navigate this site. 
@@ -11,7 +11,5 @@ There will be several ways to navigate this site.
 3. Click/tap on tags to explore more notes on the same topic
 4. Click/tap on the "Backlinks" to discover other pathways. 
 
-## Choose your Path
-- [[City of Destruction]]: Feeling lost? Start here.
-- [[Wicket Gate]]: Ready for a change? Begin your transformation.
-- [[Hill of Difficulty]]: Facing challenges? Let’s climb together.
+## Table of Contents
+- [[Matthew]]
