@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "CYOA Pilgrim's Progress",
+    pageTitle: "Keller Commentary",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -32,7 +32,7 @@ const config: QuartzConfig = {
           highlight: "#69e261",
         },
         darkMode: {
-          light: "#344430",
+          light: "#212b1e",
           lightgray: "#d8e3d5",
           gray: "#f8f2e8",
           darkgray: "#f5f1e8",
