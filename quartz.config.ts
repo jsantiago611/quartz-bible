@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Keller Commentary",
+    pageTitle: "Keller Study Bible",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -28,7 +28,7 @@ const config: QuartzConfig = {
           darkgray: "#3d3c3b",
           dark: "#344430",
           secondary: "#344430",
-          tertiary: "#d8e3d5",
+          tertiary: "#e57928",
           highlight: "#69e261",
         },
         darkMode: {
