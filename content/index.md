@@ -1,8 +1,8 @@
 ---
-title: Study the Bible with Tim Keller
+title: Navigate Life with God's Wisdom
 ---
 ## Welcome
-Tim Keller, a renowned pastor and theologian, has spent decades delivering profound insights into the teachings of the Bible. His sermons blend scholarly research with practical application, making complex biblical concepts relatable and relevant to everyday life. Here, you will find a curated collection of Keller’s sermons, organized by themes and books of the Bible. Each commentary provides a detailed analysis, drawing out key lessons and theological insights, while also offering practical guidance for personal growth and application.
+This is a digital catalog on Biblical Wisdom. This "Digital Garden", or "Zettelkasten" uses Tim Keller's devotional book "God's Wisdom for Navigating Life" as an organizational framework to collect ideas and notes from Protestant Christian sermons, book, and talks. 
 
 ## Navigation
 There will be several ways to navigate this site.
@@ -11,5 +11,37 @@ There will be several ways to navigate this site.
 3. Click/tap on tags to explore more notes on the same topic
 4. Click/tap on the "Backlinks" to discover other pathways.
 
-## Table of Contents
-- [[Matthew]]
+## Topical Table of Contents
+1. Knowing Wisdom
+	1. What is wisdom?
+	2. What is foolishness?
+	3. How do we become wise?
+	4. The case for wisdom
+2. Knowing God
+	1. The fear of the Lord
+	2. God's order perceived
+	3. God's order disrupted
+	4. God's order hidden
+3. Knowing the Heart
+	1. Understanding the heart
+	2. Reordering Desires
+	3. Understanding temptation
+	4. Understanding Emotion
+	5. The Seven Deadly Sins
+4. Knowing Others
+	1. Friendship
+	2. Words
+	3. Gossip
+	4. Listening
+	5. Conflicts
+5. Knowing the times and Seasons
+	1. [[Guidance, planning, and decision making]]
+	2. Insights for our age
+6. Knowing the Spheres
+	1. Marriage
+	2. Parenting
+	3. Money
+	4. Work
+	5. Power
+	6. Justice
+7. Knowing Jesus, the true wisdom of God
