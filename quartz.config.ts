@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The Gospel Changes Everything",
+    pageTitle: "Keller Study Bible",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,30 +16,30 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Martina",
-        body: "Martina",
-        code: "IBM Plex Mono",
+        header: "SharpRoman",
+        body: "martina",
+        code: "martina",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#000",
-          secondary: "#946e24",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#f5f1e8",
+          lightgray: "#ddd4c4",
+          gray: "#54514e",
+          darkgray: "#3d3c3b",
+          dark: "#344430",
+          secondary: "#344430",
+          tertiary: "#e57928",
+          highlight: "#69e261",
         },
         darkMode: {
-          light: "#1c1c1c",
-          lightgray: "#80746b",
-          gray: "#939393",
-          darkgray: "#eeeeee",
-          dark: "#ffffff",
-          secondary: "#eebd57",
-          tertiary: "#84a59d",
-          highlight: "rgba(245, 243, 239, 0.1)",
+          light: "#212b1e",
+          lightgray: "#d8e3d5",
+          gray: "#f8f2e8",
+          darkgray: "#f5f1e8",
+          dark: "#f5f1e8",
+          secondary: "#69e261",
+          tertiary: "#fe4f00",
+          highlight: "#344430",
         },
       },
     },
