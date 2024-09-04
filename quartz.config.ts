@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       typography: {
         header: "SharpRoman",
         body: "martina",
-        code: "martina",
+        code: "Soehne",
       },
       colors: {
         lightMode: {
