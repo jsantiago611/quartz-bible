@@ -399,10 +399,10 @@
 
 button#toc h3 {
     margin: 0;
-    font-size: var(--size-step--1);
+    font-size: var(--size-step--2);
     display: inline-block;
     font-family: var(--codeFont);
-    font-weight: 600;
+    // font-weight: 600;
 }
 
 .tags {
@@ -417,7 +417,7 @@ button#toc h3 {
 
 .backlinks>h3 {
     margin: 0;
-    font-size: var(--size-step--1);
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
 }
 
@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6, thead {
 
 h2 {
     font-weight: 500;
-    font-size: var(--size-step-2);
+    font-size: var(--size-step-3);
     color: var(--darkgray);
     letter-spacing: -.07ch;
     margin-top: 1.9rem;
@@ -526,7 +526,7 @@ blockquote {
 
 .graph>h3 {
     margin: 0;
-    font-size: var(--size-step--1);
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
 }
 
