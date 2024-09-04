@@ -394,6 +394,7 @@
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--2);
     margin-bottom: var(--space-xs);
+    font-weight: 700;
 }
 
 button#toc h3 {
@@ -401,7 +402,7 @@ button#toc h3 {
     font-size: 1rem;
     display: inline-block;
     font-family: var(--codeFont);
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .tags {
@@ -418,8 +419,6 @@ button#toc h3 {
     margin: 0;
     font-size: 1rem;
     font-family: var(--codeFont);
-    font-weight: 100;
-    text-transform: uppercase;
 }
 
 
@@ -529,8 +528,6 @@ blockquote {
     margin: 0;
     font-size: 1rem;
     font-family: var(--codeFont);
-    text-transform: uppercase;
-    font-weight: 400;
 }
 
 button#explorer h1 {
@@ -538,8 +535,7 @@ button#explorer h1 {
     font-size: 1rem;
     display: inline-block;
     font-family: var(--codeFont);
-    font-weight: 400;
-    text-transform: uppercase;
+    //text-transform: uppercase;
 }
 
 #explorer-content ul li>a {
