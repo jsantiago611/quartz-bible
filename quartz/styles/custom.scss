@@ -629,6 +629,11 @@ body, section {
     line-height: 1 !important;
 }
 
+.backlinks {
+    position: relative;
+    font-size: var(--size-step--2);
+}
+
 .breadcrumb-container {
     flex-flow: wrap;
     gap: .5rem;
@@ -653,4 +658,9 @@ font-size: var(--size-step-0);
 li.section-li>.section>.meta {
 	    font-family: var(--codeFont);
     font-size: var(--size-step--1);
+}
+
+footer {
+    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
 }
