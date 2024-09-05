@@ -447,13 +447,13 @@
 }
 
 .page-title {
-    font-size: var(--size-step-4);
+font-size: var(--size-step-2);
+    /* text-transform: uppercase; */
+    letter-spacing: .04ch;
     margin: 0;
+    font-family: respira;
+    line-height: 3rem;
     font-weight: 400 !important;
-    font-family: Manuka;
-    text-transform: uppercase;
-    letter-spacing: .11ch;
-    line-height: 3.5rem;
 }
 
 .content-meta {
