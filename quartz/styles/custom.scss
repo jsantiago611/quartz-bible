@@ -644,3 +644,12 @@ body, section {
     padding-left: 0;
     line-height: 1;
 }
+
+h3 {
+font-size: var(--size-step-0);
+}
+
+li.section-li>.section>.meta {
+	    font-family: var(--codeFont);
+    font-size: var(--size-step--1);
+}
