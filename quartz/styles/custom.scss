@@ -441,18 +441,19 @@
     margin-top: var(--space-2xl);
     letter-spacing: -.03ch;
     font-family: var(--headerFont);
+    /* text-transform: uppercase; */
     font-weight: 400;
     line-height: 1;
-    text-transform: uppercase;
 }
 
 .page-title {
-    font-size: var(--size-step--1);
+    font-size: var(--size-step-4);
     margin: 0;
-    font-weight: 700 !important;
-    //font-family: 'HeldaneText';
-    //font-style: italic;
-    //font-feature-settings: 'ss10';
+    font-weight: 400 !important;
+    font-family: Manuka;
+    text-transform: uppercase;
+    letter-spacing: .09ch;
+    line-height: 3.5rem;
 }
 
 .content-meta {
