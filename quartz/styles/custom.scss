@@ -3,6 +3,44 @@
 // New combo
 
 @font-face {
+		font-family: 'Untitled Serif';
+		src: url('/static/untitled-serif-regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Serif';
+		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Sans';
+		src: url('/static/untitled-sans-regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Sans';
+		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+
+@font-face {
 		font-family: 'Soehne Dreiviertelfett';
 		src: url('/static/SohneWeb-Dreiviertelfett.woff2') format('woff2');
 		font-weight: 400;
