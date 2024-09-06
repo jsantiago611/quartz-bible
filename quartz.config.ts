@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Heldane Text",
         body: "Heldane Text",
-        code: "Founders",
+        code: "FoundersText",
       },
       colors: {
         lightMode: {
