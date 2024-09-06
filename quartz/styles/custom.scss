@@ -634,7 +634,7 @@ blockquote {
 
 button#explorer h1 {
     font-size: var(--size-step--2);
-    font-family: 'Soehne Dreiviertelfett';
+    font-family: var(--headerFont);
     margin: 0;
     display: inline-block;
     text-transform: uppercase;
