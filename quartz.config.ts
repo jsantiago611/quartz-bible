@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Heldane Text",
-        body: "Heldane Text",
-        code: "FoundersText",
+        header: "Untitled Serif",
+        body: "Untitled Serif",
+        code: "Untitled Sans",
       },
       colors: {
         lightMode: {
