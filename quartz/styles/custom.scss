@@ -474,7 +474,7 @@
 
 
 .article-title {
-    font-size: var(--size-step-6);
+    font-size: var(--size-step-3);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
     letter-spacing: -.05ch;
@@ -633,12 +633,14 @@ blockquote {
 }
 
 button#explorer h1 {
-    font-size: var(--size-step--2);
-    font-family: var(--headerFont);
+font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+    /* text-transform: uppercase; */
+    /* letter-spacing: .15ch; */
     margin: 0;
     display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 0.15ch;
+    font-weight: 400;
+    // font-style: italic;
 }
 
 #explorer-content ul li>a {
@@ -736,7 +738,7 @@ body, section {
 
 .breadcrumb-container {
     font-size: var(--size-step--2);
-    font-family: soehne Dreiviertelfett;
+    font-family: var(--codeFont);
     border-bottom: 1px solid var(--lightgray);
     padding: 0;
     padding-bottom: var(--space-s-m);
@@ -744,8 +746,8 @@ body, section {
     gap: .5rem;
     margin: .75rem 0 0;
     display: flex;
-    text-transform: uppercase;
-    letter-spacing: .15ch;
+    // text-transform: uppercase;
+    // letter-spacing: .15ch;
 }
 
 #toc-content .depth-0 {
