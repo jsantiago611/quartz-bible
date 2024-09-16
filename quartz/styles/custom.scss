@@ -536,14 +536,15 @@ button#toc h3 {
 }
 
 .search>#search-icon {
-    background-color: transparent;
     cursor: pointer;
     white-space: nowrap;
-    border-radius: 0px;
+    border: 1px solid var(--lightgray);
+    background-color: #0000;
+    border-radius: 0;
     align-items: center;
     height: 2rem;
     display: flex;
-    border: 1px solid var(--gray);
+    border-radius: 1rem;
 }
 
 /*
@@ -766,4 +767,8 @@ li.section-li>.section>.meta {
 footer {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+}
+
+.graph>.graph-outer {
+    border-radius: 1rem;
 }
