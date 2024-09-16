@@ -1,0 +1,5 @@
+1. Friendship
+2. Words
+3. Gossip
+4. Listening
+5. Conflicts

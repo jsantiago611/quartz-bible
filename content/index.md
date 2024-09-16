@@ -12,36 +12,10 @@ There will be several ways to navigate this site.
 4. Click/tap on the "Backlinks" to discover other pathways.
 
 ## Topical Table of Contents
-1. Knowing Wisdom
-	1. What is wisdom?
-	2. What is foolishness?
-	3. How do we become wise?
-	4. The case for wisdom
-2. Knowing God
-	1. The fear of the Lord
-	2. God's order perceived
-	3. God's order disrupted
-	4. God's order hidden
-3. Knowing the Heart
-	1. Understanding the heart
-	2. Reordering Desires
-	3. Understanding temptation
-	4. Understanding Emotion
-	5. The Seven Deadly Sins
-4. Knowing Others
-	1. Friendship
-	2. Words
-	3. Gossip
-	4. Listening
-	5. Conflicts
-5. Knowing the times and Seasons
-	1. [[Guidance, planning, and decision making]]
-	2. Insights for our age
-6. Knowing the Spheres
-	1. Marriage
-	2. Parenting
-	3. Money
-	4. Work
-	5. Power
-	6. Justice
-7. Knowing Jesus, the true wisdom of God
+1. [[Knowing Wisdom]]
+2. [[Knowing God]]
+3. [[Knowing the Heart]]
+4. [[Knowing Others]]
+5. [[Knowing the times and seasons]]
+6. [[Knowing the Spheres]]
+7. [[Knowing Jesus, the true wisdom of God]]

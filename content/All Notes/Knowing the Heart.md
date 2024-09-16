@@ -1,0 +1,5 @@
+1. Understanding the heart
+2. Reordering Desires
+3. Understanding temptation
+4. Understanding Emotion
+5. The Seven Deadly Sins
