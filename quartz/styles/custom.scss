@@ -1,8 +1,113 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// New combo
 
 @font-face {
+		font-family: 'Untitled Serif';
+		src: url('/static/untitled-serif-regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Serif';
+		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Sans';
+		src: url('/static/untitled-sans-regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Untitled Sans';
+		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+
+@font-face {
+		font-family: 'Soehne Dreiviertelfett';
+		src: url('/static/SohneWeb-Dreiviertelfett.woff2') format('woff2');
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'Manuka';
+		src: url('/static/ManukaCondensedWeb-Ultra.woff2') format('woff2');
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Manuka';
+		src: url('/static/ManukaCondensedWeb-Black.woff2') format('woff2');
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Heldane Text';
+		src: url('/static/HeldaneTextWeb-Regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'Heldane Text';
+		src: url('/static/HeldaneTextWeb-RegularItalic.woff2') format('woff2');
+		font-style: italic;
+		font-weight: 400;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'Heldane Text';
+		src: url('/static/HeldaneTextWeb-Bold.woff2') format('woff2');
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
+		font-family: 'Heldane Text';
+		src: url('/static/HeldaneTextWeb-BoldItalic.woff2') format('woff2');
+		font-style: italic;
+		font-weight: 700;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+// ending new combo
+
+	@font-face {
 		font-family: 'SharpRoman';
 		src: url('/static/SharpRomanReg.woff2') format('woff2');
 		font-style: italic;
@@ -12,7 +117,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'SharpRoman';
 		src: url('/static/SharpRomanItalic.woff2') format('woff2');
 		font-style: normal;
@@ -22,7 +127,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'TheFuture';
 		src: url('/static/the-future-regular.woff2') format('woff2');
 		font-style: normal;
@@ -32,7 +137,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'TheFuture';
 		src: url('/static/the-future-medium.woff2') format('woff2');
 		font-style: normal;
@@ -42,7 +147,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'Editorial';
 		src: url('/static/editorial-reg.woff') format('woff');
 		font-style: normal;
@@ -52,7 +157,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'Editorial';
 		src: url('/static/editorial-italic.woff') format('woff');
 		font-style: italic;
@@ -61,7 +166,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'HeldaneDisplay';
 		src: url('/static/HeldaneDisplayWeb-RegularItalic.woff') format('woff');
 		font-style: italic;
@@ -70,7 +175,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'HeldaneText';
 		src: url('/static/HeldaneTextWeb-Regular.woff') format('woff');
 		font-style: normal;
@@ -79,7 +184,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'HeldaneText';
 		src: url('/static/HeldaneTextWeb-RegularItalic.woff') format('woff');
 		font-style: italic;
@@ -88,14 +193,14 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'FoundersCondensed';
 		src: url('/static/FoundersGroteskCondensedWeb-Bold.woff') format('woff');
 		font-stretch: normal;
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'FoundersMono';
 		src: url('/static/FoundersGroteskMonoWeb-Regular.woff') format('woff');
 		font-style: normal;
@@ -104,7 +209,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'FoundersMono';
 		src: url('/static/FoundersGroteskMonoWeb-Bold.woff') format('woff');
 		font-style: normal;
@@ -113,7 +218,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-@font-face {
+	@font-face {
 		font-family: 'FoundersText';
 		src: url('/static/FoundersGroteskTextWeb-Medium.woff') format('woff');
 		font-style: normal;
@@ -123,7 +228,7 @@
 		text-rendering: optimizeSpeed;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'Calibre';
 		src: url('/static/CalibreWeb-Thin.woff') format('woff');
 		font-style: normal;
@@ -191,7 +296,7 @@
 		font-weight: 100;
 	  }
 
-@font-face {
+	@font-face {
 		font-family: 'SoehneMono';
 		src: url('/static/soehne-mono-web-buch.woff2') format('woff2');
 		font-style: normal;
@@ -211,134 +316,134 @@
 		font-weight: 700;
 	  }
 
-@font-face {
-		font-family: 'UntitledSerif';
-		src: url('/static/untitled-serif-web-regular.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-		font-weight: 400;
-	  }
+	@font-face {
+			font-family: 'UntitledSerif';
+			src: url('/static/untitled-serif-web-regular.woff2') format('woff2');
+			font-style: normal;
+			font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
+			font-weight: 400;
+		  }
 
-@font-face {
-		font-family: 'UntitledSerif';
-		src: url('/static/untitled-serif-web-bold.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-		font-weight: 700;
-	  }
+	@font-face {
+			font-family: 'UntitledSerif';
+			src: url('/static/untitled-serif-web-bold.woff2') format('woff2');
+			font-style: normal;
+			font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
+			font-weight: 700;
+		  }
 
-@font-face {
-    font-family: "Salter";
-    src: url("/static/Salter-Roman.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Salter";
-    src: url("/static/Salter-Italic.woff") format("woff");
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Earth";
-    src: url("/static/SharpEarthOLPE-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Earth";
-    src: url("/static/SharpEarthOLPE-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Earth";
-    src: url("/static/SharpEarthOLPE-BoldItl.woff2") format("woff2");
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Serif";
-    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Serif";
-    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2") format("woff2");
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Serif";
-    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Martina";
-    src: url("/static/MartinaPlantijn-Black.woff") format("woff");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Martina";
-    src: url("/static/MartinaPlantijn-BlackItalic.woff") format("woff2");
-    font-weight: 700;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: "Martina";
-    src: url("/static/MartinaPlantijn-LightItalic.woff") format("woff");
-    font-weight: 400;
-    font-style: italic;
-}
-
-
-@font-face {
-    font-family: "Martina";
-    src: url("/static/MartinaPlantijn-Light.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-
-@font-face {
-    font-family: "Respira";
-    src: url("/static/Respira-Black.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Soehne";
-    src: url("/static/soehne-buch.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    text-rendering: optimizeSpeed;
-}
-@font-face {
-    font-family: "Soehne";
-    src: url("/static/soehne-kraftig.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-    text-rendering: optimizeSpeed;
-}
+	@font-face {
+	    font-family: "Salter";
+	    src: url("/static/Salter-Roman.woff") format("woff");
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Salter";
+	    src: url("/static/Salter-Italic.woff") format("woff");
+	    font-weight: 400;
+	    font-style: italic;
+	}
+	
+	@font-face {
+	    font-family: "Earth";
+	    src: url("/static/SharpEarthOLPE-Regular.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Earth";
+	    src: url("/static/SharpEarthOLPE-Bold.woff2") format("woff2");
+	    font-weight: 700;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: "Earth";
+	    src: url("/static/SharpEarthOLPE-BoldItl.woff2") format("woff2");
+	    font-weight: 700;
+	    font-style: italic;
+	}
+	
+	@font-face {
+	    font-family: "Serif";
+	    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Serif";
+	    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: italic;
+	}
+	@font-face {
+	    font-family: "Serif";
+	    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2") format("woff2");
+	    font-weight: 700;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Martina";
+	    src: url("/static/MartinaPlantijn-Black.woff") format("woff");
+	    font-weight: 700;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Martina";
+	    src: url("/static/MartinaPlantijn-BlackItalic.woff") format("woff2");
+	    font-weight: 700;
+	    font-style: italic;
+	}
+	
+	@font-face {
+	    font-family: "Martina";
+	    src: url("/static/MartinaPlantijn-LightItalic.woff") format("woff");
+	    font-weight: 400;
+	    font-style: italic;
+	}
+	
+	
+	@font-face {
+	    font-family: "Martina";
+	    src: url("/static/MartinaPlantijn-Light.woff") format("woff");
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	
+	
+	
+	@font-face {
+	    font-family: "Respira";
+	    src: url("/static/Respira-Black.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	
+	@font-face {
+	    font-family: "Soehne";
+	    src: url("/static/soehne-buch.woff2") format("woff2");
+	    font-weight: 400;
+	    font-style: normal;
+	    font-display: swap;
+	    text-rendering: optimizeSpeed;
+	}
+	@font-face {
+	    font-family: "Soehne";
+	    src: url("/static/soehne-kraftig.woff2") format("woff2");
+	    font-weight: 700;
+	    font-style: normal;
+	    font-display: swap;
+	    text-rendering: optimizeSpeed;
+	}
 
 
 :root {
@@ -369,23 +474,23 @@
 
 
 .article-title {
-    font-size: var(--size-step-5);
+    font-size: var(--size-step-3);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    letter-spacing: -.03ch;
+    letter-spacing: -.05ch;
     font-family: var(--headerFont);
+    /* text-transform: uppercase; */
     font-weight: 400;
     line-height: 1;
-    text-transform: uppercase;
 }
 
 .page-title {
-    font-size: var(--size-step--1);
+    font-size: var(--size-step-1);
+    letter-spacing: -.04ch;
     margin: 0;
-    font-weight: 700 !important;
-    //font-family: 'HeldaneText';
-    //font-style: italic;
-    //font-feature-settings: 'ss10';
+    font-family: respira;
+    line-height: 3rem;
+    font-weight: 400 !important;
 }
 
 .content-meta {
@@ -394,14 +499,15 @@
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--2);
     margin-bottom: var(--space-xs);
+    //font-weight: 700;
 }
 
 button#toc h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: var(--size-step--2);
     display: inline-block;
     font-family: var(--codeFont);
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .tags {
@@ -416,10 +522,9 @@ button#toc h3 {
 
 .backlinks>h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    font-weight: 100;
-    text-transform: uppercase;
+	font-weight:400;
 }
 
 
@@ -450,12 +555,11 @@ h1, h2, h3, h4, h5, h6, thead {
 
 h2 {
     font-weight: 500;
-    font-size: var(--size-step-2);
+    font-size: var(--size-step-3);
     color: var(--darkgray);
     letter-spacing: -.07ch;
     margin-top: 1.9rem;
     margin-bottom: 1rem;
-    font-style: italic;
 }
 
 h4, h5, h6 {
@@ -470,16 +574,11 @@ h4, h5, h6 {
     font-family: var(--codeFont);
     transition: opacity .5s, color .3s;
     letter-spacing: -0.02ch;
+    font-size: var(--size-step--2);
 }
 
 blockquote {
     font-size: var(--size-step--1);
-}
-
-.page-title {
-    margin: 0;
-    font-size: var(--size-step-0);
-    font-weight: 700 !important;
 }
 
 .callout-title .callout-title-inner {
@@ -528,19 +627,20 @@ blockquote {
 
 .graph>h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    text-transform: uppercase;
-    font-weight: 400;
+	font-weight: 400;
 }
 
 button#explorer h1 {
-    margin: 0;
-    font-size: 1rem;
-    display: inline-block;
+font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    /* text-transform: uppercase; */
+    /* letter-spacing: .15ch; */
+    margin: 0;
+    display: inline-block;
     font-weight: 400;
-    text-transform: uppercase;
+    // font-style: italic;
 }
 
 #explorer-content ul li>a {
@@ -590,4 +690,81 @@ a.internal:hover {
     color: var(--dark) !important;
 }
 
+body, section {
+    font-size: var(--size-step--1);
+    line-height: 1.4;
+}
 
+.search>#search-icon>p {
+    padding: 0 1rem;
+    display: inline;
+    font-size: var(--size-step--2);
+}
+
+.folder-container div>button {
+    color: var(--dark);
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--codeFont);
+    background-color: #0000;
+    border: none;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    font-size: var(--size-step--2);
+}
+
+#explorer-content ul {
+    margin: .08rem 0;
+    padding: 0;
+    list-style: none;
+    transition: max-height .35s, transform .35s, opacity .2s;
+    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+}
+
+.backlinks>ul>li>a {
+    background-color: #0000;
+    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+    line-height: 1 !important;
+}
+
+.backlinks {
+    position: relative;
+    font-size: var(--size-step--2);
+}
+
+.breadcrumb-container {
+    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+    border-bottom: 1px solid var(--lightgray);
+    padding: 0;
+    padding-bottom: var(--space-s-m);
+    flex-flow: wrap;
+    gap: .5rem;
+    margin: .75rem 0 0;
+    display: flex;
+    // text-transform: uppercase;
+    // letter-spacing: .15ch;
+}
+
+#toc-content .depth-0 {
+    padding-left: 0;
+    line-height: 1;
+}
+
+h3 {
+font-size: var(--size-step-0);
+}
+
+li.section-li>.section>.meta {
+	    font-family: var(--codeFont);
+    font-size: var(--size-step--1);
+}
+
+footer {
+    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+}

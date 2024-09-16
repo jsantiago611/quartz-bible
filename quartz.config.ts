@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "SharpRoman",
-        body: "martina",
-        code: "martina",
+        header: "Untitled Serif",
+        body: "Untitled Serif",
+        code: "Untitled Sans",
       },
       colors: {
         lightMode: {
