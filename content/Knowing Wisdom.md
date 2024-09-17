@@ -12,7 +12,7 @@ There will be several ways to navigate this site.
 4. Click/tap on the "Backlinks" to discover other pathways.
 
 ## Topical Table of Contents
-1. [[Knowing Wisdom]]
+1. [[Knowing Wisdo[[]]m]]
 2. [[Knowing God]]
 3. [[Knowing the Heart]]
 4. [[Knowing Others]]

@@ -1,0 +1,12 @@
+- Understanding the Paradox
+- Be Righteous
+- Don't Rely on Pedigree
+- Get Experience
+- Don't Delay
+- Identify your Idols
+- Submit to his word
+- Be Teachable
+- Be Generous
+- Learn from Adversity
+- Do Justice
+- Just Get it.
