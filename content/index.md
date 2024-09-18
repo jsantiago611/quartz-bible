@@ -1,5 +1,5 @@
 ---
-title: Navigate Life with God's Wisdom
+title: Table of Contents
 ---
 ## Welcome
 This is a digital catalog on Biblical Wisdom. This "Digital Garden", or "Zettelkasten" uses Tim Keller's devotional book "God's Wisdom for Navigating Life" as an organizational framework to collect ideas and notes from Protestant Christian sermons, book, and talks. 

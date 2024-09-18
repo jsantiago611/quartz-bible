@@ -1,7 +1,7 @@
 - [[The opposite of wisdom]]
 - [[The Mocker]]
 - [[The Simple]]
-- [[The obstinate]]
+- [[The Obstinate]]
 - [[The troublemaker]]
 - [[The Sluggard]]
 - [[Trapping Yourself]]
