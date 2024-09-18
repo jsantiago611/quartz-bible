@@ -1,10 +1,10 @@
-- The opposite of wisdom
-- The Mocker
-- The Simple
-- The obstinate
-- The troublemaker
-- The Sluggard
-- Trapping Yourself
-- Absurdity
-- Complacency
-- Mocking the Mockers
+- [[The opposite of wisdom]]
+- [[The Mocker]]
+- [[The Simple]]
+- [[The obstinate]]
+- [[The troublemaker]]
+- [[The Sluggard]]
+- [[Trapping Yourself]]
+- [[Absurdity]]
+- [[Complacency]]
+- [[Mocking the Mockers]]
