@@ -569,11 +569,11 @@ button#toc h3 {
     border-radius: 1rem;
 }
 
-/*
+
 h1, h2, h3, h4, h5, h6, thead {
-    font-weight: 400;
+    font-feature-settings: "liga" on, "ss01", "dlig" off, "ss10", "kern";
 }
-*/
+
 
 h2 {
     font-weight: 500;
