@@ -484,11 +484,11 @@
 }
 
 .page-title {
-    font-size: var(--size-step-1);
+    font-size: var(--size-step-0);
     letter-spacing: -.04ch;
     margin: 0;
     font-family: respira;
-    line-height: 3rem;
+    line-height: 1.2;
     font-weight: 400 !important;
 }
 
@@ -534,7 +534,7 @@ button#toc h3 {
 .page .page-header {
     margin-bottom: var(--space-2xl);
     background: #2cf78924;
-    padding: 1rem;
+    padding: 1rem 0 1rem 1rem;
     border-radius: 1rem;
 }
 
