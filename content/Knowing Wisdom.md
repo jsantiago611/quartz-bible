@@ -5,4 +5,3 @@ title: Knowing Wisdom
 - [[What is foolishness]]
 - [[How do we become wise]]
 - [[The case for wisdom]]
-
