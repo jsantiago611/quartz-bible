@@ -496,21 +496,23 @@
     font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    letter-spacing: -.02ch;
-    font-family: var(--bodyFont);
+    letter-spacing: -.07ch;
+    font-family: "Earth";
+    color: var(--highlight);
+    /* font-style: italic; */
     font-weight: 400;
     line-height: 1.1;
-    color: var(--highlight);
-    font-style: italic;
+    /* text-transform: uppercase; */
 }
 
 .page-title {
-    font-size: var(--size-step--1);
+    font-size: var(--size-step-1);
     letter-spacing: -.04ch;
     margin: 0;
-    font-family: respira;
+    font-family: salter;
     line-height: 1.2;
     font-weight: 400 !important;
+    font-style: italic;
 }
 
 .content-meta {
