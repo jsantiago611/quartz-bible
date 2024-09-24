@@ -16,20 +16,20 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Martina",
-        body: "Martina",
+        header: "Earth",
+        body: "Serif",
         code: "Untitled Sans",
       },
       colors: {
         lightMode: {
-          light: "#ffffff",
-          lightgray: "#ddd4c4",
-          gray: "#54514e",
-          darkgray: "#3d3c3b",
-          dark: "#08391e",
-          secondary: "#344430",
+          light: "#fff",
+          lightgray: "#bdbdbd",
+          gray: "#5f5f5f",
+          darkgray: "#252525",
+          dark: "#000",
+          secondary: "#001eff",
           tertiary: "#eb620e",
-          highlight: "#08f372",
+          highlight: "#001eff",
         },
         darkMode: {
           light: "#041c0f",
