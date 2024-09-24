@@ -497,9 +497,10 @@
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
     letter-spacing: -.02ch;
-    font-family: respira;
-    font-weight: 400;
+    font-family: var(--bodyFont);
+    font-weight: 700;
     line-height: 1.2;
+    color: var(--highlight);
 }
 
 .page-title {
@@ -552,11 +553,10 @@ button#toc h3 {
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-    background: #2cf78924;
-    /* border-radius: 1rem; */
-    padding: 1rem 0 1rem 1rem;
     border-bottom: 1px dotted var(--highlight);
     border-top: 1px dotted var(--highlight);
+    background: #dcedff29;
+    padding: 1rem 0 1rem 1rem;
 }
 
 .search>#search-icon {
