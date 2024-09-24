@@ -553,8 +553,10 @@ button#toc h3 {
 .page .page-header {
     margin-bottom: var(--space-2xl);
     background: #2cf78924;
+    /* border-radius: 1rem; */
     padding: 1rem 0 1rem 1rem;
-    border-radius: 1rem;
+    border-bottom: 1px dotted var(--highlight);
+    border-top: 1px dotted var(--highlight);
 }
 
 .search>#search-icon {
@@ -761,7 +763,7 @@ body, section {
 .breadcrumb-container {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    border-bottom: 1px solid var(--lightgray);
+    // border-bottom: 1px solid var(--lightgray);
     padding: 0;
     padding-bottom: var(--space-s-m);
     flex-flow: wrap;
