@@ -496,13 +496,11 @@
     font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
-    letter-spacing: -.07ch;
-    font-family: "Earth";
+    letter-spacing: -.06ch;
     color: var(--highlight);
-    /* font-style: italic; */
-    font-weight: 400;
+    font-family: Earth;
+    font-weight: 700;
     line-height: 1.1;
-    /* text-transform: uppercase; */
 }
 
 .page-title {
@@ -557,9 +555,9 @@ button#toc h3 {
 .page .page-header {
     margin-bottom: var(--space-2xl);
     border-bottom: 1px dotted var(--highlight);
-    border-top: 3px solid var(--highlight);
+    border-top: 5px solid var(--highlight);
     background: #dcedff29;
-    padding: 1rem 0 1rem 1rem;
+    padding: var(--space-xs-s);
 }
 
 .search>#search-icon {
