@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Earth",
         body: "Serif",
-        code: "Untitled Sans",
+        code: "Earth",
       },
       colors: {
         lightMode: {
