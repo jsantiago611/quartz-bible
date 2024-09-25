@@ -382,6 +382,14 @@
 	    font-weight: 700;
 	    font-style: normal;
 	}
+
+	@font-face {
+	    font-family: "Earth";
+	    src: url("/static/Sharp-ExtraBold.woff2") format("woff2");
+	    font-weight: 900;
+	    font-style: normal;
+	}
+
 	@font-face {
 	    font-family: "Earth";
 	    src: url("/static/SharpEarthOLPE-BoldItl.woff2") format("woff2");
