@@ -587,11 +587,13 @@ font-size: var(--size-step-5);
 }
 
 button#toc h3 {
-    margin: 0;
-    font-size: var(--size-step--2);
-    display: inline-block;
+font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    margin: 0;
     font-weight: 400;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .2ch;
 }
 
 .tags {
@@ -747,12 +749,14 @@ a {
 }
 
 a.internal.tag-link {
-    background-color: transparent;
+    font-style: italic;
+    font-size: var(--size-step--2);
+    background-color: #0000;
     border-radius: 1px;
     margin: 0 .1rem;
     padding: .2rem .4rem;
-    font-style: italic;
-    font-size: var(--size-step--2);
+    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
+    font-family: 'HeldaneText';
 }
 
 h2 {
