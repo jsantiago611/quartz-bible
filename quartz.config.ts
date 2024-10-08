@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "heldane text",
-        body: "heldane text",
-        code: "heldane text",
+        header: "heldanetext",
+        body: "heldanetext",
+        code: "heldanetext",
       },
       colors: {
         lightMode: {
@@ -27,9 +27,9 @@ const config: QuartzConfig = {
           gray: "#5f5f5f",
           darkgray: "#252525",
           dark: "#000",
-          secondary: "#001eff",
+          secondary: "#005128",
           tertiary: "#eb620e",
-          highlight: "#001eff",
+          highlight: "#005128",
         },
         darkMode: {
           light: "#000",
