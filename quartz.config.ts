@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Jonathan's Commonplace Book",
+    pageTitle: "The New Gentlemen",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Earth",
-        body: "Serif",
-        code: "Earth",
+        header: "heldane text",
+        body: "heldane text",
+        code: "heldane text",
       },
       colors: {
         lightMode: {
