@@ -776,6 +776,8 @@ a.internal {
     line-height: 1.2;
     text-decoration: none;
     color: var(--dark);
+	font-style: italic;
+    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
 }
 
 a.internal:hover {
