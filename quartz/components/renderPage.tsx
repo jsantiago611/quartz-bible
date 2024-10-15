@@ -1,17 +1,3 @@
-export function renderPage(
-  cfg: GlobalConfiguration,
-  slug: FullSlug,
-  componentData: QuartzComponentProps,
-  components: RenderComponents,
-  pageResources: StaticResources,
-): string {
-  // Log the component data at the start of the function
-  console.log("Component Data:", componentData);
-
-  // Check for the presence of the 'red' tag
-  const hasRedTag = componentData.frontmatter?.tags?.includes("red");
-  console.log("Has 'red' tag:", hasRedTag);
-
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
@@ -19,7 +5,7 @@ import BodyConstructor from "./Body"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { visit } from "unist-util-visit"
-import { Root, Element, ElementContent } from "hast"
+import { Root } from "hast"
 import { QuartzPluginData } from "../plugins/vfile"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
@@ -85,7 +71,14 @@ export function renderPage(
   components: RenderComponents,
   pageResources: StaticResources,
 ): string {
-  // process transcludes in componentData
+  // Log the component data at the start of the function
+  console.log("Component Data:", componentData);
+
+  // Check for the presence of the 'red' tag
+  const hasRedTag = componentData.frontmatter?.tags?.includes("red");
+  console.log("Has 'red' tag:", hasRedTag);
+
+  // Process transcludes in componentData
   visit(componentData.tree as Root, "element", (node, _index, _parent) => {
     // ... (existing code for processing transcludes remains unchanged)
   })
@@ -101,9 +94,6 @@ export function renderPage(
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
-
-  // Check if the componentData has the tag "red"
-  const hasRedTag = componentData.frontmatter?.tags?.includes("red");
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -154,7 +144,6 @@ export function renderPage(
         .map((res) => JSResourceToScriptElement(res))}
     </html>
   )
-}
 
   return "<!DOCTYPE html>\n" + render(doc)
 }
