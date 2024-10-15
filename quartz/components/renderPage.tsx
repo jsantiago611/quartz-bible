@@ -1,31 +1,31 @@
-import { render } from "preact-render-to-string"
-import { QuartzComponent, QuartzComponentProps } from "./types"
-import HeaderConstructor from "./Header"
-import BodyConstructor from "./Body"
-import { JSResourceToScriptElement, StaticResources } from "../util/resources"
-import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
-import { visit } from "unist-util-visit"
-import { Root } from "hast"
-import { QuartzPluginData } from "../plugins/vfile"
-import { GlobalConfiguration } from "../cfg"
-import { i18n } from "../i18n"
+import { render } from "preact-render-to-string";
+import { QuartzComponent, QuartzComponentProps } from "./types";
+import HeaderConstructor from "./Header";
+import BodyConstructor from "./Body";
+import { JSResourceToScriptElement, StaticResources } from "../util/resources";
+import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path";
+import { visit } from "unist-util-visit";
+import { Root } from "hast";
+import { QuartzPluginData } from "../plugins/vfile";
+import { GlobalConfiguration } from "../cfg";
+import { i18n } from "../i18n";
 
 interface RenderComponents {
-  head: QuartzComponent
-  header: QuartzComponent[]
-  beforeBody: QuartzComponent[]
-  pageBody: QuartzComponent
-  left: QuartzComponent[]
-  right: QuartzComponent[]
-  footer: QuartzComponent
+  head: QuartzComponent;
+  header: QuartzComponent[];
+  beforeBody: QuartzComponent[];
+  pageBody: QuartzComponent;
+  left: QuartzComponent[];
+  right: QuartzComponent[];
+  footer: QuartzComponent;
 }
 
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
-  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json");
+  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`;
 
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
@@ -49,19 +49,19 @@ export function pageResources(
         contentType: "external",
       },
     ],
-  }
+  };
 }
 
-let pageIndex: Map<FullSlug, QuartzPluginData> | undefined = undefined
+let pageIndex: Map<FullSlug, QuartzPluginData> | undefined = undefined;
 function getOrComputeFileIndex(allFiles: QuartzPluginData[]): Map<FullSlug, QuartzPluginData> {
   if (!pageIndex) {
-    pageIndex = new Map()
+    pageIndex = new Map();
     for (const file of allFiles) {
-      pageIndex.set(file.slug!, file)
+      pageIndex.set(file.slug!, file);
     }
   }
 
-  return pageIndex
+  return pageIndex;
 }
 
 export function renderPage(
@@ -76,12 +76,15 @@ export function renderPage(
 
   // Check for the presence of the 'red' tag
   const hasRedTag = componentData.frontmatter?.tags?.includes("red");
-  console.log("Has 'red' tag:", hasRedTag);
+  console.log("Has 'red' tag:", hasRedTag); // Added log to check for the tag
+
+  // Log the tags array to inspect
+  console.log("Tags Array:", componentData.frontmatter?.tags); // Log the tags array
 
   // Process transcludes in componentData
   visit(componentData.tree as Root, "element", (node, _index, _parent) => {
     // ... (existing code for processing transcludes remains unchanged)
-  })
+  });
 
   const {
     head: Head,
@@ -91,9 +94,10 @@ export function renderPage(
     left,
     right,
     footer: Footer,
-  } = components
-  const Header = HeaderConstructor()
-  const Body = BodyConstructor()
+  } = components;
+
+  const Header = HeaderConstructor();
+  const Body = BodyConstructor();
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -101,7 +105,7 @@ export function renderPage(
         <BodyComponent {...componentData} />
       ))}
     </div>
-  )
+  );
 
   const RightComponent = (
     <div class="right sidebar">
@@ -109,9 +113,9 @@ export function renderPage(
         <BodyComponent {...componentData} />
       ))}
     </div>
-  )
+  );
 
-  const lang = componentData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+  const lang = componentData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en";
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
@@ -143,7 +147,7 @@ export function renderPage(
         .filter((resource) => resource.loadTime === "afterDOMReady")
         .map((res) => JSResourceToScriptElement(res))}
     </html>
-  )
+  );
 
-  return "<!DOCTYPE html>\n" + render(doc)
+  return "<!DOCTYPE html>\n" + render(doc);
 }
