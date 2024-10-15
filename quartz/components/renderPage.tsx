@@ -154,6 +154,7 @@ export function renderPage(
         .map((res) => JSResourceToScriptElement(res))}
     </html>
   )
+}
 
   return "<!DOCTYPE html>\n" + render(doc)
 }
