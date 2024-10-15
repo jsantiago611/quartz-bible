@@ -27,10 +27,10 @@ function TagContent(props: QuartzComponentProps) {
     (tree as Root).children.length === 0
       ? fileData.description
       : htmlToJsx(fileData.filePath!, tree);
-  
+
   const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? [];
   const classes = ["popover-hint", ...cssClasses].join(" ");
-  
+
   // New conditional check for the "red" tag
   const isRedTag = tag === "red";
 
@@ -58,6 +58,7 @@ function TagContent(props: QuartzComponentProps) {
             const listProps = {
               ...props,
               allFiles: pages,
+              hasRedBackground: tag === "red", // Pass the flag for "red" background
             };
 
             const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0];
@@ -82,7 +83,7 @@ function TagContent(props: QuartzComponentProps) {
                   <PageList limit={numPages} {...listProps} />
                 </div>
                 {/* Conditional rendering based on the "red" tag */}
-                {isRedTag && <p style={{ color: 'red' }}>This is a special tag!</p>}
+                {tag === "red" && <p style={{ color: "red" }}>This is a special tag!</p>}
               </div>
             );
           })}
@@ -94,6 +95,7 @@ function TagContent(props: QuartzComponentProps) {
     const listProps = {
       ...props,
       allFiles: pages,
+      hasRedBackground: isRedTag, // Pass the flag for "red" background
     };
 
     return (
@@ -106,67 +108,11 @@ function TagContent(props: QuartzComponentProps) {
           </div>
         </div>
         {/* Conditional rendering based on the "red" tag */}
-        {isRedTag && <p style={{ color: 'red' }}>This is a special tag!</p>}
+        {isRedTag && <p style={{ color: "red" }}>This is a special tag!</p>}
       </div>
     );
   }
 }
-
-// Commented out original code for reference
-/*
-if (tag === "/") {
-  const tags = [...new Set(
-    allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
-  )].sort((a, b) => a.localeCompare(b));
-
-  const tagItemMap: Map<string, QuartzPluginData[]> = new Map();
-  for (const tag of tags) {
-    tagItemMap.set(tag, allPagesWithTag(tag));
-  }
-
-  return (
-    <div class={classes}>
-      <article>
-        <p>{content}</p>
-      </article>
-      <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
-      <div>
-        {tags.map((tag) => {
-          const pages = tagItemMap.get(tag)!;
-          const listProps = {
-            ...props,
-            allFiles: pages,
-          };
-
-          const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0];
-          const content = contentPage?.description;
-          return (
-            <div key={tag}>
-              <h2>
-                <a class="internal tag-link" href={`../tags/${tag}`}>
-                  #{tag}
-                </a>
-              </h2>
-              {content && <p>{content}</p>}
-              <div class="page-listing">
-                <p>
-                  {i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}
-                  {pages.length > numPages && (
-                    <span>
-                      {i18n(cfg.locale).pages.tagContent.showingFirst({ count: numPages })}
-                    </span>
-                  )}
-                </p>
-                <PageList limit={numPages} {...listProps} />
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
-*/
 
 TagContent.css = style + PageList.css;
 export default (() => TagContent) satisfies QuartzComponentConstructor;
