@@ -53,6 +53,7 @@ export function pageResources(
 }
 
 let pageIndex: Map<FullSlug, QuartzPluginData> | undefined = undefined;
+
 function getOrComputeFileIndex(allFiles: QuartzPluginData[]): Map<FullSlug, QuartzPluginData> {
   if (!pageIndex) {
     pageIndex = new Map();
@@ -74,12 +75,12 @@ export function renderPage(
   // Log the component data at the start of the function
   console.log("Component Data:", componentData);
 
+  // Log the frontmatter tags
+  console.log("Frontmatter Tags:", componentData.frontmatter?.tags);
+
   // Check for the presence of the 'red' tag
   const hasRedTag = componentData.frontmatter?.tags?.includes("red");
-  console.log("Has 'red' tag:", hasRedTag); // Added log to check for the tag
-
-  // Log the tags array to inspect
-  console.log("Tags Array:", componentData.frontmatter?.tags); // Log the tags array
+  console.log("Has 'red' tag:", hasRedTag);
 
   // Process transcludes in componentData
   visit(componentData.tree as Root, "element", (node, _index, _parent) => {
@@ -95,7 +96,6 @@ export function renderPage(
     right,
     footer: Footer,
   } = components;
-
   const Header = HeaderConstructor();
   const Body = BodyConstructor();
 
@@ -124,7 +124,12 @@ export function renderPage(
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
-              <div class={hasRedTag ? "page-header red-background" : "page-header"}>
+              <div
+                style={{
+                  backgroundColor: hasRedTag ? 'red' : 'transparent',
+                }}
+                class="page-header"
+              >
                 <Header {...componentData}>
                   {header.map((HeaderComponent) => (
                     <HeaderComponent {...componentData} />
