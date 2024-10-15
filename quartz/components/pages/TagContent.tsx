@@ -1,43 +1,51 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import style from "../styles/listPage.scss"
-import { PageList } from "../PageList"
-import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
-import { QuartzPluginData } from "../../plugins/vfile"
-import { Root } from "hast"
-import { htmlToJsx } from "../../util/jsx"
-import { i18n } from "../../i18n"
+import { QuartzComponentConstructor, QuartzComponentProps } from "../types";
+import style from "../styles/listPage.scss";
+import { PageList } from "../PageList";
+import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path";
+import { QuartzPluginData } from "../../plugins/vfile";
+import { Root } from "hast";
+import { htmlToJsx } from "../../util/jsx";
+import { i18n } from "../../i18n";
 
-const numPages = 10
+const numPages = 10;
+
 function TagContent(props: QuartzComponentProps) {
-  const { tree, fileData, allFiles, cfg } = props
-  const slug = fileData.slug
+  const { tree, fileData, allFiles, cfg } = props;
+  const slug = fileData.slug;
 
   if (!(slug?.startsWith("tags/") || slug === "tags")) {
-    throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
+    throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`);
   }
 
-  const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
+  const tag = simplifySlug(slug.slice("tags/".length) as FullSlug);
   const allPagesWithTag = (tag: string) =>
     allFiles.filter((file) =>
       (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
-    )
+    );
 
   const content =
     (tree as Root).children.length === 0
       ? fileData.description
-      : htmlToJsx(fileData.filePath!, tree)
-  const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-  const classes = ["popover-hint", ...cssClasses].join(" ")
+      : htmlToJsx(fileData.filePath!, tree);
+  
+  const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? [];
+  const classes = ["popover-hint", ...cssClasses].join(" ");
+  
+  // New conditional check for the "red" tag
+  const isRedTag = tag === "red";
+
   if (tag === "/") {
     const tags = [
       ...new Set(
         allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
       ),
-    ].sort((a, b) => a.localeCompare(b))
-    const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
+    ].sort((a, b) => a.localeCompare(b));
+
+    const tagItemMap: Map<string, QuartzPluginData[]> = new Map();
     for (const tag of tags) {
-      tagItemMap.set(tag, allPagesWithTag(tag))
+      tagItemMap.set(tag, allPagesWithTag(tag));
     }
+
     return (
       <div class={classes}>
         <article>
@@ -46,16 +54,16 @@ function TagContent(props: QuartzComponentProps) {
         <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
         <div>
           {tags.map((tag) => {
-            const pages = tagItemMap.get(tag)!
+            const pages = tagItemMap.get(tag)!;
             const listProps = {
               ...props,
               allFiles: pages,
-            }
+            };
 
-            const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0]
-            const content = contentPage?.description
+            const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0];
+            const content = contentPage?.description;
             return (
-              <div>
+              <div key={tag}>
                 <h2>
                   <a class="internal tag-link" href={`../tags/${tag}`}>
                     #{tag}
@@ -73,18 +81,20 @@ function TagContent(props: QuartzComponentProps) {
                   </p>
                   <PageList limit={numPages} {...listProps} />
                 </div>
+                {/* Conditional rendering based on the "red" tag */}
+                {isRedTag && <p style={{ color: 'red' }}>This is a special tag!</p>}
               </div>
-            )
+            );
           })}
         </div>
       </div>
-    )
+    );
   } else {
-    const pages = allPagesWithTag(tag)
+    const pages = allPagesWithTag(tag);
     const listProps = {
       ...props,
       allFiles: pages,
-    }
+    };
 
     return (
       <div class={classes}>
@@ -95,10 +105,68 @@ function TagContent(props: QuartzComponentProps) {
             <PageList {...listProps} />
           </div>
         </div>
+        {/* Conditional rendering based on the "red" tag */}
+        {isRedTag && <p style={{ color: 'red' }}>This is a special tag!</p>}
       </div>
-    )
+    );
   }
 }
 
-TagContent.css = style + PageList.css
-export default (() => TagContent) satisfies QuartzComponentConstructor
+// Commented out original code for reference
+/*
+if (tag === "/") {
+  const tags = [...new Set(
+    allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+  )].sort((a, b) => a.localeCompare(b));
+
+  const tagItemMap: Map<string, QuartzPluginData[]> = new Map();
+  for (const tag of tags) {
+    tagItemMap.set(tag, allPagesWithTag(tag));
+  }
+
+  return (
+    <div class={classes}>
+      <article>
+        <p>{content}</p>
+      </article>
+      <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
+      <div>
+        {tags.map((tag) => {
+          const pages = tagItemMap.get(tag)!;
+          const listProps = {
+            ...props,
+            allFiles: pages,
+          };
+
+          const contentPage = allFiles.filter((file) => file.slug === `tags/${tag}`)[0];
+          const content = contentPage?.description;
+          return (
+            <div key={tag}>
+              <h2>
+                <a class="internal tag-link" href={`../tags/${tag}`}>
+                  #{tag}
+                </a>
+              </h2>
+              {content && <p>{content}</p>}
+              <div class="page-listing">
+                <p>
+                  {i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}
+                  {pages.length > numPages && (
+                    <span>
+                      {i18n(cfg.locale).pages.tagContent.showingFirst({ count: numPages })}
+                    </span>
+                  )}
+                </p>
+                <PageList limit={numPages} {...listProps} />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+*/
+
+TagContent.css = style + PageList.css;
+export default (() => TagContent) satisfies QuartzComponentConstructor;
