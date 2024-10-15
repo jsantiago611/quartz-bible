@@ -76,7 +76,7 @@ export function renderPage(
   console.log("Component Data:", componentData);
 
   // Log the frontmatter tags
-  console.log("Frontmatter Tags:", componentData.frontmatter?.tags);
+  console.log("Frontmatter Object:", componentData.frontmatter);
 
   // Check for the presence of the 'red' tag
   const hasRedTag = componentData.frontmatter?.tags?.includes("red");
