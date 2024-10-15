@@ -8,8 +8,8 @@ function Backlinks({ fileData, allFiles, displayClass, cfg }: QuartzComponentPro
   const slug = simplifySlug(fileData.slug!)
   const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
 
-  // **NEW**: Check if the fileData has the tag "red"
-  const hasRedTag = fileData.tags?.includes("red");
+  // Check if the fileData has the tag "red"
+  const hasRedTag = fileData.tags?.includes("red"); 
 
   return (
     <div class={classNames(displayClass, "backlinks")}>
@@ -17,10 +17,10 @@ function Backlinks({ fileData, allFiles, displayClass, cfg }: QuartzComponentPro
       <ul class="overflow">
         {backlinkFiles.length > 0 ? (
           backlinkFiles.map((f) => (
-            <li key={f.slug}> {/* **NEW**: Added key for each mapped item */}
+            <li key={f.slug}>
               <a
                 href={resolveRelative(fileData.slug!, f.slug!)}
-                class={classNames("internal", { "red-link": hasRedTag })} // **MODIFIED**: Conditionally add 'red-link' class
+                class={classNames("internal", "alias", { "red-link": hasRedTag })} // Include alias class
               >
                 {f.frontmatter?.title}
               </a>
