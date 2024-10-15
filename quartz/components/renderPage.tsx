@@ -1,3 +1,17 @@
+export function renderPage(
+  cfg: GlobalConfiguration,
+  slug: FullSlug,
+  componentData: QuartzComponentProps,
+  components: RenderComponents,
+  pageResources: StaticResources,
+): string {
+  // Log the component data at the start of the function
+  console.log("Component Data:", componentData);
+
+  // Check for the presence of the 'red' tag
+  const hasRedTag = componentData.frontmatter?.tags?.includes("red");
+  console.log("Has 'red' tag:", hasRedTag);
+
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
