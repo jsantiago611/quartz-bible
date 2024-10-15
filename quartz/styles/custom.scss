@@ -873,6 +873,6 @@ footer {
     font-size: var(--size-step-2);
 }
 
-.red-link {
-  color: red; // Change the color to red
+a.red-link {
+  color: red !important; // Change the color to red
 }
