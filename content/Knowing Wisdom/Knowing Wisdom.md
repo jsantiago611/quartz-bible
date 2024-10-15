@@ -1,6 +1,5 @@
 ---
 title: Knowing Wisdom
-tag: Red
 ---
 - [[What is wisdom]]
 - [[What is foolishness]]
