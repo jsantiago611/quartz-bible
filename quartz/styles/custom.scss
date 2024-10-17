@@ -561,10 +561,11 @@ font-size: var(--size-step-5);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
     letter-spacing: -.05ch;
-    //color: var(--highlight);
-    //font-family: heldanetext;
     font-weight: 700;
     line-height: 1.05;
+    color: inherit;
+    background: var(--light);
+    max-width: 98%;
 }
 
 .page-title {
@@ -622,15 +623,11 @@ font-size: var(--size-step-0);
 }
 
 .page .page-header {
-margin-bottom: var(--space-2xl);
-    /* border-bottom: 1px dotted var(--highlight); */
-    /* border-top: 5px solid var(--highlight); */
-    /* padding: var(--space-xs-s); */
-    background-color: var(--headerbg) !important;
-    border-radius: 1rem;
+    margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-2xl);
     padding-top: var(--space-l);
     padding-left: var(--space-m);
+    background-color: var(--headerbg) !important;
 }
 
 .search>#search-icon {
