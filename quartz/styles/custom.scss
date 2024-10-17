@@ -563,7 +563,7 @@ font-size: var(--size-step-5);
     letter-spacing: -.05ch;
     //color: var(--highlight);
     //font-family: heldanetext;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.05;
 }
 
@@ -621,11 +621,15 @@ font-size: var(--size-step-0);
 }
 
 .page .page-header {
-    margin-bottom: var(--space-2xl);
-    border-bottom: 1px dotted var(--highlight);
-    border-top: 5px solid var(--highlight);
-    //background: #dcedff29;
-    padding: var(--space-xs-s);
+margin-bottom: var(--space-2xl);
+    /* border-bottom: 1px dotted var(--highlight); */
+    /* border-top: 5px solid var(--highlight); */
+    /* padding: var(--space-xs-s); */
+    background-color: white !important;
+    border-radius: 1rem;
+    padding-bottom: var(--space-2xl);
+    padding-top: var(--space-l);
+    padding-left: var(--space-m);
 }
 
 .search>#search-icon {
