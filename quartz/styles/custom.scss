@@ -586,14 +586,17 @@ font-size: var(--size-step-5);
 }
 
 button#toc h3 {
-font-size: var(--size-step--2);
+font-size: var(--size-step-0);
     font-family: var(--codeFont);
+    /* text-transform: uppercase; */
+    /* letter-spacing: .2ch; */
     margin: 0;
     font-weight: 400;
     display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: .2ch;
+    color: var(--gray);
 }
+
+
 
 .tags {
     flex-wrap: wrap;
