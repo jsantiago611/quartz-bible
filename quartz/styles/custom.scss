@@ -755,12 +755,13 @@ a.internal.tag-link {
     font-size: var(--size-step--2);
     font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
     background-color: var(--darkgray);
+    color: var(--light);
+    padding: .2rem .4rem;
+    padding: var(--space-xs);
     border-radius: 10rem;
     margin: 0 .1rem;
-    padding: .2rem .4rem;
-    /* font-family: HeldaneText; */
-    color: var(--light);
-    padding: var(--space-xs);
+    font-family: var(--bodyFont);
+    letter-spacing: .1ch;
 }
 
 h2 {
@@ -903,4 +904,11 @@ a.red-link {
     font-weight: 700;
     line-height: 1.5rem;
     display: inline-block;
+}
+
+ul.section-ul {
+    margin-top: 2em;
+    padding-left: 0;
+    list-style: none;
+    border-bottom: var(--lightgray) 1px solid;
 }
