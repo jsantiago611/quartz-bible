@@ -753,12 +753,14 @@ a {
 a.internal.tag-link {
     font-style: italic;
     font-size: var(--size-step--2);
-    background-color: #0000;
-    border-radius: 1px;
+    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
+    background-color: var(--darkgray);
+    border-radius: 10rem;
     margin: 0 .1rem;
     padding: .2rem .4rem;
-    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
-    font-family: 'HeldaneText';
+    /* font-family: HeldaneText; */
+    color: var(--light);
+    padding: var(--space-xs);
 }
 
 h2 {
@@ -859,7 +861,7 @@ font-size: var(--size-step-0);
 
 li.section-li>.section>.meta {
 	    font-family: var(--codeFont);
-    font-size: var(--size-step--1);
+    font-size: var(--size-step--2);
 }
 
 footer {
@@ -891,4 +893,14 @@ a.red-link {
     padding: .5em 1em;
     font-size: var(--size-step-4);
     border-radius: 12rem;
+}
+
+.folder-container div>button span {
+    color: var(--secondary);
+    pointer-events: none;
+    margin: 0;
+    font-size: var(--size-step--2);
+    font-weight: 700;
+    line-height: 1.5rem;
+    display: inline-block;
 }
