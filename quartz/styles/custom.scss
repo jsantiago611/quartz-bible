@@ -883,3 +883,12 @@ a.red-link {
   background: red; /* Change this to the desired shade of red */
 }
 
+.search>#search-container>#search-space>input {
+    box-sizing: border-box;
+    font-family: var(--bodyFont);
+    color: var(--dark);
+    border: 1px solid var(--lightgray);
+    padding: .5em 1em;
+    font-size: var(--size-step-4);
+    border-radius: 12rem;
+}
