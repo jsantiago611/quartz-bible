@@ -578,13 +578,13 @@ font-size: var(--size-step-5);
 }
 
 .content-meta {
-    color: var(--gray);
+    color: var(--dark);
     font-family: var(--bodyFont);
     margin-top: var(--space-xs-s);
     font-size: var(--size-step-0);
     margin-bottom: var(--space-xs);
-    font-style: italic;
     font-feature-settings: "ss01";
+    font-style: italic;
 }
 
 button#toc h3 {
@@ -627,7 +627,7 @@ font-size: var(--size-step-0);
     padding-bottom: var(--space-2xl);
     padding-top: var(--space-l);
     padding-left: var(--space-m);
-    background-color: var(--headerbg) !important;
+    background-color: #f8d200 !important;
 }
 
 .search>#search-icon {
