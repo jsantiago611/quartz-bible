@@ -30,6 +30,7 @@ const config: QuartzConfig = {
           secondary: "#005128",
           tertiary: "#eb620e",
           highlight: "#005128",
+          headerbg: "#fff",
         },
         darkMode: {
           light: "#000",
@@ -40,6 +41,7 @@ const config: QuartzConfig = {
           secondary: "#0693e3",
           tertiary: "#fcb900",
           highlight: "#fff",
+          headerbg: "#141413",
         },
       },
     },
