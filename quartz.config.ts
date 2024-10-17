@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "https://jsantiago611.github.io/quartz-bible",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    defaultDateType: "modified",
     theme: {
       cdnCaching: true,
       typography: {
