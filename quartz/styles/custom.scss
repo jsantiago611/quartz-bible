@@ -750,6 +750,7 @@ font-size: var(--size-step--2);
     opacity: .75;
     pointer-events: all;
     font-weight: 400;
+    font-size: var(--size-step--2) !important;
 }
 
 a {
@@ -921,4 +922,13 @@ ul.section-ul {
     padding-left: 0;
     list-style: none;
     border-bottom: var(--lightgray) 1px solid;
+}
+
+p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
+    color: var(--darkgray);
+    fill: var(--darkgray);
+    overflow-wrap: anywhere;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    font-size: var(--size-step-0);
 }
