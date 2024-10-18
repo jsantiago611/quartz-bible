@@ -849,17 +849,15 @@ body, section {
 }
 
 .breadcrumb-container {
-    font-size: var(--size-step--2);
+    font-size: var(--size-step--2) !important;
     font-family: var(--codeFont);
-    // border-bottom: 1px solid var(--lightgray);
     padding: 0;
-    padding-bottom: var(--space-s-m);
+    /* padding-bottom: var(--space-s-m); */
     flex-flow: wrap;
     gap: .5rem;
-    margin: .75rem 0 0;
+    margin: 0 !important;
     display: flex;
-    // text-transform: uppercase;
-    // letter-spacing: .15ch;
+    border-bottom: 1px dotted;
 }
 
 #toc-content .depth-0 {
