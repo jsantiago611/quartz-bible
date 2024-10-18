@@ -6,7 +6,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5rem;
-  font-size: var(--size-step--2) !important;
 }
 
 .breadcrumb-element {
@@ -15,7 +14,11 @@
     margin-left: 0.5rem;
     padding: 0;
     line-height: normal;
-    font-size: var(--size-step--2) !important;
+    font-size: var(--size-step--1) !important;
+  }
+  a {
+    font-size: var(--size-step--1) !important;
+
   }
   display: flex;
   flex-direction: row;
