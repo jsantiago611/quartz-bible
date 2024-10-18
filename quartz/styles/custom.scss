@@ -566,7 +566,14 @@
     max-width: 12ch;
     color: #000;
     text-wrap: balance;
-    background: linear-gradient(0deg, transparent 20%, rgba(237, 236, 229, 1) 20%, rgba(237, 236, 229, 1) 84%, transparent 84%), color(display-p3 0.964706 0.823529 0 / 1);
+    /* background: linear-gradient(0deg, transparent 20%, rgba(237, 236, 229, 1) 20%, rgba(237, 236, 229, 1) 84%, transparent 84%), color(display-p3 0.964706 0.823529 0 / 1); */
+    box-decoration-break: ;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-color: #edece4;
+    text-decoration-thickness: 1.7ex;
+    text-underline-offset: -1.6ex;
+    text-decoration-skip-ink: none;
 }
 
 .page-title {
@@ -829,10 +836,11 @@ body, section {
 }
 
 .backlinks>ul>li>a {
-    background-color: #0000;
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    background-color: #0000;
     line-height: 1 !important;
+    background: linear-gradient(0deg, transparent 20%, #f8d200 20%, #f8d200 84%, transparent 84%);
 }
 
 .backlinks {
