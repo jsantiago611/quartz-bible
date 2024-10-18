@@ -557,22 +557,24 @@
 
 
 .article-title {
-    font-size: var(--size-step-5);
+    font-size: var(--size-step-6);
     margin: 2rem 0 0;
     margin-top: var(--space-2xl);
     letter-spacing: -.05ch;
-    font-weight: 900;
-    line-height: 1.05;
-    max-width: 12ch;
     color: #000;
     text-wrap: balance;
-    /* background: linear-gradient(0deg, transparent 20%, rgba(237, 236, 229, 1) 20%, rgba(237, 236, 229, 1) 84%, transparent 84%), color(display-p3 0.964706 0.823529 0 / 1); */
-    font-style: normal;
-    text-decoration: underline;
-    text-decoration-color: #edece4;
-    text-decoration-thickness: 1.7ex;
     text-underline-offset: -1.6ex;
+    -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
+    max-width: 12ch;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.05;
+    -webkit-text-decoration: underline #edece4;
+    text-decoration: underline #b0fb90;
+    text-decoration-thickness: 1.7ex;
+    font-family: foundersmono;
+    text-transform: uppercase;
 }
 
 .page-title {
@@ -786,11 +788,11 @@ h2 {
 a.internal {
     color: var(--dark);
     font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
+    background: linear-gradient(#0000 16%, #b0fb90 16% 80%, #0000 80%);
     border-radius: 0;
     padding: 0 .1rem;
     line-height: 1.2;
     text-decoration: none;
-    background: linear-gradient(#0000 16%, #f8d200 16% 80%, #0000 80%);
 }
 
 a.internal:hover {
