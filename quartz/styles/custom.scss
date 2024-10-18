@@ -559,7 +559,7 @@
 .article-title {
     font-size: var(--size-step-6);
     margin: 2rem 0 0;
-    margin-top: var(--space-2xl);
+    // margin-top: var(--space-2xl);
     letter-spacing: -.05ch;
     color: #000;
     text-wrap: balance;
@@ -633,10 +633,11 @@ font-size: var(--size-step-0);
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-    padding-bottom: var(--space-2xl);
-    padding-top: var(--space-l);
+    /* padding-bottom: var(--space-2xl); */
+    /* padding-top: var(--space-l); */
     padding-left: var(--space-m);
-    // background-color: #f8d200 !important;
+    border-top: 1px dotted;
+    /* border-bottom: 1px dotted; */
 }
 
 .search>#search-icon {
