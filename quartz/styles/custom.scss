@@ -763,17 +763,18 @@ a {
 }
 
 a.internal.tag-link {
-    font-style: italic;
+    /* font-style: italic; */
     font-size: var(--size-step--2);
     font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
-    background-color: var(--darkgray);
+    background: var(--darkgray);
     color: var(--light);
     padding: .2rem .4rem;
     padding: var(--space-xs);
-    border-radius: 10rem;
-    margin: 0 .1rem;
-    font-family: var(--bodyFont);
+    font-family: 'FoundersMono';
     letter-spacing: .1ch;
+    border-radius: 0;
+    margin: 0 .1rem;
+    text-transform: uppercase;
 }
 
 h2 {
