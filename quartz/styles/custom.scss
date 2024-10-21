@@ -3,6 +3,50 @@
 // New combo
 
 @font-face {
+		font-family: 'National2';
+		src: url('/static/national-2-web-regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'National2';
+		src: url('/static/national-2-web-regular-italic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'National2';
+		src: url('/static/national-2-web-bold.woff2') format('woff2');
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'National2Narrow';
+		src: url('/static/national-2-narrow-web-bold.woff2') format('woff2');
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'National2Condensed';
+		src: url('/static/national-2-condensed-web-bold.woff2') format('woff2');
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+
+@font-face {
 		font-family: 'Caslon';
 		src: url('/static/Caslon224Std-BookItalic.woff2') format('woff2');
 		font-weight: 400;
