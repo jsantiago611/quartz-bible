@@ -601,21 +601,20 @@
 
 
 .article-title {
-    font-size: var(--size-step-6);
-    letter-spacing: -.05ch;
+font-size: var(--size-step-6);
+    letter-spacing: 0;
     color: #000;
     text-wrap: balance;
     text-underline-offset: -1.66ex;
     -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
-    /* text-transform: uppercase; */
     left-padding: 1rem;
     max-width: 12ch;
     margin: 2rem 0 0;
-    font-family: calibre;
+    font-family: "national2condensed";
     font-style: normal;
-    font-weight: 700;
-    line-height: .93;
+    font-weight: 400;
+    line-height: 1;
     -webkit-text-decoration: underline #edece4;
     text-decoration: underline #edece4;
     text-decoration-thickness: 2.2ex;
@@ -631,24 +630,24 @@
 }
 
 .content-meta {
-    color: var(--dark);
+color: var(--dark);
     font-family: var(--bodyFont);
     margin-top: var(--space-xs-s);
-    font-size: var(--size-step-0);
+    font-size: var(--size-step--2);
     margin-bottom: var(--space-xs);
-    font-feature-settings: "ss01";
-    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
 }
 
 button#toc h3 {
-font-size: var(--size-step-0);
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    /* text-transform: uppercase; */
-    /* letter-spacing: .2ch; */
+    color: var(--gray);
     margin: 0;
     font-weight: 400;
     display: inline-block;
-    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 0.1ch;
 }
 
 
@@ -807,18 +806,17 @@ a {
 }
 
 a.internal.tag-link {
-    /* font-style: italic; */
     font-size: var(--size-step--2);
-    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
+    /* font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern"; */
     background: var(--darkgray);
     color: var(--light);
     padding: .2rem .4rem;
     padding: var(--space-xs);
-    font-family: 'FoundersMono';
     letter-spacing: .1ch;
-    border-radius: 0;
-    margin: 0 .1rem;
     text-transform: uppercase;
+    border-radius: .4ch;
+    margin: 0 .1rem;
+    font-family: 'National2Narrow';
 }
 
 h2 {
@@ -831,16 +829,16 @@ h2 {
 }
 
 a.internal {
-color: var(--dark);
-    font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
+    color: var(--dark);
+    /* font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern"; */
+    /* text-transform: uppercase; */
     background: linear-gradient(#0000 16%, #b0fb90 16% 80%, #0000 80%);
     border-radius: 0;
     padding: 0 .1rem;
+    /* font-family: 'National2Condensed'; */
+    font-weight: 900;
     line-height: 1.2;
     text-decoration: none;
-    font-family: 'FoundersMono';
-    font-weight: 900;
-    text-transform: uppercase;
 }
 
 a.internal:hover {
@@ -979,3 +977,5 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     hyphens: auto;
     font-size: var(--size-step-0);
 }
+
+
