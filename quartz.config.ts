@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Earth",
-        body: "Serif",
-        code: "Earth",
+        header: "National2condensed",
+        body: "National2",
+        code: "National2",
       },
       colors: {
         lightMode: {
