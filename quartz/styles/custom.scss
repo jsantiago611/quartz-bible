@@ -835,6 +835,7 @@ body, section {
     transition: max-height .35s, transform .35s, opacity .2s;
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    line-height: 1;
 }
 
 .backlinks>ul>li>a {
