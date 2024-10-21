@@ -557,24 +557,25 @@
 
 
 .article-title {
-    font-size: var(--size-step-6);
-    margin: 2rem 0 0;
-    // margin-top: var(--space-2xl);
+font-size: var(--size-step-6);
     letter-spacing: -.05ch;
     color: #000;
     text-wrap: balance;
     text-underline-offset: -1.6ex;
     -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
+    -webkit-text-decoration: underline #edece4;
+    text-transform: uppercase;
     max-width: 12ch;
+    margin: 2rem 0 0;
+    font-family: foundersmono;
     font-style: normal;
     font-weight: 900;
     line-height: .75;
     -webkit-text-decoration: underline #edece4;
-    text-decoration: underline #b0fb90;
+    text-decoration: underline #edece4;
     text-decoration-thickness: 1.7ex;
-    font-family: foundersmono;
-    text-transform: uppercase;
+    left-padding: 1rem;
 }
 
 .page-title {
@@ -633,11 +634,10 @@ font-size: var(--size-step-0);
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-    /* padding-bottom: var(--space-2xl); */
-    /* padding-top: var(--space-l); */
     padding-left: var(--space-m);
-    // border-top: 1px dotted;
-    /* border-bottom: 1px dotted; */
+    background: #b0fb90 !important;
+    padding-bottom: var(--space-l);
+    padding-top: var(--space-s);
 }
 
 .search>#search-icon {
@@ -788,13 +788,16 @@ h2 {
 }
 
 a.internal {
-    color: var(--dark);
+color: var(--dark);
     font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern";
     background: linear-gradient(#0000 16%, #b0fb90 16% 80%, #0000 80%);
     border-radius: 0;
     padding: 0 .1rem;
     line-height: 1.2;
     text-decoration: none;
+    font-family: 'FoundersMono';
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 a.internal:hover {
