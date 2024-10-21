@@ -557,25 +557,24 @@
 
 
 .article-title {
-font-size: var(--size-step-6);
+    font-size: var(--size-step-6);
     letter-spacing: -.05ch;
     color: #000;
     text-wrap: balance;
-    text-underline-offset: -1.6ex;
+    text-underline-offset: -1.66ex;
     -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
-    -webkit-text-decoration: underline #edece4;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    left-padding: 1rem;
     max-width: 12ch;
     margin: 2rem 0 0;
-    font-family: foundersmono;
+    font-family: calibre;
     font-style: normal;
-    font-weight: 900;
-    line-height: .75;
+    font-weight: 700;
+    line-height: .93;
     -webkit-text-decoration: underline #edece4;
     text-decoration: underline #edece4;
-    text-decoration-thickness: 1.7ex;
-    left-padding: 1rem;
+    text-decoration-thickness: 2.2ex;
 }
 
 .page-title {
