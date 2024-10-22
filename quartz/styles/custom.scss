@@ -1028,3 +1028,25 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 .popover .content-meta {
     color: var(--dark);
 }
+
+:root {
+  --shadow-color: 213deg 50% 47%;
+  --shadow-elevation-low:
+    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.44),
+    0.4px 0.8px 0.9px -1.6px hsl(var(--shadow-color) / 0.38),
+    1px 2px 2.3px -3.2px hsl(var(--shadow-color) / 0.31);
+  --shadow-elevation-medium:
+    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.46),
+    0.7px 1.4px 1.6px -1.1px hsl(var(--shadow-color) / 0.41),
+    1.9px 3.9px 4.4px -2.1px hsl(var(--shadow-color) / 0.36),
+    5px 10px 11.4px -3.2px hsl(var(--shadow-color) / 0.31);
+  --shadow-elevation-high:
+    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.43),
+    1.1px 2.3px 2.6px -0.5px hsl(var(--shadow-color) / 0.41),
+    2.2px 4.4px 5px -0.9px hsl(var(--shadow-color) / 0.38),
+    3.8px 7.7px 8.8px -1.4px hsl(var(--shadow-color) / 0.36),
+    6.5px 13px 14.8px -1.8px hsl(var(--shadow-color) / 0.34),
+    10.6px 21.3px 24.3px -2.3px hsl(var(--shadow-color) / 0.31),
+    16.7px 33.3px 38px -2.7px hsl(var(--shadow-color) / 0.29),
+    25px 50px 57px -3.2px hsl(var(--shadow-color) / 0.26);
+}
