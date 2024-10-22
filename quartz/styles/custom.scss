@@ -858,16 +858,14 @@ h2 {
 }
 
 a.internal {
-    color: var(--dark);
-    /* font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern"; */
-    /* text-transform: uppercase; */
-    background: linear-gradient(#0000 16%, #b0fb90 16% 80%, #0000 80%);
+color: black;
+    background: #b0fb90;
     border-radius: 0;
     padding: 0 .1rem;
-    /* font-family: 'National2Condensed'; */
-    font-weight: 900;
+    /* font-weight: 900; */
     line-height: 1.2;
     text-decoration: none;
+    font-family: var(--headerFont);
 }
 
 a.internal:hover {
