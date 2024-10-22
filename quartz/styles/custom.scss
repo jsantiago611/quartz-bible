@@ -1017,3 +1017,12 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 	font-family: var(--codeFont);
     font-weight: 400;
 }
+
+.popover h1 {
+    font-size: var(--size-step-2);
+    color: var(--dark);
+}
+
+.popover .content-meta {
+    color: var(--dark);
+}
