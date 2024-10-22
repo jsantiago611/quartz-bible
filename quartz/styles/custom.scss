@@ -908,10 +908,11 @@ body, section {
 }
 
 .backlinks>ul>li>a {
-    font-size: var(--size-step--2);
+font-size: var(--size-step--1);
     font-family: var(--headerFont);
-    line-height: 1 !important;
     background-color: #b0fb90;
+    line-height: .5 !important;
+    padding: var(--space-xs);
 }
 
 .backlinks {
@@ -951,7 +952,7 @@ footer {
 }
 
 .graph>.graph-outer {
-    border-radius: 1rem;
+    border-radius: 0;
 }
 
 .popover h1 {
