@@ -628,23 +628,23 @@
 
 
 .article-title {
-font-size: var(--size-step-6);
+    font-size: var(--size-step-6);
     letter-spacing: 0;
     color: #000;
     text-wrap: balance;
-    text-underline-offset: -1.66ex;
+    /* text-underline-offset: -1.66ex; */
     -webkit-text-decoration-skip-ink: none;
-    text-decoration-skip-ink: none;
+    /* text-decoration-skip-ink: none; */
     left-padding: 1rem;
     max-width: 12ch;
-    margin: 2rem 0 0;
-    font-family: "national2condensed";
+    /* margin: 2rem 0 0; */
+    font-family: var(--headerFont);
     font-style: normal;
     font-weight: 400;
     line-height: .9;
-    // -webkit-text-decoration: underline #edece4;
-    // text-decoration: underline #edece4;
-    // text-decoration-thickness: 2.2ex;
+    letter-spacing: -0.05ch;
+    padding-bottom: var(--space-m);
+    padding-top: var(--space-xs-s);
 }
 
 .page-title {
@@ -657,13 +657,13 @@ font-size: var(--size-step-6);
 }
 
 .content-meta {
-color: black;
-    font-family: var(--bodyFont);
+color: #000;
+    font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--2);
     margin-bottom: var(--space-xs);
-    text-transform: uppercase;
-    letter-spacing: 0.1ch;
+    /* text-transform: uppercase; */
+    letter-spacing: -.08ch;
 }
 
 button#toc h3 {
@@ -690,10 +690,11 @@ button#toc h3 {
 }
 
 .backlinks>h3 {
-    margin: 0;
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
-	// font-weight:400;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: -0.02ch;
 }
 
 
@@ -799,10 +800,11 @@ blockquote {
 }
 
 .graph>h3 {
-    margin: 0;
-    font-size: var(--size-step--2);
+font-size: var(--size-step--2);
     font-family: var(--codeFont);
-	// font-weight: 400;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: -0.02ch;
 }
 
 button#explorer h1 {
@@ -833,16 +835,17 @@ a {
 
 a.internal.tag-link {
     font-size: var(--size-step--2);
-    /* font-feature-settings: "liga" on, "ss01", "ss09", "dlig" off, "ss10", "kern"; */
-    background: var(--darkgray);
-    color: var(--light);
+    background: transparent;
+    color: black;
     padding: .2rem .4rem;
     padding: var(--space-xs);
     letter-spacing: .1ch;
-    text-transform: uppercase;
-    border-radius: .4ch;
+    /* text-transform: uppercase; */
+    border-radius: 0;
     margin: 0 .1rem;
-    font-family: 'National2Narrow';
+    font-family: var(--headerFont);
+    font-weight: 400;
+    border: 1px solid black;
 }
 
 h2 {
@@ -868,9 +871,9 @@ a.internal {
 }
 
 a.internal:hover {
-    // box-shadow: inset 0 -.35em var(--highlight);
-    // color: var(--dark) !important;
-    color: var(--highlight) !important;
+color: var(--highlight) !important; */
+    background: white;
+    color: black !important;
 }
 
 body, section {
@@ -1005,9 +1008,10 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 }
 
 .breadcrumb-element a {
-    // font-weight: 700;
+    font-weight: 400;
     font-size: var(--size-step--2) !important;
 	color:black;
+	letter-spacing: -.08ch;
 }
 
 .breadcrumb-element p {
@@ -1016,4 +1020,6 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     /* font-weight: 700; */
     line-height: normal;
     font-size: var(--size-step--2) !important;
+	font-family: var(--codeFont);
+    font-weight: 400;
 }
