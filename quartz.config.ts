@@ -33,7 +33,7 @@ const config: QuartzConfig = {
           headerbg: "color(display-p3 0.964706 0.823529 0/1)",
         },
         darkMode: {
-          light: "#000",
+          light: "#151515",
           lightgray: "#555",
           gray: "#aaa",
           darkgray: "#e2e2e2",
