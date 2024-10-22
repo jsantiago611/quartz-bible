@@ -3,6 +3,24 @@
 // New combo
 
 @font-face {
+		font-family: 'AtlasGrotesk';
+		src: url('/static/AtlasGrotesk-Regular-Web.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'AtlasTypewriter';
+		src: url('/static/AtlasTypewriter-Regular-Web.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
 		font-family: 'National2';
 		src: url('/static/national-2-web-regular.woff2') format('woff2');
 		font-weight: 400;
