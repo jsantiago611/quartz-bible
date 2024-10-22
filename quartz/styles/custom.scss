@@ -812,7 +812,7 @@ font-size: var(--size-step--2);
     /* letter-spacing: .15ch; */
     margin: 0;
     display: inline-block;
-    // font-weight: 400;
+    font-weight: 400;
     // font-style: italic;
 }
 
@@ -909,8 +909,9 @@ body, section {
 
 .backlinks>ul>li>a {
     font-size: var(--size-step--2);
-    font-family: var(--bodyFont);
+    font-family: var(--headerFont);
     line-height: 1 !important;
+    background-color: #b0fb90;
 }
 
 .backlinks {
@@ -980,7 +981,7 @@ a.red-link {
     pointer-events: none;
     margin: 0;
     font-size: var(--size-step--2);
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5rem;
     display: inline-block;
 }
