@@ -16,13 +16,13 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "National2condensed",
-        body: "National2",
-        code: "National2",
+        header: "National2narrow",
+        body: "atlasgrotesk",
+        code: "atlastypewriter",
       },
       colors: {
         lightMode: {
-          light: "color(display-p3 0.929412 0.92549 0.898039/1)",
+          light: "#f9f8ec",
           lightgray: "#bdbdbd",
           gray: "#5f5f5f",
           darkgray: "#252525",
