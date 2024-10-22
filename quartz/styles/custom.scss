@@ -614,10 +614,10 @@ font-size: var(--size-step-6);
     font-family: "national2condensed";
     font-style: normal;
     font-weight: 400;
-    line-height: 1;
-    -webkit-text-decoration: underline #edece4;
-    text-decoration: underline #edece4;
-    text-decoration-thickness: 2.2ex;
+    line-height: .9;
+    // -webkit-text-decoration: underline #edece4;
+    // text-decoration: underline #edece4;
+    // text-decoration-thickness: 2.2ex;
 }
 
 .page-title {
@@ -630,7 +630,7 @@ font-size: var(--size-step-6);
 }
 
 .content-meta {
-color: var(--dark);
+color: black;
     font-family: var(--bodyFont);
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--2);
@@ -642,7 +642,7 @@ color: var(--dark);
 button#toc h3 {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    color: var(--gray);
+    color: black;
     margin: 0;
     font-weight: 400;
     display: inline-block;
@@ -978,8 +978,9 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 }
 
 .breadcrumb-element a {
-    font-weight: 700;
+    // font-weight: 700;
     font-size: var(--size-step--2) !important;
+	color:black;
 }
 
 .breadcrumb-element p {
