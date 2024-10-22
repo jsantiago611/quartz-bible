@@ -632,19 +632,17 @@
     letter-spacing: 0;
     color: #000;
     text-wrap: balance;
-    /* text-underline-offset: -1.66ex; */
     -webkit-text-decoration-skip-ink: none;
-    /* text-decoration-skip-ink: none; */
     left-padding: 1rem;
-    max-width: 12ch;
-    /* margin: 2rem 0 0; */
     font-family: var(--headerFont);
+    letter-spacing: -.05ch;
+    padding-bottom: var(--space-l);
+    padding-top: var(--space-xs-s);
+    max-width: 12ch;
     font-style: normal;
     font-weight: 400;
     line-height: .9;
-    letter-spacing: -0.05ch;
-    padding-bottom: var(--space-m);
-    padding-top: var(--space-xs-s);
+    border-bottom: 1px solid black;
 }
 
 .page-title {
@@ -719,7 +717,7 @@ button#toc h3 {
     align-items: center;
     height: 2rem;
     display: flex;
-    border-radius: 1rem;
+    border-radius: 0;
 }
 
 
@@ -922,7 +920,6 @@ body, section {
 
 .breadcrumb-container {
 font-family: var(--codeFont);
-    border-bottom: 1px dotted;
     flex-flow: wrap;
     gap: .5rem;
     padding: 0;
@@ -931,7 +928,6 @@ font-family: var(--codeFont);
     margin: 0 !important;
     padding-top: var(--space-xs);
     padding-bottom: var(--space-xs);
-    border-top: 1px dotted;
 }
 
 #toc-content .depth-0 {
