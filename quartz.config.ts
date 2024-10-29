@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "National2narrow",
-        body: "atlasgrotesk",
-        code: "atlastypewriter",
+        header: "GT-Planar",
+        body: "GT-Planar",
+        code: "GT-Planar",
       },
       colors: {
         lightMode: {

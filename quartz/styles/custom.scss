@@ -3,6 +3,15 @@
 // New combo
 
 @font-face {
+	font-family: 'GT-Planar';
+	font-display: swap;
+	font-weight: 100 1000;
+	src: url('/static/GT-Planar-VF.woff2') format("woff2 supports-variations"),
+		 url('/static/GT-Planar-VF.woff2') format("woff2-variations");
+	text-rendering: optimizeSpeed;
+  }
+
+@font-face {
 		font-family: 'AtlasGrotesk';
 		src: url('/static/AtlasGrotesk-Regular-Web.woff2') format('woff2');
 		font-weight: 400;
@@ -632,17 +641,17 @@
     letter-spacing: 0;
     color: #000;
     text-wrap: balance;
-    -webkit-text-decoration-skip-ink: none;
-    left-padding: 1rem;
     font-family: var(--headerFont);
     letter-spacing: -.05ch;
     padding-bottom: var(--space-l);
     padding-top: var(--space-xs-s);
     max-width: 12ch;
-    font-style: normal;
-    font-weight: 400;
+    //font-style: normal;
+    //font-weight: 400;
     line-height: .9;
     border-bottom: 1px solid black;
+	font-variation-settings: "wght" 700;
+	font-feature-settings: "ss03";
 }
 
 .page-title {
