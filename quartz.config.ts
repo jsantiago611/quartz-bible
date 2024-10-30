@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "GT-Planar",
-        body: "GT-Planar",
-        code: "GT-Planar",
+        header: "National2Condensed",
+        body: "Martina",
+        code: "Martina",
       },
       colors: {
         lightMode: {
@@ -52,7 +52,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         // you can add 'git' here for last modified from Git
         // if you do rely on git for dates, ensure defaultDateType is 'modified'
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting(),
