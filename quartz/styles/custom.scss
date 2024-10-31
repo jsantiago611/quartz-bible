@@ -637,21 +637,21 @@
 
 
 .article-title {
-    font-size: var(--size-step-6);
+	font-size: var(--size-step-5);
     letter-spacing: 0;
-    color: #000;
+    color: #b0fb90;
     text-wrap: balance;
     font-family: var(--headerFont);
-    letter-spacing: -.05ch;
+    /* letter-spacing: -.04ch; */
     padding-bottom: var(--space-l);
     padding-top: var(--space-xs-s);
-    max-width: 12ch;
-    //font-style: normal;
-    //font-weight: 400;
+    font-variation-settings: "wght" 700;
+    font-feature-settings: "ss03";
+    /* border-bottom: 1px solid #000; */
+    max-width: 17ch;
     line-height: .9;
-    border-bottom: 1px solid black;
-	font-variation-settings: "wght" 700;
-	font-feature-settings: "ss03";
+    text-transform: uppercase;
+    text-align: -webkit-center;
 }
 
 .page-title {
@@ -664,19 +664,17 @@
 }
 
 .content-meta {
-color: #000;
     font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--2);
     margin-bottom: var(--space-xs);
-    /* text-transform: uppercase; */
-    letter-spacing: -.08ch;
+	color: var(--lightgray);
 }
 
 button#toc h3 {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    color: #000;
+    color: var(--lightgray);
     /* text-transform: uppercase; */
     letter-spacing: -.04ch;
     margin: 0;
@@ -711,10 +709,12 @@ button#toc h3 {
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-    padding-left: var(--space-m);
-    background: #93c0f5 !important;
+    /* padding-left: var(--space-m); */
     padding-bottom: var(--space-l);
     padding-top: var(--space-s);
+    background: #241f21 !important;
+    text-align: -webkit-center;
+    border-radius: .5rem;
 }
 
 .search>#search-icon {
@@ -917,11 +917,12 @@ body, section {
 }
 
 .backlinks>ul>li>a {
-font-size: var(--size-step--1);
+	font-size: var(--size-step--1);
     font-family: var(--headerFont);
+    /* padding: var(--space-xs); */
     background-color: #b0fb90;
     line-height: .5 !important;
-    padding: var(--space-xs);
+    text-transform: uppercase;
 }
 
 .backlinks {
@@ -930,15 +931,16 @@ font-size: var(--size-step--1);
 }
 
 .breadcrumb-container {
-font-family: var(--codeFont);
+	font-family: var(--codeFont);
+    padding: 0;
+    padding-top: var(--space-xs);
+    padding-bottom: var(--space-xs);
     flex-flow: wrap;
     gap: .5rem;
-    padding: 0;
     display: flex;
     font-size: var(--size-step--2) !important;
     margin: 0 !important;
-    padding-top: var(--space-xs);
-    padding-bottom: var(--space-xs);
+    place-content: center;
 }
 
 #toc-content .depth-0 {
@@ -1013,10 +1015,10 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 }
 
 .breadcrumb-element a {
+    color: var(--light);
+    letter-spacing: -.05ch;
     font-weight: 400;
     font-size: var(--size-step--2) !important;
-	color:black;
-	letter-spacing: -.08ch;
 }
 
 .breadcrumb-element p {
@@ -1027,6 +1029,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     font-size: var(--size-step--2) !important;
 	font-family: var(--codeFont);
     font-weight: 400;
+	color: var(--gray);
 }
 
 .popover h1 {
@@ -1035,7 +1038,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 }
 
 .popover .content-meta {
-    color: var(--dark);
+    color: var(--lightgray);
 }
 
 :root {
