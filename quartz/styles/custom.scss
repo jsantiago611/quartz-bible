@@ -1062,3 +1062,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     16.7px 33.3px 38px -2.7px hsl(var(--shadow-color) / 0.29),
     25px 50px 57px -3.2px hsl(var(--shadow-color) / 0.26);
 }
+
+.popover>.popover-inner {
+	text-transform: none;
+}
