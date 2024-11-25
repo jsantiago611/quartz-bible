@@ -1,688 +1,634 @@
-@use "./base.scss";
-
-// New combo
+@font-face {
+    font-family: GT-Planar;
+    font-display: swap;
+    font-weight: 100 1000;
+    src: url(/static/GT-Planar-VF.woff2)format("woff2 supports-variations"),url(/static/GT-Planar-VF.woff2)format("woff2-variations");
+    text-rendering:optimizeSpeed}
 
 @font-face {
-	font-family: 'GT-Planar';
-	font-display: swap;
-	font-weight: 100 1000;
-	src: url('/static/GT-Planar-VF.woff2') format("woff2 supports-variations"),
-		 url('/static/GT-Planar-VF.woff2') format("woff2-variations");
-	text-rendering: optimizeSpeed;
-  }
+    font-family: AtlasGrotesk;
+    src: url(/static/AtlasGrotesk-Regular-Web.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'AtlasGrotesk';
-		src: url('/static/AtlasGrotesk-Regular-Web.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'AtlasTypewriter';
-		src: url('/static/AtlasTypewriter-Regular-Web.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'National2';
-		src: url('/static/national-2-web-regular.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'National2';
-		src: url('/static/national-2-web-regular-italic.woff2') format('woff2');
-		font-weight: 400;
-		font-style: italic;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'National2';
-		src: url('/static/national-2-web-bold.woff2') format('woff2');
-		font-weight: 700;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-/*@font-face {
-		font-family: 'National2Narrow';
-		src: url('/static/national-2-narrow-web-bold.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	font-weight:700;
-	  } */
-@font-face {
-		font-family: 'National2Narrow';
-		src: url('/static/national-2-narrow-medium.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'National2Condensed';
-		src: url('/static/national-2-condensed-web-bold.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: AtlasTypewriter;
+    src: url(/static/AtlasTypewriter-Regular-Web.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Caslon';
-		src: url('/static/Caslon224Std-BookItalic.woff2') format('woff2');
-		font-weight: 400;
-		font-style: italic;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Caslon';
-		src: url('/static/Caslon224Std-Book.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Kanit';
-		src: url('/static/kanit-v6-latin-regular.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Kanit';
-		src: url('/static/kanit-v6-latin-700.woff2') format('woff2');
-		font-weight: 700;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'P22';
-		src: url('/static/P22Underground-Book.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'P22';
-		src: url('/static/P22UndergroundMedium.woff2') format('woff2');
-		font-weight: 700;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-
+    font-family: National2;
+    src: url(/static/national-2-web-regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Signifier';
-		src: url('/static/signifier-web-light.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Signifier';
-		src: url('/static/signifier-web-light-italic.woff2') format('woff2');
-		font-weight: 400;
-		font-style: italic;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: National2;
+    src: url(/static/national-2-web-regular-italic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Untitled Serif';
-		src: url('/static/untitled-serif-regular.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Untitled Serif';
-		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
-		font-weight: 400;
-		font-style: italic;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Untitled Sans';
-		src: url('/static/untitled-sans-regular.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Untitled Sans';
-		src: url('/static/untitled-serif-regular-italic.woff2') format('woff2');
-		font-weight: 400;
-		font-style: italic;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-
+    font-family: National2;
+    src: url(/static/national-2-web-bold.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Soehne Dreiviertelfett';
-		src: url('/static/SohneWeb-Dreiviertelfett.woff2') format('woff2');
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: National2Narrow;
+    src: url(/static/national-2-narrow-medium.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Manuka';
-		src: url('/static/ManukaCondensedWeb-Ultra.woff2') format('woff2');
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Manuka';
-		src: url('/static/ManukaCondensedWeb-Black.woff2') format('woff2');
-		font-weight: 700;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-@font-face {
-		font-family: 'Heldane Text';
-		src: url('/static/HeldaneTextWeb-Regular.woff2') format('woff2');
-		font-weight: 400;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: National2Condensed;
+    src: url(/static/national-2-condensed-web-bold.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Heldane Text';
-		src: url('/static/HeldaneTextWeb-RegularItalic.woff2') format('woff2');
-		font-style: italic;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: Caslon;
+    src: url(/static/Caslon224Std-BookItalic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Heldane Text';
-		src: url('/static/HeldaneTextWeb-Bold.woff2') format('woff2');
-		font-weight: 700;
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: Caslon;
+    src: url(/static/Caslon224Std-Book.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
 @font-face {
-		font-family: 'Heldane Text';
-		src: url('/static/HeldaneTextWeb-BoldItalic.woff2') format('woff2');
-		font-style: italic;
-		font-weight: 700;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+    font-family: Kanit;
+    src: url(/static/kanit-v6-latin-regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-// ending new combo
+@font-face {
+    font-family: Kanit;
+    src: url(/static/kanit-v6-latin-700.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'SharpRoman';
-		src: url('/static/SharpRomanReg.woff2') format('woff2');
-		font-style: italic;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: P22;
+    src: url(/static/P22Underground-Book.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'SharpRoman';
-		src: url('/static/SharpRomanItalic.woff2') format('woff2');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: P22;
+    src: url(/static/P22UndergroundMedium.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'TheFuture';
-		src: url('/static/the-future-regular.woff2') format('woff2');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Signifier;
+    src: url(/static/signifier-web-light.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'TheFuture';
-		src: url('/static/the-future-medium.woff2') format('woff2');
-		font-style: normal;
-		font-weight: 700;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Signifier;
+    src: url(/static/signifier-web-light-italic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Editorial';
-		src: url('/static/editorial-reg.woff') format('woff');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Untitled Serif;
+    src: url(/static/untitled-serif-regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Editorial';
-		src: url('/static/editorial-italic.woff') format('woff');
-		font-style: italic;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'HeldaneDisplay';
-		src: url('/static/HeldaneDisplayWeb-RegularItalic.woff') format('woff');
-		font-style: italic;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'HeldaneText';
-		src: url('/static/HeldaneTextWeb-Regular.woff') format('woff');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'HeldaneText';
-		src: url('/static/HeldaneTextWeb-RegularItalic.woff') format('woff');
-		font-style: italic;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'FoundersCondensed';
-		src: url('/static/FoundersGroteskCondensedWeb-Bold.woff') format('woff');
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'FoundersMono';
-		src: url('/static/FoundersGroteskMonoWeb-Regular.woff') format('woff');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'FoundersMono';
-		src: url('/static/FoundersGroteskMonoWeb-Bold.woff') format('woff');
-		font-style: normal;
-		font-weight: 700;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'FoundersText';
-		src: url('/static/FoundersGroteskTextWeb-Medium.woff') format('woff');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Untitled Serif;
+    src: url(/static/untitled-serif-regular-italic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Calibre';
-		src: url('/static/CalibreWeb-Thin.woff') format('woff');
-		font-style: normal;
-		font-weight: 100;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Untitled Sans;
+    src: url(/static/untitled-sans-regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Calibre';
-		src: url('/static/CalibreWeb-Light.woff') format('woff');
-		font-style: normal;
-		font-weight: 300;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Untitled Sans;
+    src: url(/static/untitled-serif-regular-italic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Calibre';
-		src: url('/static/CalibreWeb-Regular.woff') format('woff');
-		font-style: normal;
-		font-weight: 400;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Soehne Dreiviertelfett;
+    src: url(/static/SohneWeb-Dreiviertelfett.woff2)format("woff2");
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Calibre';
-		src: url('/static/CalibreWeb-Medium.woff') format('woff');
-		font-style: normal;
-		font-weight: 500;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
-	@font-face {
-		font-family: 'Calibre';
-		src: url('/static/CalibreWeb-Semibold.woff') format('woff');
-		font-style: normal;
-		font-weight: 700;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Manuka;
+    src: url(/static/ManukaCondensedWeb-Ultra.woff2)format("woff2");
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'Founders';
-		src: url('/static/FoundersGroteskMonoWeb-Regular.woff') format('woff');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-	  }
+@font-face {
+    font-family: Manuka;
+    src: url(/static/ManukaCondensedWeb-Black.woff2)format("woff2");
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'SoehneMono';
-		src: url('/static/soehne-mono-extraleicht.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-		font-weight: 100;
-	  }
+@font-face {
+    font-family: Heldane Text;
+    src: url(/static/HeldaneTextWeb-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'SoehneMono';
-		src: url('/static/soehne-mono-web-buch.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-		font-weight: 400;
-	  }
+@font-face {
+    font-family: Heldane Text;
+    src: url(/static/HeldaneTextWeb-RegularItalic.woff2)format("woff2");
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-		font-family: 'SoehneMono';
-		src: url('/static/soehne-mono-extrafett.woff2') format('woff2');
-		font-style: normal;
-		font-stretch: normal;
-		font-display: swap;
-		text-rendering: optimizeSpeed;
-		font-weight: 700;
-	  }
+@font-face {
+    font-family: Heldane Text;
+    src: url(/static/HeldaneTextWeb-Bold.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-			font-family: 'UntitledSerif';
-			src: url('/static/untitled-serif-web-regular.woff2') format('woff2');
-			font-style: normal;
-			font-stretch: normal;
-			font-display: swap;
-			text-rendering: optimizeSpeed;
-			font-weight: 400;
-		  }
+@font-face {
+    font-family: Heldane Text;
+    src: url(/static/HeldaneTextWeb-BoldItalic.woff2)format("woff2");
+    font-style: italic;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-			font-family: 'UntitledSerif';
-			src: url('/static/untitled-serif-web-bold.woff2') format('woff2');
-			font-style: normal;
-			font-stretch: normal;
-			font-display: swap;
-			text-rendering: optimizeSpeed;
-			font-weight: 700;
-		  }
+@font-face {
+    font-family: SharpRoman;
+    src: url(/static/SharpRomanReg.woff2)format("woff2");
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-	    font-family: "Salter";
-	    src: url("/static/Salter-Roman.woff") format("woff");
-	    font-weight: 400;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Salter";
-	    src: url("/static/Salter-Italic.woff") format("woff");
-	    font-weight: 400;
-	    font-style: italic;
-	}
-	
-	@font-face {
-	    font-family: "Earth";
-	    src: url("/static/SharpEarthOLPE-Regular.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Earth";
-	    src: url("/static/SharpEarthOLPE-Bold.woff2") format("woff2");
-	    font-weight: 700;
-	    font-style: normal;
-	}
+@font-face {
+    font-family: SharpRoman;
+    src: url(/static/SharpRomanItalic.woff2)format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-	    font-family: "Earth";
-	    src: url("/static/Sharp-ExtraBold.woff2") format("woff2");
-	    font-weight: 900;
-	    font-style: normal;
-	}
+@font-face {
+    font-family: TheFuture;
+    src: url(/static/the-future-regular.woff2)format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-	@font-face {
-	    font-family: "Earth";
-	    src: url("/static/SharpEarthOLPE-BoldItl.woff2") format("woff2");
-	    font-weight: 700;
-	    font-style: italic;
-	}
-	
-	@font-face {
-	    font-family: "Serif";
-	    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Serif";
-	    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: italic;
-	}
-	@font-face {
-	    font-family: "Serif";
-	    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2") format("woff2");
-	    font-weight: 700;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Martina";
-	    src: url("/static/MartinaPlantijn-Black.woff") format("woff");
-	    font-weight: 700;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Martina";
-	    src: url("/static/MartinaPlantijn-BlackItalic.woff") format("woff2");
-	    font-weight: 700;
-	    font-style: italic;
-	}
-	
-	@font-face {
-	    font-family: "Martina";
-	    src: url("/static/MartinaPlantijn-LightItalic.woff") format("woff");
-	    font-weight: 400;
-	    font-style: italic;
-	}
-	
-	
-	@font-face {
-	    font-family: "Martina";
-	    src: url("/static/MartinaPlantijn-Light.woff") format("woff");
-	    font-weight: 400;
-	    font-style: normal;
-	}
-	
-	
-	
-	@font-face {
-	    font-family: "Respira";
-	    src: url("/static/Respira-Black.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: normal;
-	}
-	
-	@font-face {
-	    font-family: "Soehne";
-	    src: url("/static/soehne-buch.woff2") format("woff2");
-	    font-weight: 400;
-	    font-style: normal;
-	    font-display: swap;
-	    text-rendering: optimizeSpeed;
-	}
-	@font-face {
-	    font-family: "Soehne";
-	    src: url("/static/soehne-kraftig.woff2") format("woff2");
-	    font-weight: 700;
-	    font-style: normal;
-	    font-display: swap;
-	    text-rendering: optimizeSpeed;
-	}
+@font-face {
+    font-family: TheFuture;
+    src: url(/static/the-future-medium.woff2)format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
+@font-face {
+    font-family: Editorial;
+    src: url(/static/editorial-reg.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
 
-:root {
---size-step--2: clamp(0.8247rem, 0.7329rem + 0.4588vw, 1.12rem);
---size-step--1: clamp(0.9896rem, 0.8621rem + 0.6375vw, 1.4rem);
---size-step-0: clamp(1.1875rem, 1.0127rem + 0.8738vw, 1.75rem);
---size-step-1: clamp(1.425rem, 1.1881rem + 1.1845vw, 2.1875rem);
---size-step-2: clamp(1.71rem, 1.3917rem + 1.5913vw, 2.7344rem);
---size-step-3: clamp(2.052rem, 1.6276rem + 2.1219vw, 3.418rem);
---size-step-4: clamp(2.4624rem, 1.9001rem + 2.8117vw, 4.2725rem);
---size-step-5: clamp(2.9549rem, 2.2137rem + 3.7059vw, 5.3406rem);
---size-step-6: clamp(3.5459rem, 2.5735rem + 4.8619vw, 6.6757rem);
---space-xs: clamp(0.3125rem,0.27rem + 0.19vw,0.4375rem);
---space-s: clamp(0.625rem,0.55rem + 0.38vw,0.875rem);
---space-m: clamp(0.875rem,0.74rem + 0.67vw,1.3125rem);
---space-l: clamp(1.1875rem,0.96rem + 1.15vw,1.9375rem);
---space-xl: clamp(2.375rem,2.03rem + 1.73vw,3.5rem);
---space-2xl: clamp(3.5625rem,3.04rem + 2.60vw,5.25rem);
---space-3xl: clamp(5.9375rem,5.07rem + 4.33vw,8.75rem);
---space-xs-s: clamp(0.3125rem,0.14rem + 0.87vw,0.875rem);
---space-s-m: clamp(0.625rem,0.41rem + 1.06vw,1.3125rem);
---space-m-l: clamp(0.875rem,0.55rem + 1.63vw,1.9375rem);
---space-l-xl: clamp(1.1875rem,0.48rem + 3.56vw,3.5rem);
---space-l-2xl: clamp(2.375rem,1.49rem + 4.42vw,5.25rem);
---space-xl-2xl: clamp(3.5625rem,1.97rem + 7.98vw,8.75rem);
---space-2xl-3xl: clamp(5.9375rem,3.46rem + 12.40vw,14rem);
+@font-face {
+    font-family: Editorial;
+    src: url(/static/editorial-italic.woff)format("woff");
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: HeldaneDisplay;
+    src: url(/static/HeldaneDisplayWeb-RegularItalic.woff)format("woff");
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: HeldaneText;
+    src: url(/static/HeldaneTextWeb-Regular.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: HeldaneText;
+    src: url(/static/HeldaneTextWeb-RegularItalic.woff)format("woff");
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: FoundersCondensed;
+    src: url(/static/FoundersGroteskCondensedWeb-Bold.woff)format("woff");
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: FoundersMono;
+    src: url(/static/FoundersGroteskMonoWeb-Regular.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: FoundersMono;
+    src: url(/static/FoundersGroteskMonoWeb-Bold.woff)format("woff");
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: FoundersText;
+    src: url(/static/FoundersGroteskTextWeb-Medium.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Calibre;
+    src: url(/static/CalibreWeb-Thin.woff)format("woff");
+    font-style: normal;
+    font-weight: 100;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Calibre;
+    src: url(/static/CalibreWeb-Light.woff)format("woff");
+    font-style: normal;
+    font-weight: 300;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Calibre;
+    src: url(/static/CalibreWeb-Regular.woff)format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Calibre;
+    src: url(/static/CalibreWeb-Medium.woff)format("woff");
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Calibre;
+    src: url(/static/CalibreWeb-Semibold.woff)format("woff");
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Founders;
+    src: url(/static/FoundersGroteskMonoWeb-Regular.woff)format("woff");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: SoehneMono;
+    src: url(/static/soehne-mono-extraleicht.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed;font-weight: 100
 }
 
+@font-face {
+    font-family: SoehneMono;
+    src: url(/static/soehne-mono-web-buch.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed;font-weight: 400
+}
+
+@font-face {
+    font-family: SoehneMono;
+    src: url(/static/soehne-mono-extrafett.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed;font-weight: 700
+}
+
+@font-face {
+    font-family: UntitledSerif;
+    src: url(/static/untitled-serif-web-regular.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed;font-weight: 400
+}
+
+@font-face {
+    font-family: UntitledSerif;
+    src: url(/static/untitled-serif-web-bold.woff2)format("woff2");
+    font-style: normal;
+    font-stretch: 100%;
+    font-display: swap;
+    text-rendering:optimizeSpeed;font-weight: 700
+}
+
+@font-face {
+    font-family: Salter;
+    src: url(/static/Salter-Roman.woff)format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Salter;
+    src: url(/static/Salter-Italic.woff)format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Earth;
+    src: url(/static/SharpEarthOLPE-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Earth;
+    src: url(/static/SharpEarthOLPE-Bold.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Earth;
+    src: url(/static/Sharp-ExtraBold.woff2)format("woff2");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Earth;
+    src: url(/static/SharpEarthOLPE-BoldItl.woff2)format("woff2");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2")format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2")format("woff2");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Serif";
+    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2")format("woff2");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Martina;
+    src: url(/static/MartinaPlantijn-Black.woff)format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Martina;
+    src: url(/static/MartinaPlantijn-BlackItalic.woff)format("woff2");
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Martina;
+    src: url(/static/MartinaPlantijn-LightItalic.woff)format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: Martina;
+    src: url(/static/MartinaPlantijn-Light.woff)format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Respira;
+    src: url(/static/Respira-Black.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Soehne;
+    src: url(/static/soehne-buch.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+@font-face {
+    font-family: Soehne;
+    src: url(/static/soehne-kraftig.woff2)format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    text-rendering:optimizeSpeed}
+
+:root {
+    --size-step--2: clamp(.8247rem,.7329rem + .4588vw,1.12rem);
+    --size-step--1: clamp(.9896rem,.8621rem + .6375vw,1.4rem);
+    --size-step-0: clamp(1.1875rem,1.0127rem + .8738vw,1.75rem);
+    --size-step-1: clamp(1.425rem,1.1881rem + 1.1845vw,2.1875rem);
+    --size-step-2: clamp(1.71rem,1.3917rem + 1.5913vw,2.7344rem);
+    --size-step-3: clamp(2.052rem,1.6276rem + 2.1219vw,3.418rem);
+    --size-step-4: clamp(2.4624rem,1.9001rem + 2.8117vw,4.2725rem);
+    --size-step-5: clamp(2.9549rem,2.2137rem + 3.7059vw,5.3406rem);
+    --size-step-6: clamp(3.5459rem,2.5735rem + 4.8619vw,6.6757rem);
+    --space-xs: clamp(.3125rem,.27rem + .19vw,.4375rem);
+    --space-s: clamp(.625rem,.55rem + .38vw,.875rem);
+    --space-m: clamp(.875rem,.74rem + .67vw,1.3125rem);
+    --space-l: clamp(1.1875rem,.96rem + 1.15vw,1.9375rem);
+    --space-xl: clamp(2.375rem,2.03rem + 1.73vw,3.5rem);
+    --space-2xl: clamp(3.5625rem,3.04rem + 2.6vw,5.25rem);
+    --space-3xl: clamp(5.9375rem,5.07rem + 4.33vw,8.75rem);
+    --space-xs-s: clamp(.3125rem,.14rem + .87vw,.875rem);
+    --space-s-m: clamp(.625rem,.41rem + 1.06vw,1.3125rem);
+    --space-m-l: clamp(.875rem,.55rem + 1.63vw,1.9375rem);
+    --space-l-xl: clamp(1.1875rem,.48rem + 3.56vw,3.5rem);
+    --space-l-2xl: clamp(2.375rem,1.49rem + 4.42vw,5.25rem);
+    --space-xl-2xl: clamp(3.5625rem,1.97rem + 7.98vw,8.75rem);
+    --space-2xl-3xl: clamp(5.9375rem,3.46rem + 12.4vw,14rem)
+}
 
 .article-title {
-	font-size: var(--size-step-5);
+    font-size: var(--size-step-6);
     letter-spacing: 0;
-    color: #b0fb90;
+    /* color:#b0fb90; */
     text-wrap: balance;
     font-family: var(--headerFont);
-    /* letter-spacing: -.04ch; */
-    padding-bottom: var(--space-l);
-    padding-top: var(--space-xs-s);
+    /* padding-bottom:var(--space-l); */
+    /* padding-top:var(--space-xs-s); */
     font-variation-settings: "wght" 700;
-    font-feature-settings: "ss03";
-    /* border-bottom: 1px solid #000; */
+    /* font-feature-settings: "ss02"; */
+    /* text-transform:uppercase; */
+    /* text-align:-webkit-center; */
     max-width: 17ch;
     line-height: .9;
-    text-transform: uppercase;
-    text-align: -webkit-center;
+    font-weight: 400;
+    letter-spacing: -0.08ch;
+    );padding-block-start: var(--space-m-l);padding-block-end: var(--space-l);
 }
 
 .page-title {
-    /* font-size: var(--size-step-1); */
-    /* letter-spacing: -.06ch; */
     margin: 0;
-    /* font-style: italic; */
     line-height: 1.2;
-    font-weight: 400 !important;
+    font-weight: 400!important
 }
 
 .content-meta {
     font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
-    font-size: var(--size-step--2);
+    font-size: var(--size-step--1);
     margin-bottom: var(--space-xs);
-	color: var(--lightgray);
+    /* color:var(--lightgray); */
 }
 
 button#toc h3 {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    color: var(--lightgray);
-    /* text-transform: uppercase; */
+    /* color:var(--lightgray); */
     letter-spacing: -.04ch;
     margin: 0;
     font-weight: 400;
-    display: inline-block;
+    display: inline-block
 }
-
-
 
 .tags {
     flex-wrap: wrap;
@@ -692,29 +638,29 @@ button#toc h3 {
     padding-left: 0;
     list-style: none;
     display: flex;
+    justify-self: center;
 }
 
 .backlinks>h3 {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    letter-spacing: -.02ch;
     margin: 0;
-    font-weight: 400;
-    letter-spacing: -0.02ch;
+    font-weight: 400
 }
 
-
 .page article>h1 {
-    font-size: var(--size-step-3);
+    font-size: var(--size-step-3)
 }
 
 .page .page-header {
     margin-bottom: var(--space-2xl);
-    /* padding-left: var(--space-m); */
     padding-bottom: var(--space-l);
     padding-top: var(--space-s);
-    background: #241f21 !important;
     text-align: -webkit-center;
-    border-radius: .5rem;
+    border-radius: .2rem;
+    background: var(--lightgray) !important;
+    !i;!;/* border: 1px solid var(--gray); */
 }
 
 .search>#search-icon {
@@ -725,104 +671,78 @@ button#toc h3 {
     border-radius: 0;
     align-items: center;
     height: 2rem;
-    display: flex;
-    border-radius: 0;
+    display: flex
 }
 
-
-h1, h2, h3, h4, h5, h6, thead {
-    font-feature-settings: "liga" on,"ss01", "ss09","dlig" off,"ss10","kern";
+h1,h2,h3,h4,h5,h6,thead {
+    font-feature-settings: "liga" on,"ss01","ss09","dlig" off,"ss10","kern";
 }
 
-
-h2 {
-    font-weight: 500;
-    font-size: var(--size-step-3);
-    color: var(--darkgray);
-    margin-top: 1.9rem;
-    margin-bottom: 1rem;
-}
-
-h4, h5, h6 {
+h4,h5,h6 {
     margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem
 }
 
 #toc-content ul>li>a {
-    color: black;
+    color: #000;
     opacity: .35;
     font-weight: 400;
     font-family: var(--codeFont);
-    transition: opacity .5s, color .3s;
-    letter-spacing: -0.02ch;
+    letter-spacing: -.02ch;
     font-size: var(--size-step--2);
+    transition: opacity .5s,color .3s
 }
 
 blockquote {
-    font-size: var(--size-step--1);
+    font-size: var(--size-step--1)
 }
 
 .callout-title .callout-title-inner {
-    font-weight: 400;
+    font-weight: 400
 }
 
-.callout {
-  &[data-callout="scroll"] {
+.callout[data-callout=scroll] {
     --color: var(--secondary);
     --border: var(--secondary);
     --bg: var(--light);
-    --callout-icon-scroll: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll"><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg>');
-  }
+    --callout-icon-scroll: url("data:image/svg+xml; utf8, <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-scroll\"><path d=\"M19 17V5a2 2 0 0 0-2-2H4\"/><path d=\"M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3\"/></svg>")
 }
 
-.callout {
-  &[data-callout="awe"] {
+.callout[data-callout=awe] {
     --color: var(--secondary);
     --border: var(--secondary);
     --bg: var(--light);
-    --callout-icon-awe: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/><path d="M4 17v2"/><path d="M5 18H3"/></svg>');
-  }
+    --callout-icon-awe: url("data:image/svg+xml; utf8, <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/><path d=\"M20 3v4\"/><path d=\"M22 5h-4\"/><path d=\"M4 17v2\"/><path d=\"M5 18H3\"/></svg>")
 }
 
-.callout {
-  &[data-callout="forgiveness"] {
+.callout[data-callout=forgiveness] {
     --color: var(--secondary);
     --border: var(--secondary);
     --bg: var(--light);
-    --callout-icon-forgiveness: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cross"><path d="M11 2a2 2 0 0 0-2 2v5H4a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2v-5h5a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-5V4a2 2 0 0 0-2-2h-2z"/></svg>');
-  }
+    --callout-icon-forgiveness: url("data:image/svg+xml; utf8, <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-cross\"><path d=\"M11 2a2 2 0 0 0-2 2v5H4a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2v-5h5a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-5V4a2 2 0 0 0-2-2h-2z\"/></svg>")
 }
 
-.callout {
-  &[data-callout="trust"] {
+.callout[data-callout=trust] {
     --color: var(--secondary);
     --border: transparent;
     --bg: var(--light);
-    --callout-icon-trust: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-castle"><path d="M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"/><path d="M18 11V4H6v7"/><path d="M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4"/><path d="M22 11V9"/><path d="M2 11V9"/><path d="M6 4V2"/><path d="M18 4V2"/><path d="M10 4V2"/><path d="M14 4V2"/></svg>');
-  }
-}
-
-.graph > .graph-outer {
-    border-radius: 0px;
+    --callout-icon-trust: url("data:image/svg+xml; utf8, <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-castle\"><path d=\"M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z\"/><path d=\"M18 11V4H6v7\"/><path d=\"M15 22v-4a3 3 0 0 0-3-3a3 3 0 0 0-3 3v4\"/><path d=\"M22 11V9\"/><path d=\"M2 11V9\"/><path d=\"M6 4V2\"/><path d=\"M18 4V2\"/><path d=\"M10 4V2\"/><path d=\"M14 4V2\"/></svg>")
 }
 
 .graph>h3 {
-font-size: var(--size-step--2);
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    letter-spacing: -.02ch;
     margin: 0;
-    font-weight: 400;
-    letter-spacing: -0.02ch;
+    font-weight: 400
 }
 
 button#explorer h1 {
-font-size: var(--size-step--2);
+    font-size: var(--size-step--2);
     font-family: var(--codeFont);
-    /* text-transform: uppercase; */
-    /* letter-spacing: .15ch; */
     margin: 0;
-    display: inline-block;
     font-weight: 400;
-    // font-style: italic;
+    display: inline-block
 }
 
 #explorer-content ul li>a {
@@ -830,29 +750,28 @@ font-size: var(--size-step--2);
     opacity: .75;
     pointer-events: all;
     font-weight: 400;
-    font-size: var(--size-step--2) !important;
+    font-size: var(--size-step--2)!important
 }
 
 a {
     color: var(--secondary);
- font-weight: 400;
+    font-weight: 400;
     text-decoration: none;
-    transition: color .2s;
+    transition: color .2s
 }
 
 a.internal.tag-link {
     font-size: var(--size-step--2);
-    background: transparent;
-    color: black;
+    color: #000;
     padding: .2rem .4rem;
     padding: var(--space-xs);
     letter-spacing: .1ch;
-    /* text-transform: uppercase; */
+    font-family: var(--headerFont);
+    background: 0 0;
+    border: 1px solid #000;
     border-radius: 0;
     margin: 0 .1rem;
-    font-family: var(--headerFont);
-    font-weight: 400;
-    border: 1px solid black;
+    font-weight: 400
 }
 
 h2 {
@@ -861,34 +780,32 @@ h2 {
     color: var(--darkgray);
     margin-top: 1.9rem;
     margin-bottom: 1rem;
+    letter-spacing: -0.05ch;
 }
 
 a.internal {
-color: black;
+    color: #000;
     background: #b0fb90;
     border-radius: 0;
     padding: 0 .1rem;
-    /* font-weight: 900; */
     line-height: 1.2;
-    text-decoration: none;
-    //font-family: var(--headerFont);
+    text-decoration: none
 }
 
 a.internal:hover {
-/*color: var(--highlight) !important; */
-    background: white;
-    color: black !important;
+    background: #fff;
+    color: #000!important
 }
 
-body, section {
+body,section {
     font-size: var(--size-step--1);
-    line-height: 1.4;
+    line-height: 1.4
 }
 
 .search>#search-icon>p {
-    padding: 0 1rem;
-    display: inline;
     font-size: var(--size-step--2);
+    padding: 0 1rem;
+    display: inline
 }
 
 .folder-container div>button {
@@ -896,85 +813,84 @@ body, section {
     text-align: left;
     cursor: pointer;
     font-family: var(--codeFont);
+    font-size: var(--size-step--2);
     background-color: #0000;
     border: none;
     align-items: center;
     padding-left: 0;
     padding-right: 0;
-    display: flex;
-    font-size: var(--size-step--2);
+    display: flex
 }
 
 #explorer-content ul {
-    margin: .08rem 0;
-    padding: 0;
-    list-style: none;
-    transition: max-height .35s, transform .35s, opacity .2s;
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    margin: .08rem 0;
+    padding: 0;
     line-height: 1;
+    list-style: none;
+    transition: max-height .35s,transform .35s,opacity .2s
 }
 
 .backlinks>ul>li>a {
-	font-size: var(--size-step--1);
+    font-size: var(--size-step--1);
     font-family: var(--headerFont);
-    /* padding: var(--space-xs); */
-    background-color: #b0fb90;
-    line-height: .5 !important;
     text-transform: uppercase;
+    background-color: #b0fb90;
+    line-height: .5!important
 }
 
 .backlinks {
-    position: relative;
     font-size: var(--size-step--2);
+    position: relative
 }
 
 .breadcrumb-container {
-	font-family: var(--codeFont);
+    font-family: var(--codeFont);
     padding: 0;
     padding-top: var(--space-xs);
     padding-bottom: var(--space-xs);
     flex-flow: wrap;
+    place-content: center;
     gap: .5rem;
     display: flex;
-    font-size: var(--size-step--2) !important;
-    margin: 0 !important;
-    place-content: center;
+    font-size: var(--size-step--2)!important;
+    margin: 0!important
 }
 
 #toc-content .depth-0 {
     padding-left: 0;
-    line-height: 1;
+    line-height: 1
 }
 
 h3 {
-font-size: var(--size-step-0);
+    font-size: var(--size-step-0)
 }
 
 li.section-li>.section>.meta {
-	    font-family: var(--codeFont);
-    font-size: var(--size-step--2);
+    font-family: var(--codeFont);
+    font-size: var(--size-step--2)
 }
 
 footer {
     font-size: var(--size-step--2);
-    font-family: var(--codeFont);
+    font-family: var(--codeFont)
 }
 
 .graph>.graph-outer {
-    border-radius: 0;
+    border-radius: 0
 }
 
 .popover h1 {
-    font-size: var(--size-step-2);
+    font-size: var(--size-step-2)
 }
 
 a.red-link {
-  color: red !important; // Change the color to red
+    color: red!important
 }
 
 .red-background {
-  background: red; /* Change this to the desired shade of red */
+    background: red
 }
 
 .search>#search-container>#search-space>input {
@@ -982,86 +898,70 @@ a.red-link {
     font-family: var(--bodyFont);
     color: var(--dark);
     border: 1px solid var(--lightgray);
-    padding: .5em 1em;
     font-size: var(--size-step-4);
     border-radius: 12rem;
+    padding: .5em 1em
 }
 
 .folder-container div>button span {
     color: var(--secondary);
     pointer-events: none;
-    margin: 0;
     font-size: var(--size-step--2);
+    margin: 0;
     font-weight: 400;
     line-height: 1.5rem;
-    display: inline-block;
+    display: inline-block
 }
 
 ul.section-ul {
+    border-bottom: var(--lightgray)1px solid;
     margin-top: 2em;
     padding-left: 0;
-    list-style: none;
-    border-bottom: var(--lightgray) 1px solid;
+    list-style: none
 }
 
-p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
+p,ul,text,a,tr,td,li,ol,ul,.katex,.math {
     color: var(--darkgray);
     fill: var(--darkgray);
     overflow-wrap: anywhere;
     -webkit-hyphens: auto;
     hyphens: auto;
-    font-size: var(--size-step-0);
+    font-size: var(--size-step-0)
 }
 
 .breadcrumb-element a {
     color: var(--light);
     letter-spacing: -.05ch;
     font-weight: 400;
-    font-size: var(--size-step--2) !important;
+    font-size: var(--size-step--2)!important
 }
 
 .breadcrumb-element p {
+    line-height: normal;
+    font-family: var(--codeFont);
+    color: var(--gray);
     margin: 0 0 0 .5rem;
     padding: 0;
-    /* font-weight: 700; */
-    line-height: normal;
-    font-size: var(--size-step--2) !important;
-	font-family: var(--codeFont);
     font-weight: 400;
-	color: var(--gray);
+    font-size: var(--size-step--2)!important
 }
 
 .popover h1 {
     font-size: var(--size-step-2);
-    color: var(--dark);
+    color: var(--dark)
 }
 
 .popover .content-meta {
-    color: var(--lightgray);
+    color: var(--lightgray)
 }
 
 :root {
-  --shadow-color: 213deg 50% 47%;
-  --shadow-elevation-low:
-    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.44),
-    0.4px 0.8px 0.9px -1.6px hsl(var(--shadow-color) / 0.38),
-    1px 2px 2.3px -3.2px hsl(var(--shadow-color) / 0.31);
-  --shadow-elevation-medium:
-    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.46),
-    0.7px 1.4px 1.6px -1.1px hsl(var(--shadow-color) / 0.41),
-    1.9px 3.9px 4.4px -2.1px hsl(var(--shadow-color) / 0.36),
-    5px 10px 11.4px -3.2px hsl(var(--shadow-color) / 0.31);
-  --shadow-elevation-high:
-    0.3px 0.5px 0.6px hsl(var(--shadow-color) / 0.43),
-    1.1px 2.3px 2.6px -0.5px hsl(var(--shadow-color) / 0.41),
-    2.2px 4.4px 5px -0.9px hsl(var(--shadow-color) / 0.38),
-    3.8px 7.7px 8.8px -1.4px hsl(var(--shadow-color) / 0.36),
-    6.5px 13px 14.8px -1.8px hsl(var(--shadow-color) / 0.34),
-    10.6px 21.3px 24.3px -2.3px hsl(var(--shadow-color) / 0.31),
-    16.7px 33.3px 38px -2.7px hsl(var(--shadow-color) / 0.29),
-    25px 50px 57px -3.2px hsl(var(--shadow-color) / 0.26);
+    --shadow-color: 213deg 50% 47%;
+    --shadow-elevation-low: .3px .5px .6px hsl(var(--shadow-color)/.44),.4px .8px .9px -1.6px hsl(var(--shadow-color)/.38),1px 2px 2.3px -3.2px hsl(var(--shadow-color)/.31);
+    --shadow-elevation-medium: .3px .5px .6px hsl(var(--shadow-color)/.46),.7px 1.4px 1.6px -1.1px hsl(var(--shadow-color)/.41),1.9px 3.9px 4.4px -2.1px hsl(var(--shadow-color)/.36),5px 10px 11.4px -3.2px hsl(var(--shadow-color)/.31);
+    --shadow-elevation-high: .3px .5px .6px hsl(var(--shadow-color)/.43),1.1px 2.3px 2.6px -.5px hsl(var(--shadow-color)/.41),2.2px 4.4px 5px -.9px hsl(var(--shadow-color)/.38),3.8px 7.7px 8.8px -1.4px hsl(var(--shadow-color)/.36),6.5px 13px 14.8px -1.8px hsl(var(--shadow-color)/.34),10.6px 21.3px 24.3px -2.3px hsl(var(--shadow-color)/.31),16.7px 33.3px 38px -2.7px hsl(var(--shadow-color)/.29),25px 50px 57px -3.2px hsl(var(--shadow-color)/.26)
 }
 
 .popover>.popover-inner {
-	text-transform: none;
+    text-transform: none
 }
