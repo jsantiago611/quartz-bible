@@ -595,7 +595,7 @@
     font-family: var(--headerFont);
     /* padding-bottom:var(--space-l); */
     /* padding-top:var(--space-xs-s); */
-    font-variation-settings: "wght" 700;
+    /* font-variation-settings: "wght" 700;*/
     /* font-feature-settings: "ss02"; */
     /* text-transform:uppercase; */
     /* text-align:-webkit-center; */
@@ -603,7 +603,8 @@
     line-height: .9;
     font-weight: 400;
     letter-spacing: -0.08ch;
-    );padding-block-start: var(--space-m-l);padding-block-end: var(--space-l);
+    padding-block-start: var(--space-m-l);
+    padding-block-end: var(--space-l);
 }
 
 .page-title {
@@ -627,7 +628,7 @@ button#toc h3 {
     letter-spacing: -.04ch;
     margin: 0;
     font-weight: 400;
-    display: inline-block
+    display: inline-block;
 }
 
 .tags {
@@ -646,7 +647,7 @@ button#toc h3 {
     font-family: var(--codeFont);
     letter-spacing: -.02ch;
     margin: 0;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .page article>h1 {
