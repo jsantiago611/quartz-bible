@@ -732,10 +732,8 @@ button#toc h3 {
     margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-l);
     padding-top: var(--space-s);
-    text-align: -webkit-center;
     border-radius: .2rem;
-    background: var(--lightgray) !important;
-    /* border: 1px solid var(--gray); */
+    border-bottom: 1px solid var(--lightgray);
 }
 
 .search>#search-icon {
@@ -1035,8 +1033,6 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 }
 
 .breadcrumb-element a {
-    color: var(--light);
-    letter-spacing: -.05ch;
     font-weight: 400;
     font-size: var(--size-step--2) !important;
 }
@@ -1085,4 +1081,9 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 
 .popover>.popover-inner {
 	text-transform: none;
+}
+
+::marker {
+    font-family: var(--headerFont);
+    content: "\274a";
 }
