@@ -1,26 +1,28 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/backlinks.scss"
 import { resolveRelative, simplifySlug } from "../util/path"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 
-function Backlinks({ fileData, allFiles, displayClass, cfg }: QuartzComponentProps) {
+const Backlinks: QuartzComponent = ({
+  fileData,
+  allFiles,
+  displayClass,
+  cfg,
+}: QuartzComponentProps) => {
   const slug = simplifySlug(fileData.slug!)
   const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
-
-  // Check if the fileData has the tag "red"
-  const hasRedTag = fileData.tags?.includes("red"); 
-
   return (
     <div class={classNames(displayClass, "backlinks")}>
       <h3>{i18n(cfg.locale).components.backlinks.title}</h3>
       <ul class="overflow">
         {backlinkFiles.length > 0 ? (
           backlinkFiles.map((f) => (
-            <li key={f.slug}>
-              <a
-                href={resolveRelative(fileData.slug!, f.slug!)}
-                class={classNames("internal", "alias", { "red-link": hasRedTag })} // Include alias class
+            <li>
+              <a 
+                href={resolveRelative(fileData.slug!, f.slug!)} 
+                class="internal" 
+                style={f.frontmatter?.tags?.includes("bible") ? { fontFamily: "Respira, sans-serif" } : undefined}
               >
                 {f.frontmatter?.title}
               </a>
