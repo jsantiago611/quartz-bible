@@ -2,6 +2,7 @@
 title: What is the Trinity?
 tags:
   - definition
+  - Bible
 ---
 
 > [!warning] The doctrine of the trinity is NOT:
