@@ -22,7 +22,7 @@ const Backlinks: QuartzComponent = ({
               <a 
                 href={resolveRelative(fileData.slug!, f.slug!)} 
                 class="internal" 
-                style={f.frontmatter?.tags?.includes("bible") ? { fontFamily: "Respira, sans-serif" } : undefined}
+                style={f.frontmatter?.tags?.includes("bible") ? { color: "red", fontWeight: "bold", textDecoration: "none" } : undefined}
               >
                 {f.frontmatter?.title}
               </a>
