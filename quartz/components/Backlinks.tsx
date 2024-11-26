@@ -19,10 +19,14 @@ const Backlinks: QuartzComponent = ({
         {backlinkFiles.length > 0 ? (
           backlinkFiles.map((f) => (
             <li>
-              <a 
-                href={resolveRelative(fileData.slug!, f.slug!)} 
-                class="internal" 
-                style={f.frontmatter?.tags?.includes("bible") ? { color: "red", fontWeight: "bold", textDecoration: "none" } : undefined}
+              <a
+                href={resolveRelative(fileData.slug!, f.slug!)}
+                class="internal"
+                style={
+                  f.frontmatter?.tags?.includes("bible")
+                    ? { color: "red", fontWeight: "bold" }
+                    : undefined
+                }
               >
                 {f.frontmatter?.title}
               </a>
