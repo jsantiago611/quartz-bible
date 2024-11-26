@@ -550,6 +550,9 @@
 	    src: url("/static/SharpEarthOLPE-BoldItl.woff2") format("woff2");
 	    font-weight: 700;
 	    font-style: italic;
+		font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
 	}
 	
 	@font-face {
@@ -557,6 +560,9 @@
 	    src: url("/static/Sharp Serif Text-Regular.531c514d.woff2") format("woff2");
 	    font-weight: 400;
 	    font-style: normal;
+		font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
 	}
 	
 	@font-face {
@@ -564,12 +570,18 @@
 	    src: url("/static/Sharp Serif Text-Italic.4443ac6d.woff2") format("woff2");
 	    font-weight: 400;
 	    font-style: italic;
+		font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
 	}
 	@font-face {
 	    font-family: "Serif";
 	    src: url("/static/Sharp Serif Text-Bold.afcd33cb.woff2") format("woff2");
 	    font-weight: 700;
 	    font-style: normal;
+		font-stretch: normal;
+			font-display: swap;
+			text-rendering: optimizeSpeed;
 	}
 	
 	@font-face {
