@@ -685,7 +685,7 @@
     /* font-size: var(--size-step-1); */
     /* letter-spacing: -.06ch; */
     margin: 0;
-    /* font-style: italic; */
+    font-style: italic;
     line-height: 1.2;
     font-weight: 400 !important;
 }
@@ -713,7 +713,6 @@ button#toc h3 {
 
 .tags {
     flex-wrap: wrap;
-    justify-self: end;
     gap: .4rem;
     margin: 1rem 0;
     padding-left: 0;
@@ -873,7 +872,7 @@ a.internal.tag-link {
     padding: var(--space-xs);
     letter-spacing: .1ch;
     /* text-transform: uppercase; */
-    border-radius: 0;
+    border-radius: 20ch;
     margin: 0 .1rem;
     font-family: var(--headerFont);
     font-weight: 400;
