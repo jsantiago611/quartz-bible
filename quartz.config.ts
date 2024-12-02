@@ -17,8 +17,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "SharpRoman",
-        body: "serif",
-        code: "Earth",
+        body: "GT-America",
+        code: "GT-America",
       },
       colors: {
         lightMode: {

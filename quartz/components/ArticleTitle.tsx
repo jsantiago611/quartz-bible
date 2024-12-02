@@ -3,8 +3,19 @@ import { classNames } from "../util/lang"
 
 function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
   const title = fileData.frontmatter?.title
+  const tags = fileData.frontmatter?.tags
+
+  const isBibleTag = tags?.includes("Bible")
+
   if (title) {
-    return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
+    return (
+      <h1
+        class={classNames(displayClass, "article-title")}
+        style={isBibleTag ? { fontFamily: "Respira" } : undefined} // Apply inline font-family if 'bible' tag is present
+      >
+        {title}
+      </h1>
+    )
   } else {
     return null
   }
