@@ -6,6 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "Jon's Notes",
     enableSPA: true,
     enablePopovers: true,
+    generateSocialImages: true,
     analytics: {
       provider: "plausible",
     },
