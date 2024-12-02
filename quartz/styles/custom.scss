@@ -937,18 +937,30 @@ body, section {
 
 .backlinks>ul>li>a {
     font-size: var(--size-step--1);
-    /* border: 1px solid var(--lightgray); */
-    /* border-radius: var(--border-radius); */
-    /* padding: 0 var(--space-xs-s); */
     font-family: var(--headerFont);
-    text-decoration: none;
     padding-block-end: var(--space-s);
-    line-height: 0 !important;
+    text-decoration: none;
+    border: 1px solid;
+    margin-bottom: var(--space-s);
+    padding: var(--space-xs);
+    display: grid;
+    --flow-space: var(--space-m-l);
+    --gap: clamp(1rem, 6vw, 3rem);
+    border-radius: 1ch;
 }
 
 .backlinks {
-    position: relative;
     font-size: var(--size-step--2);
+    position: relative;
+    display: grid;
+    --gap: clamp(1rem, 6vw, 3rem);
+    --full: minmax(var(--gap), 3fr);
+    --content: min(var(--wrapper-width, 85rem), 100% - var(--gap)* 2);
+    --popout: minmax(0, 2rem);
+    grid-template-columns: [full-start] var(--full) [feature-start] var(--feature) [popout-start] var(--popout) [content-start] var(--content) [content-end] var(--popout) [popout-end] var(--feature) [feature-end] var(--full) [full-end];
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 50vw, 28rem);
+    --wrapper-width: 36rem;
 }
 
 .breadcrumb-container {
