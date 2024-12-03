@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Jon's Notes",
+    pageTitle: "Atomic Apologetics",
     enableSPA: true,
     enablePopovers: true,
     generateSocialImages: true,
