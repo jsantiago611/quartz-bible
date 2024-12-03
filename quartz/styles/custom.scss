@@ -941,7 +941,7 @@ body, section {
     font-family: var(--headerFont);
     padding-block-end: var(--space-s);
     text-decoration: none;
-    border: 1px solid;
+    border: 1px dashed var(--lightgray);
     margin-bottom: var(--space-s);
     padding: var(--space-xs);
     display: grid;
@@ -953,7 +953,7 @@ body, section {
 .backlinks {
     font-size: var(--size-step--2);
     position: relative;
-    display: grid;
+    // display: grid;
     --gap: clamp(1rem, 6vw, 3rem);
     --full: minmax(var(--gap), 3fr);
     --content: min(var(--wrapper-width, 85rem), 100% - var(--gap)* 2);
@@ -996,7 +996,7 @@ footer {
 }
 
 .graph>.graph-outer {
-    border-radius: 0;
+    border-radius: var(--border-radius);
 }
 
 .popover h1 {
@@ -1017,7 +1017,7 @@ a.red-link {
     color: var(--dark);
     border: 1px solid var(--lightgray);
     padding: .5em 1em;
-    font-size: var(--size-step-2);
+    font-size: var(--size-step-1);
     border-radius: 12rem;
 }
 
@@ -1101,5 +1101,6 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
 ul.overflow>li:last-of-type, ol.overflow>li:last-of-type {
     margin-bottom: 30px;
     line-height: 1;
+	font-size: var(--size-step--1);
 }
 
