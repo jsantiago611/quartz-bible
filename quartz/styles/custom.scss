@@ -674,12 +674,12 @@
     text-wrap: balance;
     font-family: var(--headerFont);
     font-variation-settings: "wght" 700;
-    letter-spacing: -.03ch;
+    letter-spacing: -0.07ch;
     max-width: 17ch;
     padding-block-start: var(--space-m-l);
-    padding-block-end: var(--space-l);
     font-weight: 400;
     line-height: 1;
+    text-transform: uppercase;
 }
 
 .page-title {
@@ -732,23 +732,24 @@ button#toc h3 {
 }
 
 .page .page-header {
-	margin-bottom: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-l);
     padding-top: var(--space-s);
-    border: 1px solid var(--lightgray);
+    /* border: 1px solid var(--lightgray); */
     border-radius: var(--border-radius);
-    padding-left: var(--space-s-m);
+    /* padding-left: var(--space-s-m); */
 }
 
 .search>#search-icon {
     cursor: pointer;
     white-space: nowrap;
-    border: 1px solid var(--lightgray);
+    border: transparent;
+    border-radius: 0;
     background-color: #0000;
     align-items: center;
     height: 2rem;
     display: flex;
-	border-radius: var(--space-l);
+    border-bottom: 1px solid var(--gray);
 }
 
 
@@ -887,7 +888,7 @@ a.internal {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     -webkit-text-decoration-color: var(--dark);
-    text-decoration-color: var(--dark);
+    text-decoration-color: var(--tertiary);
     background-color: #0000;
     border-radius: 0;
     padding: 0 .1rem;
@@ -941,13 +942,13 @@ body, section {
     font-family: var(--headerFont);
     padding-block-end: var(--space-s);
     text-decoration: none;
-    border: 1px dashed var(--lightgray);
+    border: 2px dashed var(--lightgray);
     margin-bottom: var(--space-s);
     padding: var(--space-xs);
     display: grid;
     --flow-space: var(--space-m-l);
     --gap: clamp(1rem, 6vw, 3rem);
-    border-radius: 1ch;
+    border-radius: 0;
 }
 
 .backlinks {
@@ -974,6 +975,8 @@ body, section {
     display: flex;
     font-size: var(--size-step--2) !important;
     margin: 0 !important;
+    border-top: 2px solid var(--lightgray);
+    border-bottom: 2px solid var(--lightgray);
 }
 
 #toc-content .depth-0 {

@@ -18,8 +18,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "SharpRoman",
-        body: "GT-America",
-        code: "GT-America",
+        body: "Earth",
+        code: "Earth",
       },
       colors: {
         lightMode: {
@@ -28,10 +28,9 @@ const config: QuartzConfig = {
           gray: "#5f5f5f",
           darkgray: "#252525",
           dark: "#000",
-          secondary: "#005128",
-          tertiary: "#eb620e",
-          highlight: "#005128",
-          headerbg: "color(display-p3 0.964706 0.823529 0/1)",
+          secondary: "#00e600",
+          tertiary: "#0058fe",
+          highlight: "#fe4f00",
         },
         darkMode: {
           light: "#151515",
@@ -39,10 +38,9 @@ const config: QuartzConfig = {
           gray: "#aaa",
           darkgray: "#e2e2e2",
           dark: "#ecebe7",
-          secondary: "#0693e3",
-          tertiary: "#fcb900",
-          highlight: "#fff",
-          headerbg: "color(display-p3 0.964706 0.823529 0/1)",
+          secondary: "#00e600",
+          tertiary: "#0058fe",
+          highlight: "#fe4f00",
         },
       },
     },
