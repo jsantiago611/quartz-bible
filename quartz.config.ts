@@ -17,9 +17,9 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "SharpRoman",
-        body: "Earth",
-        code: "Earth",
+        header: "GT Pantheon",
+        body: "GT Pantheon",
+        code: "GT Pantheon",
       },
       colors: {
         lightMode: {

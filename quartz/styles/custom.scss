@@ -3,6 +3,34 @@
 // New combo
 
 @font-face {
+	font-family: 'GT Pantheon';
+	font-display: swap;
+	font-style: normal;
+	font-weight: 100 1000;
+	src: url('/static/GT-Pantheon-VF.woff2') format("woff2 supports-variations"),
+		 url('/static/GT-Pantheon-VF.woff2') format("woff2-variations");
+	text-rendering: optimizeSpeed;
+  }
+  @font-face {
+	font-family: 'GT Pantheon';
+	font-display: swap;
+	font-style: italic;
+	font-weight: 100 1000;
+	src: url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2 supports-variations"),
+		 url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2-variations");
+	text-rendering: optimizeSpeed;
+  }
+
+  @font-face {
+	font-family: 'GT Pantheon Italic';
+	font-display: swap;
+	font-weight: 100 1000;
+	src: url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2 supports-variations"),
+		 url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2-variations");
+	text-rendering: optimizeSpeed;
+  }
+
+@font-face {
 	font-family: 'GT-Planar';
 	font-display: swap;
 	font-weight: 100 1000;
@@ -665,16 +693,38 @@
 --space-xl-2xl: clamp(3.5625rem,1.97rem + 7.98vw,8.75rem);
 --space-2xl-3xl: clamp(5.9375rem,3.46rem + 12.40vw,14rem);
 --border-radius: 1.5rem;
+--upright-fonts: "GT Pantheon";
+--italic-fonts: "GT Pantheon Italic"; 
+--opsz-micro: 10;
+--opsz-text: 18;
+--opsz-display: 30;
+--wght-light: 300;
+--wght-regular: 400;
+--wght-medium: 500;
+--wght-bold: 700;
+--wght-black: 900;
+--font-opsz: 18;
+--font-wght: 400;
 }
-
+*:where([style*="font-family: var(--codeFont)"]) {
+	font-variation-settings: "opsz" 10;
+  }
+*:where([style*="font-family: var(--displayFont)"]) {
+    font-variation-settings: "opsz" 30;
+  }
+*:where([style*="font-family: var(--textFont)"]) {
+    font-variation-settings: "opsz" 18;
+  }
+  *:where([style*="font-style: italic"], em, i) {
+	font-family: 'GT Pantheon Italic';
+  }
 
 .article-title {
     font-size: var(--size-step-5);
     letter-spacing: 0;
     text-wrap: balance;
     font-family: var(--headerFont);
-    font-variation-settings: "wght" 700;
-    letter-spacing: -0.07ch;
+    font-variation-settings: "wght" 400;
     max-width: 17ch;
     padding-block-start: var(--space-m-l);
     font-weight: 400;
@@ -686,17 +736,18 @@
     /* font-size: var(--size-step-1); */
     /* letter-spacing: -.06ch; */
     margin: 0;
-    font-style: italic;
     line-height: 1.2;
+	font-variation-settings: "wght" var(--wght-medium);
     font-weight: 400 !important;
 }
 
 .content-meta {
     font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
-    font-size: var(--size-step--1);
+    font-size: var(--size-step-0);
     margin-bottom: var(--space-xs);
     /* color: var(--lightgray); */
+	font-style: italic;
 }
 
 button#toc h3 {
@@ -975,8 +1026,8 @@ body, section {
     display: flex;
     font-size: var(--size-step--2) !important;
     margin: 0 !important;
-    border-top: 2px solid var(--lightgray);
-    border-bottom: 2px solid var(--lightgray);
+    border-top: 1px solid var(--lightgray);
+    border-bottom: 1px solid var(--lightgray);
 }
 
 #toc-content .depth-0 {
@@ -1106,4 +1157,3 @@ ul.overflow>li:last-of-type, ol.overflow>li:last-of-type {
     line-height: 1;
 	font-size: var(--size-step--1);
 }
-
