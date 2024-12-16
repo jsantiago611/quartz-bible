@@ -692,7 +692,7 @@
 --space-l-2xl: clamp(2.375rem,1.49rem + 4.42vw,5.25rem);
 --space-xl-2xl: clamp(3.5625rem,1.97rem + 7.98vw,8.75rem);
 --space-2xl-3xl: clamp(5.9375rem,3.46rem + 12.40vw,14rem);
---border-radius: 1.5rem;
+--border-radius: 0;
 --upright-fonts: "GT Pantheon";
 --italic-fonts: "GT Pantheon Italic"; 
 --opsz-micro: 10;
@@ -720,16 +720,17 @@
   }
 
 .article-title {
-    font-size: var(--size-step-4);
+	font-size: var(--size-step-5);
     letter-spacing: 0;
     text-wrap: balance;
     font-family: var(--headerFont);
     font-variation-settings: "wght" 400;
-    max-width: 17ch;
+    /* max-width: 17ch; */
+    text-transform: uppercase;
     padding-block-start: var(--space-m-l);
     font-weight: 400;
-    line-height: 1;
-    text-transform: uppercase;
+    line-height: 1.1;
+    text-align: center;
 }
 
 .page-title {
@@ -737,17 +738,17 @@
     /* letter-spacing: -.06ch; */
     margin: 0;
     line-height: 1.2;
-	font-variation-settings: "wght" var(--wght-medium);
+	font-variation-settings: "wght" var(--wght-regular);
     font-weight: 400 !important;
 }
 
 .content-meta {
-    font-family: var(--codeFont);
+	font-family: var(--codeFont);
     margin-top: var(--space-xs-s);
-    font-size: var(--size-step-0);
+    font-size: var(--size-step--1);
     margin-bottom: var(--space-xs);
-    /* color: var(--lightgray); */
-	font-style: italic;
+    font-style: italic;
+	text-align: center;
 }
 
 button#toc h3 {
@@ -767,6 +768,7 @@ button#toc h3 {
     list-style: none;
     display: flex;
 	margin-left: auto;
+	justify-content: center;
 }
 
 .backlinks>h3 {
@@ -993,7 +995,7 @@ body, section {
     font-family: var(--headerFont);
     padding-block-end: var(--space-s);
     text-decoration: none;
-    border: 2px dashed var(--lightgray);
+    border: 1px solid var(--lightgray);
     margin-bottom: var(--space-s);
     padding: var(--space-xs);
     display: grid;
@@ -1021,13 +1023,16 @@ body, section {
     padding: 0;
     padding-top: var(--space-xs);
     padding-bottom: var(--space-xs);
+    border-top: 1px solid var(--lightgray);
+    border-bottom: 1px solid var(--lightgray);
     flex-flow: wrap;
     gap: .5rem;
     display: flex;
     font-size: var(--size-step--2) !important;
     margin: 0 !important;
-    border-top: 1px solid var(--lightgray);
-    border-bottom: 1px solid var(--lightgray);
+    letter-spacing: .1ch;
+    font-variant-caps: small-caps;
+	place-content: center;
 }
 
 #toc-content .depth-0 {
