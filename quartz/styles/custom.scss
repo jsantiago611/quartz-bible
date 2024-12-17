@@ -705,32 +705,39 @@
 --wght-black: 900;
 --font-opsz: 18;
 --font-wght: 400;
+--codeFont: "GT Pantheon";
 }
 *:where([style*="font-family: var(--codeFont)"]) {
 	font-variation-settings: "opsz" 10;
   }
-*:where([style*="font-family: var(--displayFont)"]) {
+*:where([style*="font-family: var(--headerFont)"]) {
     font-variation-settings: "opsz" 30;
   }
 *:where([style*="font-family: var(--textFont)"]) {
     font-variation-settings: "opsz" 18;
   }
-  *:where([style*="font-style: italic"], em, i) {
+*:where([style*="font-style: italic"], em, i) {
 	font-family: 'GT Pantheon Italic';
   }
 
+.codeFont {
+	font-variation-settings: "opsz" 10;
+}
+
+.toc {
+    text-align: -webkit-center;
+}
+
 .article-title {
 	font-size: var(--size-step-5);
-    letter-spacing: 0;
+    letter-spacing: -0.05ch;
     text-wrap: balance;
     font-family: var(--headerFont);
-    font-variation-settings: "wght" 400;
     /* max-width: 17ch; */
-    text-transform: uppercase;
     padding-block-start: var(--space-m-l);
-    font-weight: 400;
     line-height: 1.1;
     text-align: center;
+	font-variation-settings: "wght" 700 "opsz" var(--opsz-display);
 }
 
 .page-title {
@@ -743,21 +750,27 @@
 }
 
 .content-meta {
-	font-family: var(--codeFont);
+	font-family: var(--bodyFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     margin-top: var(--space-xs-s);
     font-size: var(--size-step--1);
     margin-bottom: var(--space-xs);
     font-style: italic;
 	text-align: center;
+	font-variation-settings: "opsz" var(--opsz-text);
+
 }
 
 button#toc h3 {
     font-size: var(--size-step--1);
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     letter-spacing: -.04ch;
     margin: 0;
     font-weight: 400;
     display: inline-block;
+	font-variation-settings: "opsz" var(--opsz-micro);
+
 }
 
 .tags {
@@ -774,6 +787,7 @@ button#toc h3 {
 .backlinks>h3 {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+    font-variation-settings: "opsz" var(--opsz-micro);
     margin: 0;
     font-weight: 400;
     letter-spacing: -0.02ch;
@@ -787,10 +801,7 @@ button#toc h3 {
 .page .page-header {
     margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-l);
-    padding-top: var(--space-s);
-    /* border: 1px solid var(--lightgray); */
     border-radius: var(--border-radius);
-    /* padding-left: var(--space-s-m); */
 }
 
 .search>#search-icon {
@@ -807,7 +818,7 @@ button#toc h3 {
 
 
 h1, h2, h3, h4, h5, h6, thead {
-    font-feature-settings: "liga" on,"ss01", "ss09","dlig" off,"ss10","kern";
+	font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
 }
 
 
@@ -828,6 +839,7 @@ h4, h5, h6 {
     opacity: .35;
     font-weight: 400;
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     transition: opacity .5s, color .3s;
     letter-spacing: -0.02ch;
     font-size: var(--size-step--2);
@@ -884,6 +896,7 @@ blockquote {
 .graph>h3 {
 font-size: var(--size-step--2);
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     margin: 0;
     font-weight: 400;
     letter-spacing: -0.02ch;
@@ -892,12 +905,14 @@ font-size: var(--size-step--2);
 button#explorer h1 {
 font-size: var(--size-step--2);
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     /* text-transform: uppercase; */
     /* letter-spacing: .15ch; */
     margin: 0;
     display: inline-block;
     font-weight: 400;
     // font-style: italic;
+
 }
 
 #explorer-content ul li>a {
@@ -924,6 +939,7 @@ a.internal.tag-link {
     border-radius: var(--border-radius);
     margin: 0 .1rem;
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     font-weight: 400;
     border: 1px solid var(--gray);
 	text-decoration: none;
@@ -946,7 +962,7 @@ a.internal {
     border-radius: 0;
     padding: 0 .1rem;
     line-height: 1.2;
-    font-family: var(--headerFont);
+    font-family: var(--bodyFont);
 	font-size: inherit;
 }
 
@@ -971,6 +987,7 @@ body, section {
     text-align: left;
     cursor: pointer;
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     background-color: #0000;
     border: none;
     align-items: center;
@@ -987,6 +1004,7 @@ body, section {
     transition: max-height .35s, transform .35s, opacity .2s;
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     line-height: 1;
 }
 
@@ -1020,6 +1038,7 @@ body, section {
 
 .breadcrumb-container {
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     padding: 0;
     padding-top: var(--space-xs);
     padding-bottom: var(--space-xs);
@@ -1046,12 +1065,14 @@ font-size: var(--size-step-0);
 
 li.section-li>.section>.meta {
 	    font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     font-size: var(--size-step--2);
 }
 
 footer {
     font-size: var(--size-step--2);
     font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
 }
 
 .graph>.graph-outer {
@@ -1104,6 +1125,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     -webkit-hyphens: auto;
     hyphens: auto;
     font-size: var(--size-step-0);
+	font-variation-settings: "opsz" var(--opsz-text);
 }
 
 .breadcrumb-element a {
@@ -1118,6 +1140,7 @@ p, ul, text, a, tr, td, li, ol, ul, .katex, .math {
     line-height: normal;
     font-size: var(--size-step--2) !important;
 	font-family: var(--codeFont);
+font-variation-settings: "opsz" var(--opsz-micro);
     font-weight: 400;
 	color: var(--gray);
 }
