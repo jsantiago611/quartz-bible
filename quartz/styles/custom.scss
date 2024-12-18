@@ -29,7 +29,7 @@
 		 url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2-variations");
 	text-rendering: optimizeSpeed;
   }
-/*
+
 @font-face {
 	font-family: 'GT-Planar';
 	font-display: swap;
@@ -103,7 +103,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
-/*@font-face {
+@font-face {
 		font-family: 'National2Narrow';
 		src: url('/static/national-2-narrow-web-bold.woff2') format('woff2');
 		font-style: normal;
@@ -666,7 +666,6 @@
 	    font-display: swap;
 	    text-rendering: optimizeSpeed;
 	}
-*/
 
 :root {
 --size-step--2: clamp(0.8247rem, 0.7329rem + 0.4588vw, 1.12rem);
@@ -732,12 +731,12 @@
 	font-size: var(--size-step-5);
     letter-spacing: -0.05ch;
     text-wrap: balance;
-    font-family: var(--headerFont);
+    font-family: 'Respira';
     /* max-width: 17ch; */
     padding-block-start: var(--space-m-l);
     line-height: 1.1;
     text-align: center;
-	font-variation-settings: "wght" 700 "opsz" var(--opsz-display);
+	// font-variation-settings: "wght" 700 "opsz" var(--opsz-display);
 }
 
 .page-title {
@@ -791,6 +790,7 @@ font-variation-settings: "opsz" var(--opsz-micro);
     margin: 0;
     font-weight: 400;
     letter-spacing: -0.02ch;
+	font-variant: small-caps;
 }
 
 
@@ -827,13 +827,11 @@ font-variation-settings: "opsz" var(--opsz-micro);
 }
 
 .page .center {
-    background: var(--lightgray);
-    padding-left: var(--space-xs);
-    padding-right: var(--space-xs);
+    background: var(--notebg);
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
     z-index: 2;
     margin-top: 6rem;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: var(--space-xs-s);
 }
 
@@ -941,6 +939,7 @@ font-variation-settings: "opsz" var(--opsz-micro);
     margin: 0;
     font-weight: 400;
     letter-spacing: -0.02ch;
+	font-variant: small-caps;
 }
 
 button#explorer h1 {
@@ -953,7 +952,7 @@ font-variation-settings: "opsz" var(--opsz-micro);
     display: inline-block;
     font-weight: 400;
     // font-style: italic;
-
+	font-variant: small-caps;
 }
 
 #explorer-content ul li>a {
