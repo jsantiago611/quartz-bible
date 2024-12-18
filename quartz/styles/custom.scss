@@ -802,17 +802,23 @@ font-variation-settings: "opsz" var(--opsz-micro);
     margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-l);
     border-radius: var(--border-radius);
-}
-
-.page .page-header {
     width: 750px;
-    /* margin: 6rem auto 0; */
+
 }
 
 @media (max-width: 1510px) {
     .page .page-header {
         width: initial;
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 1510px) {
+    .page .center, .page footer {
+        width: initial;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0 !important;
     }
 }
 
