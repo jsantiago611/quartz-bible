@@ -803,6 +803,7 @@ font-variation-settings: "opsz" var(--opsz-micro);
     padding-bottom: var(--space-l);
     border-radius: var(--border-radius);
     width: 750px;
+    margin: auto;
 }
 
 @media (max-width: 1510px) {
