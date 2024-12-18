@@ -29,7 +29,7 @@
 		 url('/static/GT-Pantheon-Italic-VF.woff2') format("woff2-variations");
 	text-rendering: optimizeSpeed;
   }
-
+/*
 @font-face {
 	font-family: 'GT-Planar';
 	font-display: swap;
@@ -111,7 +111,7 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	font-weight:700;
-	  } */
+	  } 
 @font-face {
 		font-family: 'National2Narrow';
 		src: url('/static/national-2-narrow-medium.woff2') format('woff2');
@@ -666,7 +666,7 @@
 	    font-display: swap;
 	    text-rendering: optimizeSpeed;
 	}
-
+*/
 
 :root {
 --size-step--2: clamp(0.8247rem, 0.7329rem + 0.4588vw, 1.12rem);
@@ -803,7 +803,6 @@ font-variation-settings: "opsz" var(--opsz-micro);
     padding-bottom: var(--space-l);
     border-radius: var(--border-radius);
     width: 750px;
-
 }
 
 @media (max-width: 1510px) {
