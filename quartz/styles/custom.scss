@@ -804,6 +804,21 @@ font-variation-settings: "opsz" var(--opsz-micro);
     border-radius: var(--border-radius);
 }
 
+.page-header {
+	width: 726px;
+}
+
+.page .center {
+    // width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--lightgray);
+    padding-left: var(--space-xs);
+    padding-right: var(--space-xs);
+    margin-top: 6rem;
+	z-index: 1;
+}
+
 .search>#search-icon {
     cursor: pointer;
     white-space: nowrap;
