@@ -1,7 +1,7 @@
 ---
 title: New to apologetics? Avoid these 2 areas
-tags: 
-- "🕝 Don't waste time"
+tags:
+  - Note
 ---
 
 There are a zillion ways to waste time online.

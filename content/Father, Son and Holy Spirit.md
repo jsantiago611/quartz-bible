@@ -2,6 +2,7 @@
 title: Father, Son and Holy Spirit
 tags:
   - Sermon_Note
+draft: true
 ---
 ## Sermon Summary
 

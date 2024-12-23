@@ -1,3 +1,6 @@
+---
+draft: true
+---
 ### Introduction
 1. In summer blockbuster movies, the characters are intentionally one-dimensional, so that when they get blown away, we just applaud the special effects. 
 2. Most people have that same one-dimensional view of God. He is either: 

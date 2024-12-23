@@ -1,5 +1,6 @@
 ---
 title: Through Jesus Christ and his sacrificial life on the Cross, we can be brought into the dance.
+draft: true
 ---
 > #Mark 1:14
 
