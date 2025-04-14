@@ -1,6 +1,58 @@
 @use "./base.scss";
 
 // New combo
+@font-face {
+		font-family: 'Droulers';
+		src: url('/static/Droulers-Regular.static.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Corfe';
+		src: url('/static/CorfeItalic.static.woff2') format('woff2');
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Monument';
+		src: url('/static/ABCMonumentGrotesk-Regular.static.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Monument';
+		src: url('/static/ABCMonumentGrotesk-Medium.static.woff2') format('woff2');
+		font-weight: 700;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Marist';
+		src: url('/static/ABCMarist-Book.static.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'Marist';
+		src: url('/static/ABCMarist-BookItalic.woff2') format('woff2');
+		font-weight: 400;
+		font-style: italic;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
 
 @font-face {
 	font-family: 'GT Pantheon';
