@@ -18,7 +18,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Marist",
-        body: "Marist",
+        body: "SharpRoman",
         code: "droulers",
       },
       colors: {
