@@ -758,6 +758,7 @@
 --font-wght: 400;
 --codeFont: "GT Pantheon";
 }
+/*
 *:where([style*="font-family: var(--codeFont)"]) {
 	font-variation-settings: "opsz" 10;
   }
@@ -769,7 +770,7 @@
   }
 *:where([style*="font-style: italic"], em, i) {
 	font-family: 'GT Pantheon Italic';
-  }
+  } */
 
 .codeFont {
 	font-variation-settings: "opsz" 10;
@@ -783,11 +784,13 @@
 	font-size: var(--size-step-5);
     letter-spacing: -0.05ch;
     text-wrap: balance;
-    font-family: 'Respira';
+    font-family: 'SharpRoman';
     /* max-width: 17ch; */
     padding-block-start: var(--space-m-l);
     line-height: 1.1;
     text-align: center;
+    FONT-WEIGHT: 400;
+    font-style: italic;
 	// font-variation-settings: "wght" 700 "opsz" var(--opsz-display);
 }
 
