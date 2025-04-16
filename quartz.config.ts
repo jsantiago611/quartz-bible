@@ -34,8 +34,8 @@ const config: QuartzConfig = {
           notebg: "#faf8ec",
         },
         darkMode: {
-          light: "#022b26",
-          lightgray: "#2f4f4f",
+          light: "#120a00",
+          lightgray: "#824800",
           gray: "#f4eed0",
           darkgray: "#f4eed0",
           dark: "#f4eed0",
