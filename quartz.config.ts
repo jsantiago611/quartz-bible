@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The Apologetics Atlas",
+    pageTitle: "Keller Commentary",
     enableSPA: true,
     enablePopovers: true,
     generateSocialImages: true,
