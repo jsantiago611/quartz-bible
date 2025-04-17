@@ -2,8 +2,15 @@
 title: Table of Contents
 ---
 ## Introduction
-Hi, my name is Jonathan, and this is my Apologetics Atlas. The goal of this site is to provide an easy-to-understand guide to Christian Apologetics. Most notes are based on William Lane Craig's book Reasonable Faith. 
+Introducing the Keller Study Bible: A groundbreaking digital platform that places Tim Keller's most powerful sermon notes, illustrations, and applications directly alongside the biblical text.
 
-## Genesis
-## Exodus
+> [!info] About the curator
+> Hi! My name is Jonathan S and I'm a protestant Christian. 
+
+## Old Testament
+
+> [!NOTE]- Genesis
+> Genesis 1
+
+
 
