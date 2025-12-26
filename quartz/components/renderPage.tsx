@@ -40,12 +40,6 @@ export function pageResources(
         script: contentIndexScript,
       },
       ...staticResources.js,
-      {
-        src: joinSegments(baseDir, "postscript.js"),
-        loadTime: "afterDOMReady",
-        moduleType: "module",
-        contentType: "external",
-      },
     ],
   };
 }
@@ -60,7 +54,8 @@ function getOrComputeFileIndex(allFiles: QuartzPluginData[]): Map<FullSlug, Quar
   return pageIndex;
 }
 
-export function renderPage(
+function renderTranscludes(
+  root: Root,
   cfg: GlobalConfiguration,
   slug: FullSlug,
   componentData: QuartzComponentProps,
@@ -91,6 +86,7 @@ export function renderPage(
     header,
     beforeBody,
     pageBody: Content,
+    afterBody,
     left,
     right,
     footer: Footer,
@@ -117,7 +113,7 @@ export function renderPage(
 
   const lang = componentData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en";
   const doc = (
-    <html lang={lang}>
+    <html lang={lang} dir={direction}>
       <Head {...componentData} />
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
@@ -142,15 +138,21 @@ export function renderPage(
                 </div>
               </div>
               <Content {...componentData} />
+              <hr />
+              <div class="page-footer">
+                {afterBody.map((BodyComponent) => (
+                  <BodyComponent {...componentData} />
+                ))}
+              </div>
             </div>
             {RightComponent}
+            <Footer {...componentData} />
           </Body>
-          <Footer {...componentData} />
         </div>
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")
-        .map((res) => JSResourceToScriptElement(res))}
+        .map((res) => JSResourceToScriptElement(res, true))}
     </html>
   );
 

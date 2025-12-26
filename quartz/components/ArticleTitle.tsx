@@ -1,7 +1,7 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 
-function ArticleTitle({ fileData, displayClass }: QuartzComponentProps) {
+const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
   const tags = fileData.frontmatter?.tags
 

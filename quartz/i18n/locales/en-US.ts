@@ -29,6 +29,9 @@ export default {
       lightMode: "Light mode",
       darkMode: "Dark mode",
     },
+    readerMode: {
+      title: "Reader mode",
+    },
     explorer: {
       title: "• Explorer",
     },
@@ -53,6 +56,9 @@ export default {
     tableOfContents: {
       title: "Table of Contents",
     },
+    contentMeta: {
+      readingTime: ({ minutes }) => `${minutes} min read`,
+    },
   },
   pages: {
     rss: {
@@ -62,17 +68,18 @@ export default {
     error: {
       title: "Not Found",
       notFound: "Either this page is private or doesn't exist.",
+      home: "Return to Homepage",
     },
     folderContent: {
       folder: "Folder",
       itemsUnderFolder: ({ count }) =>
-        count === 1 ? "1 item under this folder" : `${count} items under this folder.`,
+        count === 1 ? "1 item under this folder." : `${count} items under this folder.`,
     },
     tagContent: {
       tag: "Tag",
       tagIndex: "Tag Index",
       itemsUnderTag: ({ count }) =>
-        count === 1 ? "1 item with this tag" : `${count} items with this tag.`,
+        count === 1 ? "1 item with this tag." : `${count} items with this tag.`,
       showingFirst: ({ count }) => `Showing first ${count} tags.`,
       totalTags: ({ count }) => `Found ${count} total tags.`,
     },

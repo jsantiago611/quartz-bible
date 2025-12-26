@@ -29,6 +29,9 @@ export default {
       lightMode: "Modul luminos",
       darkMode: "Modul întunecat",
     },
+    readerMode: {
+      title: "Modul de citire",
+    },
     explorer: {
       title: "Explorator",
     },
@@ -53,6 +56,10 @@ export default {
     tableOfContents: {
       title: "Cuprins",
     },
+    contentMeta: {
+      readingTime: ({ minutes }) =>
+        minutes == 1 ? `lectură de 1 minut` : `lectură de ${minutes} minute`,
+    },
   },
   pages: {
     rss: {
@@ -62,6 +69,7 @@ export default {
     error: {
       title: "Pagina nu a fost găsită",
       notFound: "Fie această pagină este privată, fie nu există.",
+      home: "Reveniți la pagina de pornire",
     },
     folderContent: {
       folder: "Dosar",
